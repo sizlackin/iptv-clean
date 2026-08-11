@@ -1,0 +1,55 @@
+name: Refresh guide + redeploy addon
+
+# Rebuilds the programme guide and redeploys the addon without re-running
+# cleaner.py. Fast and cheap: the playlist and posters are already committed,
+# so this only refreshes EPG data so "on now" stays roughly current.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours, offset so it never collides with the daily playlist build.
+    - cron: "35 1,7,13,19 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: iptv-pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build programme guide
+        run: python epg.py
+        continue-on-error: true
+
+      - name: Build static Stremio addon
+        run: python build_stremio_addon.py
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Stremio addon site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy Stremio addon to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
