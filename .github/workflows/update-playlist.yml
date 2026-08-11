@@ -1,4 +1,4 @@
-name: Update IPTV playlist
+name: Update IPTV playlist + Stremio addon
 
 on:
   workflow_dispatch:
@@ -6,16 +6,26 @@ on:
     branches: [main]
     paths:
       - "cleaner.py"
+      - "build_stremio_addon.py"
       - ".github/workflows/update-playlist.yml"
   schedule:
     - cron: "17 9 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: iptv-pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check out repository
@@ -32,7 +42,10 @@ jobs:
       - name: Build cleaned playlist
         run: python cleaner.py
 
-      - name: Commit updated playlist
+      - name: Build static Stremio addon
+        run: python build_stremio_addon.py
+
+      - name: Commit updated playlist data
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -40,9 +53,20 @@ jobs:
           git add playlist.m3u posters/ logo-status.json
 
           if git diff --cached --quiet; then
-            echo "Playlist is already up to date."
-            exit 0
+            echo "Playlist data is already up to date."
+          else
+            git commit -m "Update cleaned IPTV playlist"
+            git push
           fi
 
-          git commit -m "Update cleaned IPTV playlist"
-          git push
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Stremio addon site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Deploy Stremio addon to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
