@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """Build a cleaner Canada + USA M3U playlist from iptv-org.
 
-The script keeps stream URLs, tvg-id values, logos and other metadata intact,
-while cleaning the human-visible channel title and adding tvg-name for players
-that prefer that field.
+The script keeps stream URLs, tvg-id values and other metadata intact, cleans
+human-visible channel titles, and converts channel logos into portrait-friendly
+poster URLs so Stremio does not crop square/wide station logos.
 """
 
 from __future__ import annotations
 
 import re
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -18,6 +19,13 @@ SOURCES = [
 ]
 OUTPUT = Path("playlist.m3u")
 
+# Stremio shows TV entries using portrait cards. Most IPTV logos are square or
+# wide, so Stremio's poster crop can cut them off. wsrv.nl places each original
+# logo inside a real 2:3 portrait image while preserving its aspect ratio.
+POSTER_WIDTH = 600
+POSTER_HEIGHT = 900
+POSTER_BACKGROUND = "181818"
+
 # Edit this dictionary whenever you want a specific channel to have an exact
 # name. The key is tvg-id and the value is your preferred visible title.
 OVERRIDES: dict[str, str] = {
@@ -25,8 +33,6 @@ OVERRIDES: dict[str, str] = {
     # "CBLTDT.ca": "CBC Toronto",
 }
 
-# Only remove tags that are presentation/status noise. We deliberately leave
-# meaningful text such as city names and network names alone.
 NOISE_PARENS = re.compile(
     r"\s*[\(\[]\s*(?:"
     r"\d{3,4}p(?:\d+)?|\d{3,4}i|4k|uhd|fhd|full\s*hd|hd|sd|"
@@ -50,7 +56,7 @@ EMPTY_PARENS = re.compile(r"\s*[\(\[]\s*[\)\]]")
 def download(url: str) -> str:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "iptv-clean/1.0 (+GitHub Actions)"},
+        headers={"User-Agent": "iptv-clean/1.1 (+GitHub Actions)"},
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read().decode("utf-8-sig", errors="replace")
@@ -75,8 +81,6 @@ def clean_name(name: str, tvg_id: str | None = None) -> str:
         return OVERRIDES[tvg_id]
 
     cleaned = name.strip()
-
-    # Repeatedly remove known status/quality markers, wherever they appear.
     previous = None
     while previous != cleaned:
         previous = cleaned
@@ -84,14 +88,25 @@ def clean_name(name: str, tvg_id: str | None = None) -> str:
 
     cleaned = TRAILING_QUALITY.sub("", cleaned)
     cleaned = EMPTY_PARENS.sub("", cleaned)
-
-    # Clean punctuation left behind by removed tags.
     cleaned = re.sub(r"\s+([,:;])", r"\1", cleaned)
     cleaned = re.sub(r"(?:\s*[-|•]\s*){2,}", " - ", cleaned)
     cleaned = re.sub(r"\s+[-|•]\s*$", "", cleaned)
     cleaned = MULTISPACE.sub(" ", cleaned).strip(" -|•")
-
     return cleaned or name.strip()
+
+
+def posterize_logo(logo_url: str | None) -> str | None:
+    if not logo_url:
+        return None
+    if "wsrv.nl/?url=" in logo_url:
+        return logo_url
+
+    encoded = urllib.parse.quote(logo_url, safe="")
+    return (
+        "https://wsrv.nl/?url=" + encoded
+        + f"&w={POSTER_WIDTH}&h={POSTER_HEIGHT}"
+        + f"&fit=contain&cbg={POSTER_BACKGROUND}&output=png"
+    )
 
 
 def process_playlist(text: str) -> list[str]:
@@ -107,8 +122,6 @@ def process_playlist(text: str) -> list[str]:
             output.append(line)
             continue
 
-        # M3U metadata may contain commas in quoted attributes, but the display
-        # title begins after the final metadata comma used by EXTINF.
         if "," not in line:
             output.append(line)
             continue
@@ -117,9 +130,15 @@ def process_playlist(text: str) -> list[str]:
         tvg_id = get_attr(prefix, "tvg-id")
         new_name = clean_name(visible_name, tvg_id)
 
-        # Some IPTV clients prefer tvg-name over the text after the comma.
-        # Setting both makes the cleaned title much more consistent.
+        # Use the cleaned title both as tvg-name and as the EXTINF display name.
         prefix = set_attr(prefix, "tvg-name", new_name)
+
+        # Replace the original logo URL with a 2:3 contained poster version.
+        original_logo = get_attr(prefix, "tvg-logo")
+        poster_logo = posterize_logo(original_logo)
+        if poster_logo:
+            prefix = set_attr(prefix, "tvg-logo", poster_logo)
+
         output.append(f"{prefix},{new_name}")
 
     return output
@@ -134,8 +153,6 @@ def main() -> None:
         text = download(url)
         processed = process_playlist(text)
 
-        # Preserve alternate streams, but suppress exact duplicate EXTINF+URL
-        # pairs if the two upstream playlists ever overlap.
         i = 0
         while i < len(processed):
             line = processed[i]
@@ -145,7 +162,6 @@ def main() -> None:
                 while i < len(processed) and not processed[i].startswith("#EXTINF:"):
                     block.append(processed[i])
                     i += 1
-                    # The first non-comment, non-empty line is normally URL.
                     if block[-1] and not block[-1].startswith("#"):
                         break
 
