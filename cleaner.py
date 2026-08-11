@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""Build a cleaner Canada + USA M3U playlist from iptv-org.
+"""Build a clean Canada + USA IPTV playlist for Stremio.
 
-The script keeps stream URLs, tvg-id values and other metadata intact, cleans
-human-visible channel titles, and converts channel logos into portrait-friendly
-poster URLs so Stremio does not crop square/wide station logos.
-
-When a channel has no usable logo, it looks up an official logo from the
-iptv-org API (keyed by tvg-id) and, failing that, generates a deterministic
-dark 600x900 fallback poster with the channel name on it. Fallback posters
-are written to posters/ and referenced via raw.githubusercontent.com so the
-whole thing stays static/GitHub-hosted.
+- Merges iptv-org Canada + USA playlists.
+- Cleans channel titles while preserving stream metadata.
+- Wraps real logos in 600x900 portrait images via wsrv.nl.
+- Generates deterministic fallback posters when a logo is missing or confirmed dead.
+- Conservatively probes logo health and requires two definitive failures before fallback.
 """
 
 from __future__ import annotations
 
+import concurrent.futures
+import datetime as dt
 import hashlib
 import json
 import re
@@ -26,7 +24,7 @@ from pathlib import Path
 try:
     from PIL import Image, ImageDraw, ImageFont
     HAVE_PIL = True
-except ImportError:  # Pillow missing -> skip fallback poster generation gracefully
+except ImportError:
     HAVE_PIL = False
 
 SOURCES = [
@@ -34,27 +32,11 @@ SOURCES = [
     ("USA", "https://iptv-org.github.io/iptv/countries/us.m3u"),
 ]
 
-# iptv-org's own logo index, keyed by channel (tvg-id).
-#
-# NOTE: measured against the live CA+US playlists, this repairs ZERO logos.
-# iptv-org already embeds tvg-logo in the playlist wherever its database has
-# one, so the only channels with a blank tvg-logo are ones it has no logo for
-# at all. Leaving this off avoids a ~7 MB download on every run. Flip it to
-# True if you ever want the extra safety net (e.g. if upstream changes how
-# playlists are generated) — the code path is tested and works.
-ENABLE_IPTV_ORG_LOGO_REPAIR = False
-LOGOS_API_URL = "https://iptv-org.github.io/api/logos.json"
-
 OUTPUT = Path("playlist.m3u")
 POSTERS_DIR = Path("posters")
-
-# Raw GitHub base used to reference generated fallback posters. Update the
-# owner/repo if this script is ever forked/renamed.
+LOGO_STATUS_FILE = Path("logo-status.json")
 REPO_RAW_BASE = "https://raw.githubusercontent.com/sizlackin/iptv-clean/main"
 
-# Stremio shows TV entries using portrait cards. Most IPTV logos are square or
-# wide, so Stremio's poster crop can cut them off. wsrv.nl places each original
-# logo inside a real 2:3 portrait image while preserving its aspect ratio.
 POSTER_WIDTH = 600
 POSTER_HEIGHT = 900
 POSTER_BACKGROUND = "181818"
@@ -65,10 +47,20 @@ POSTER_FONT_MAX = 76
 POSTER_FONT_MIN = 24
 POSTER_MAX_LINES = 5
 
-# Edit this dictionary whenever you want a specific channel to have an exact
-# name. The key is tvg-id and the value is your preferred visible title.
+# iptv-org already embeds every logo its own database can supply in these
+# playlists. Keep the optional lookup disabled to avoid a ~7 MB download/run.
+ENABLE_IPTV_ORG_LOGO_REPAIR = False
+LOGOS_API_URL = "https://iptv-org.github.io/api/logos.json"
+
+# Broken-logo detection is intentionally conservative. Network failures,
+# timeouts, 403/429 and 5xx are UNKNOWN and never remove a real logo.
+ENABLE_LOGO_HEALTH_CHECK = True
+LOGO_CHECK_WORKERS = 12
+LOGO_CHECK_TIMEOUT = 12
+LOGO_RECHECK_DAYS = 7
+LOGO_FAILURES_BEFORE_BROKEN = 2
+
 OVERRIDES: dict[str, str] = {
-    # Example:
     # "CBLTDT.ca": "CBC Toronto",
 }
 
@@ -82,30 +74,22 @@ NOISE_PARENS = re.compile(
     r")\s*[\)\]]",
     re.IGNORECASE,
 )
-
 TRAILING_QUALITY = re.compile(
     r"\s+(?:\d{3,4}p(?:\d+)?|\d{3,4}i|4K|UHD|FHD|HD|SD)\s*$",
     re.IGNORECASE,
 )
-
 MULTISPACE = re.compile(r"\s{2,}")
 EMPTY_PARENS = re.compile(r"\s*[\(\[]\s*[\)\]]")
 
 
 def download(url: str, retries: int = 3, backoff: float = 2.0) -> str:
-    """Download a URL as text, retrying transient failures.
-
-    A single flaky fetch (common with GitHub Pages / third-party APIs)
-    should not blow up the whole run and leave the repo without an update.
-    """
     last_error: Exception | None = None
     for attempt in range(1, retries + 1):
         try:
-            request = urllib.request.Request(
-                url,
-                headers={"User-Agent": "iptv-clean/1.2 (+GitHub Actions)"},
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "iptv-clean/1.3 (+GitHub Actions)"}
             )
-            with urllib.request.urlopen(request, timeout=60) as response:
+            with urllib.request.urlopen(req, timeout=60) as response:
                 return response.read().decode("utf-8-sig", errors="replace")
         except (urllib.error.URLError, TimeoutError) as exc:
             last_error = exc
@@ -116,18 +100,18 @@ def download(url: str, retries: int = 3, backoff: float = 2.0) -> str:
     raise last_error
 
 
-def get_attr(extinf_prefix: str, key: str) -> str | None:
-    match = re.search(rf'\b{re.escape(key)}="([^"]*)"', extinf_prefix)
+def get_attr(prefix: str, key: str) -> str | None:
+    match = re.search(rf'\b{re.escape(key)}="([^"]*)"', prefix)
     return match.group(1) if match else None
 
 
-def set_attr(extinf_prefix: str, key: str, value: str) -> str:
+def set_attr(prefix: str, key: str, value: str) -> str:
     safe = value.replace('"', "'")
     pattern = re.compile(rf'\b{re.escape(key)}="[^"]*"')
     replacement = f'{key}="{safe}"'
-    if pattern.search(extinf_prefix):
-        return pattern.sub(replacement, extinf_prefix, count=1)
-    return f"{extinf_prefix} {replacement}"
+    if pattern.search(prefix):
+        return pattern.sub(replacement, prefix, count=1)
+    return f"{prefix} {replacement}"
 
 
 def clean_name(name: str, tvg_id: str | None = None) -> str:
@@ -145,120 +129,80 @@ def clean_name(name: str, tvg_id: str | None = None) -> str:
         cleaned = re.sub(r"(?:\s*[-|•]\s*){2,}", " - ", cleaned)
         cleaned = re.sub(r"\s+[-|•]\s*$", "", cleaned)
         cleaned = MULTISPACE.sub(" ", cleaned).strip(" -|•")
-
     return cleaned or name.strip()
 
 
-def posterize_logo(logo_url: str | None) -> str | None:
-    if not logo_url:
+def posterize_logo(url: str | None) -> str | None:
+    if not url:
         return None
-    if "wsrv.nl/?url=" in logo_url:
-        return logo_url
-    encoded = urllib.parse.quote(logo_url, safe="")
+    if "wsrv.nl/?url=" in url:
+        return url
+    encoded = urllib.parse.quote(url, safe="")
     return (
-        "https://wsrv.nl/?url=" + encoded
-        + f"&w={POSTER_WIDTH}&h={POSTER_HEIGHT}"
-        + f"&fit=contain&cbg={POSTER_BACKGROUND}&output=png"
+        f"https://wsrv.nl/?url={encoded}"
+        f"&w={POSTER_WIDTH}&h={POSTER_HEIGHT}"
+        f"&fit=contain&cbg={POSTER_BACKGROUND}&output=png"
     )
 
 
-# ---------------------------------------------------------------------------
-# Missing-logo repair: look up an official logo from the iptv-org API.
-# ---------------------------------------------------------------------------
-
 def load_logo_lookup() -> dict[str, str]:
-    """Build a logo lookup from iptv-org's logos.json.
-
-    Returns a dict keyed by both "Channel.cc@FEED" and bare "Channel.cc",
-    because playlist tvg-id values carry a feed suffix (e.g. "CanadaOne.ca@SD")
-    while logos.json stores the bare channel ID plus a separate `feed` field.
-    Looking up only the bare ID would silently match nothing.
-    """
+    """Optional iptv-org logo index keyed by exact feed and bare tvg-id."""
+    if not ENABLE_IPTV_ORG_LOGO_REPAIR:
+        return {}
     print(f"Downloading logo index: {LOGOS_API_URL}")
     try:
-        raw = download(LOGOS_API_URL)
-    except Exception as exc:  # noqa: BLE001 - never let this abort the run
-        print(f"  Could not fetch logo index, skipping logo repair: {exc}")
+        entries = json.loads(download(LOGOS_API_URL))
+    except Exception as exc:
+        print(f"  Logo index unavailable: {exc}")
         return {}
 
-    try:
-        entries = json.loads(raw)
-    except json.JSONDecodeError as exc:
-        print(f"  Could not parse logo index, skipping logo repair: {exc}")
-        return {}
-
-    # Three priority tiers for the bare-channel key, best first: (a) main feed
-    # + currently in use, (b) any feed but still in use, (c) anything at all
-    # (last resort — a delisted logo still beats no logo).
-    best: dict[str, str] = {}
-    in_use_any: dict[str, str] = {}
-    any_entry: dict[str, str] = {}
-    # Exact feed matches, keyed "Channel.cc@FEED".
+    bare_any: dict[str, str] = {}
+    bare_in_use: dict[str, str] = {}
+    bare_main: dict[str, str] = {}
     by_feed: dict[str, str] = {}
-
     for entry in entries:
-        channel = entry.get("channel")
-        url = entry.get("url")
+        channel, url = entry.get("channel"), entry.get("url")
         if not channel or not url:
             continue
-
         feed = entry.get("feed")
         if feed:
             by_feed.setdefault(f"{channel}@{feed}", url)
-
-        any_entry.setdefault(channel, url)
+        bare_any.setdefault(channel, url)
         if entry.get("in_use", True):
-            in_use_any.setdefault(channel, url)
+            bare_in_use.setdefault(channel, url)
             if feed is None:
-                best.setdefault(channel, url)
+                bare_main.setdefault(channel, url)
 
-    lookup: dict[str, str] = dict(any_entry)
-    lookup.update(in_use_any)
-    lookup.update(best)
-    # Feed-specific keys live in the same dict under a distinct key shape.
+    lookup = dict(bare_any)
+    lookup.update(bare_in_use)
+    lookup.update(bare_main)
     lookup.update(by_feed)
-
-    print(f"  Loaded logos for {len(any_entry)} channels from iptv-org")
+    print(f"  Loaded logos for {len(bare_any)} channels")
     return lookup
 
 
-# ---------------------------------------------------------------------------
-# Fallback poster generation for channels with no logo anywhere.
-# ---------------------------------------------------------------------------
-
-def _load_font(size: int) -> "ImageFont.FreeTypeFont | ImageFont.ImageFont":
-    candidates = [
+def _load_font(size: int):
+    for path in (
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
         "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
-    ]
-    for path in candidates:
+    ):
         if Path(path).exists():
             return ImageFont.truetype(path, size)
     return ImageFont.load_default()
 
 
-def _wrap_to_width(
-    text: str,
-    font: "ImageFont.FreeTypeFont | ImageFont.ImageFont",
-    draw: "ImageDraw.ImageDraw",
-    max_width: int,
-) -> list[str] | None:
-    """Wrap text so every line fits within max_width, measured in pixels.
-
-    Returns None if any single word is itself too wide to fit, which tells
-    the caller to retry with a smaller font.
-    """
-    def width_of(s: str) -> int:
-        bbox = draw.textbbox((0, 0), s, font=font)
-        return bbox[2] - bbox[0]
+def _wrap_to_width(text: str, font, draw, max_width: int) -> list[str] | None:
+    def width(value: str) -> int:
+        box = draw.textbbox((0, 0), value, font=font)
+        return box[2] - box[0]
 
     lines: list[str] = []
     current = ""
     for word in text.split():
-        if width_of(word) > max_width:
+        if width(word) > max_width:
             return None
         candidate = f"{current} {word}".strip()
-        if width_of(candidate) > max_width and current:
+        if current and width(candidate) > max_width:
             lines.append(current)
             current = word
         else:
@@ -269,65 +213,145 @@ def _wrap_to_width(
 
 
 def generate_fallback_poster(channel_name: str, tvg_id: str | None) -> Path | None:
-    """Create a deterministic dark 600x900 poster with the channel name.
-
-    Filename is derived from tvg-id (or the name if no tvg-id) so repeated
-    runs overwrite the same file instead of accumulating duplicates.
-
-    Font size is chosen by measuring the rendered text, stepping down until
-    the whole name fits inside the margins — character-count wrapping alone
-    lets wide names like "LOVEWORLD USA" spill off the edge.
-    """
     if not HAVE_PIL:
         return None
 
-    key = tvg_id or channel_name
-    slug = hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
+    slug = hashlib.sha1((tvg_id or channel_name).encode("utf-8")).hexdigest()[:12]
     out_path = POSTERS_DIR / f"{slug}.png"
-
     image = Image.new("RGB", (POSTER_WIDTH, POSTER_HEIGHT), POSTER_BACKGROUND_RGB)
     draw = ImageDraw.Draw(image)
-
     text = channel_name.upper().strip() or "CHANNEL"
-    max_width = POSTER_WIDTH - (2 * POSTER_MARGIN)
-    max_height = POSTER_HEIGHT - (2 * POSTER_MARGIN)
+    max_width = POSTER_WIDTH - 2 * POSTER_MARGIN
+    max_height = POSTER_HEIGHT - 2 * POSTER_MARGIN
 
-    chosen_lines: list[str] = [text]
     chosen_font = _load_font(POSTER_FONT_MIN)
-    line_gap = 16
-
+    chosen_lines = [text]
+    chosen_gap = 16
     for size in range(POSTER_FONT_MAX, POSTER_FONT_MIN - 1, -4):
         font = _load_font(size)
         lines = _wrap_to_width(text, font, draw, max_width)
         if not lines or len(lines) > POSTER_MAX_LINES:
             continue
-        line_gap = max(8, size // 4)
-        total = sum(
-            draw.textbbox((0, 0), ln, font=font)[3]
-            - draw.textbbox((0, 0), ln, font=font)[1]
-            + line_gap
-            for ln in lines
-        )
-        if total <= max_height:
-            chosen_lines, chosen_font = lines, font
+        gap = max(8, size // 4)
+        heights = [
+            draw.textbbox((0, 0), line, font=font)[3]
+            - draw.textbbox((0, 0), line, font=font)[1]
+            for line in lines
+        ]
+        if sum(heights) + gap * (len(lines) - 1) <= max_height:
+            chosen_font, chosen_lines, chosen_gap = font, lines, gap
             break
 
-    heights = []
-    for line in chosen_lines:
-        bbox = draw.textbbox((0, 0), line, font=chosen_font)
-        heights.append(bbox[3] - bbox[1])
-    total_height = sum(heights) + line_gap * (len(chosen_lines) - 1)
-
+    boxes = [draw.textbbox((0, 0), line, font=chosen_font) for line in chosen_lines]
+    heights = [box[3] - box[1] for box in boxes]
+    total_height = sum(heights) + chosen_gap * (len(chosen_lines) - 1)
     y = (POSTER_HEIGHT - total_height) / 2
-    for line, height in zip(chosen_lines, heights):
-        bbox = draw.textbbox((0, 0), line, font=chosen_font)
-        x = (POSTER_WIDTH - (bbox[2] - bbox[0])) / 2 - bbox[0]
-        draw.text((x, y - bbox[1]), line, font=chosen_font, fill=POSTER_TEXT_RGB)
-        y += height + line_gap
+    for line, box, height in zip(chosen_lines, boxes, heights):
+        x = (POSTER_WIDTH - (box[2] - box[0])) / 2 - box[0]
+        draw.text((x, y - box[1]), line, font=chosen_font, fill=POSTER_TEXT_RGB)
+        y += height + chosen_gap
 
     POSTERS_DIR.mkdir(exist_ok=True)
     image.save(out_path, format="PNG")
     return out_path
+
+
+def probe_logo(url: str) -> str:
+    """Return ok, broken, or unknown. 'broken' requires definitive evidence."""
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "iptv-clean/1.3 (+GitHub Actions)",
+            "Range": "bytes=0-2047",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=LOGO_CHECK_TIMEOUT) as response:
+            final_url = response.geturl().lower()
+            content_type = (response.headers.get("Content-Type") or "").lower()
+            body = response.read(2048)
+            if "removed.png" in final_url:
+                return "broken"
+            if content_type and not content_type.startswith("image/"):
+                return "broken"
+            if len(body) < 100 and not response.headers.get("Content-Range"):
+                return "broken"
+            return "ok"
+    except urllib.error.HTTPError as exc:
+        if exc.code in (404, 410):
+            return "broken"
+        return "unknown"
+    except Exception:
+        return "unknown"
+
+
+def find_broken_logos(logo_urls: set[str]) -> set[str]:
+    if not ENABLE_LOGO_HEALTH_CHECK:
+        return set()
+
+    try:
+        status = json.loads(LOGO_STATUS_FILE.read_text(encoding="utf-8"))
+        if not isinstance(status, dict):
+            status = {}
+    except (OSError, json.JSONDecodeError):
+        status = {}
+
+    today_date = dt.date.today()
+    today = today_date.isoformat()
+
+    def stale(record: dict) -> bool:
+        if record.get("failures", 0) > 0:
+            return True
+        checked = record.get("checked")
+        if not checked:
+            return True
+        try:
+            return (today_date - dt.date.fromisoformat(checked)).days >= LOGO_RECHECK_DAYS
+        except (TypeError, ValueError):
+            return True
+
+    to_check = [url for url in sorted(logo_urls) if stale(status.get(url, {}))]
+    print(f"Checking {len(to_check)} logo URLs ({len(logo_urls)} total, rest cached)")
+
+    if to_check:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=LOGO_CHECK_WORKERS) as pool:
+            for url, verdict in zip(to_check, pool.map(probe_logo, to_check)):
+                record = status.setdefault(url, {})
+                if verdict == "ok":
+                    record["failures"] = 0
+                    record["checked"] = today
+                elif verdict == "broken":
+                    record["failures"] = int(record.get("failures", 0)) + 1
+                    record["checked"] = today
+
+    status = {url: record for url, record in status.items() if url in logo_urls}
+    LOGO_STATUS_FILE.write_text(
+        json.dumps(status, indent=1, sort_keys=True) + "\n", encoding="utf-8"
+    )
+
+    broken = {
+        url
+        for url, record in status.items()
+        if int(record.get("failures", 0)) >= LOGO_FAILURES_BEFORE_BROKEN
+    }
+    pending = sum(
+        1
+        for record in status.values()
+        if 0 < int(record.get("failures", 0)) < LOGO_FAILURES_BEFORE_BROKEN
+    )
+    print(f"  Confirmed broken: {len(broken)} (plus {pending} failing once)")
+    return broken
+
+
+def collect_logo_urls(texts: list[str], logo_lookup: dict[str, str]) -> set[str]:
+    urls = set(logo_lookup.values())
+    for text in texts:
+        for line in text.splitlines():
+            if line.startswith("#EXTINF:"):
+                logo = get_attr(line, "tvg-logo")
+                if logo:
+                    urls.add(logo)
+    return urls
 
 
 def resolve_logo(
@@ -335,103 +359,91 @@ def resolve_logo(
     channel_name: str,
     tvg_id: str | None,
     logo_lookup: dict[str, str],
+    broken_logos: set[str],
 ) -> str | None:
-    """Return the best poster URL for a channel, in priority order:
-
-    1. The playlist's own tvg-logo (posterized).
-    2. An official iptv-org logo looked up by tvg-id (posterized).
-    3. A generated fallback poster hosted in this repo.
-    """
-    original_logo = get_attr(prefix, "tvg-logo")
-    if original_logo:
-        return posterize_logo(original_logo)
+    original = get_attr(prefix, "tvg-logo")
+    if original and original not in broken_logos:
+        return posterize_logo(original)
 
     if tvg_id:
-        # Try the exact feed first ("CanadaOne.ca@SD"), then the bare
-        # channel ID ("CanadaOne.ca"), which is how logos.json is keyed.
         for key in (tvg_id, tvg_id.split("@", 1)[0]):
-            if key in logo_lookup:
-                return posterize_logo(logo_lookup[key])
+            candidate = logo_lookup.get(key)
+            if candidate and candidate not in broken_logos:
+                return posterize_logo(candidate)
 
     generated = generate_fallback_poster(channel_name, tvg_id)
     if generated:
         return f"{REPO_RAW_BASE}/{generated.as_posix()}"
-
     return None
 
 
-def process_playlist(text: str, logo_lookup: dict[str, str]) -> list[str]:
+def process_playlist(
+    text: str,
+    logo_lookup: dict[str, str],
+    broken_logos: set[str],
+) -> list[str]:
     output: list[str] = []
-
     for raw_line in text.splitlines():
         line = raw_line.rstrip("\r")
-
         if line.startswith("#EXTM3U"):
             continue
-
-        if not line.startswith("#EXTINF:"):
-            output.append(line)
-            continue
-
-        if "," not in line:
+        if not line.startswith("#EXTINF:") or "," not in line:
             output.append(line)
             continue
 
         prefix, visible_name = line.rsplit(",", 1)
         tvg_id = get_attr(prefix, "tvg-id")
         new_name = clean_name(visible_name, tvg_id)
-
-        # Use the cleaned title both as tvg-name and as the EXTINF display name.
         prefix = set_attr(prefix, "tvg-name", new_name)
 
-        poster_logo = resolve_logo(prefix, new_name, tvg_id, logo_lookup)
-        if poster_logo:
-            prefix = set_attr(prefix, "tvg-logo", poster_logo)
-
+        logo = resolve_logo(prefix, new_name, tvg_id, logo_lookup, broken_logos)
+        if logo:
+            prefix = set_attr(prefix, "tvg-logo", logo)
         output.append(f"{prefix},{new_name}")
-
     return output
 
 
 def main() -> None:
-    logo_lookup = load_logo_lookup() if ENABLE_IPTV_ORG_LOGO_REPAIR else {}
+    logo_lookup = load_logo_lookup()
+
+    texts: list[tuple[str, str]] = []
+    for country, url in SOURCES:
+        print(f"Downloading {country}: {url}")
+        texts.append((country, download(url)))
+
+    all_text = [text for _, text in texts]
+    broken_logos = find_broken_logos(collect_logo_urls(all_text, logo_lookup))
 
     merged: list[str] = ["#EXTM3U"]
     seen_exact_entries: set[tuple[str, str]] = set()
-
-    for country, url in SOURCES:
-        print(f"Downloading {country}: {url}")
-        text = download(url)
-        processed = process_playlist(text, logo_lookup)
-
+    for _, text in texts:
+        processed = process_playlist(text, logo_lookup, broken_logos)
         i = 0
         while i < len(processed):
             line = processed[i]
-            if line.startswith("#EXTINF:"):
-                block = [line]
+            if not line.startswith("#EXTINF:"):
+                if line.strip():
+                    merged.append(line)
                 i += 1
-                while i < len(processed) and not processed[i].startswith("#EXTINF:"):
-                    block.append(processed[i])
-                    i += 1
-                if block[-1] and not block[-1].startswith("#"):
-                    pass
-                url_line = next(
-                    (x for x in reversed(block) if x and not x.startswith("#")),
-                    "",
-                )
-                key = (block[0], url_line)
-                if key not in seen_exact_entries:
-                    seen_exact_entries.add(key)
-                    merged.extend(block)
                 continue
-            if line.strip():
-                merged.append(line)
+
+            block = [line]
             i += 1
+            while i < len(processed) and not processed[i].startswith("#EXTINF:"):
+                block.append(processed[i])
+                i += 1
+            stream_url = next(
+                (item for item in reversed(block) if item and not item.startswith("#")),
+                "",
+            )
+            key = (block[0], stream_url)
+            if key not in seen_exact_entries:
+                seen_exact_entries.add(key)
+                merged.extend(block)
 
     OUTPUT.write_text("\n".join(merged).rstrip() + "\n", encoding="utf-8")
-
-    channel_count = sum(1 for line in merged if line.startswith("#EXTINF:"))
-    print(f"Wrote {channel_count} channels to {OUTPUT}")
+    count = sum(1 for line in merged if line.startswith("#EXTINF:"))
+    print(f"Wrote {count} channels to {OUTPUT}")
 
 
 if __name__ == "__main__":
