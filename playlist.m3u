@@ -724,7 +724,7 @@ https://livestream.telvue.com/accvision1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/pl
 https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FM8wbVYK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="AccuWeather Now",AccuWeather Now
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
-#EXTINF:-1 tvg-id="AceTV.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/6071e0f470b8.png" group-title="Entertainment" tvg-name="Ace TV",Ace TV
+#EXTINF:-1 tvg-id="AceTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.acetelevisionnetwork.com%2Fwp-content%2Fuploads%2F2021%2F09%2FACE_Logo_Medium_White.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Ace TV",Ace TV
 https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8
 #EXTINF:-1 tvg-id="ActionMax.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7a%2FActionMax_logo.svg%2F960px-ActionMax_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="ActionMax",ActionMax
 http://40.160.24.56/ACTIONMAX_SD/index.m3u8
