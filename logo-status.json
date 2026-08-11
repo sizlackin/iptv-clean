@@ -4993,7 +4993,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://lovepetstv.com/wp-content/uploads/2022/12/LovePets_Logo_SecondaryColor.png": {},
+ "https://lovepetstv.com/wp-content/uploads/2022/12/LovePets_Logo_SecondaryColor.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5182,7 +5185,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5215,7 +5221,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5224,7 +5233,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5234,7 +5246,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {
@@ -5249,7 +5264,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ICI_Acadie_logo_2018.svg/960px-ICI_Acadie_logo_2018.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/960px-PIX11_2017.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_TV_2015.svg/500px-Logo_TV_2015.svg.png": {},
@@ -5265,7 +5283,10 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/960px-FXX_Logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png": {},
@@ -5439,7 +5460,7 @@
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
   "checked": "2026-08-11",
-  "failures": 6
+  "failures": 7
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-11",
@@ -5463,7 +5484,7 @@
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
   "checked": "2026-08-11",
-  "failures": 6
+  "failures": 7
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-11",
