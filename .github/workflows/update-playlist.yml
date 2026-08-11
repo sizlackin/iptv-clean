@@ -7,6 +7,7 @@ on:
     paths:
       - "cleaner.py"
       - "build_stremio_addon.py"
+      - "epg.py"
       - ".github/workflows/update-playlist.yml"
   schedule:
     - cron: "17 9 * * *"
@@ -41,6 +42,10 @@ jobs:
 
       - name: Build cleaned playlist
         run: python cleaner.py
+
+      - name: Build programme guide
+        run: python epg.py
+        continue-on-error: true
 
       - name: Build static Stremio addon
         run: python build_stremio_addon.py
