@@ -5185,12 +5185,24 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {},
- "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {},
  "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg": {},
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg": {},
@@ -5371,7 +5383,7 @@
  },
  "https://www.acetelevisionnetwork.com/wp-content/uploads/2021/09/ACE_Logo_Medium_White.png": {
   "checked": "2026-08-11",
-  "failures": 2
+  "failures": 3
  },
  "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png": {
   "checked": "2026-08-11",
@@ -5403,7 +5415,7 @@
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
   "checked": "2026-08-11",
-  "failures": 3
+  "failures": 4
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-11",
@@ -5427,7 +5439,7 @@
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
   "checked": "2026-08-11",
-  "failures": 3
+  "failures": 4
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-11",
