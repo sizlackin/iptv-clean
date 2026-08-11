@@ -786,7 +786,7 @@ https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/pl
 https://gpuserver3.tier1streams.com/AccuWeather/index.m3u8
 #EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FM8wbVYK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="AccuWeather Now",AccuWeather Now
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
-#EXTINF:-1 tvg-id="AceTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.acetelevisionnetwork.com%2Fwp-content%2Fuploads%2F2021%2F09%2FACE_Logo_Medium_White.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Ace TV",Ace TV
+#EXTINF:-1 tvg-id="AceTV.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/6071e0f470b8.png" group-title="Entertainment" tvg-name="Ace TV",Ace TV
 https://c.streamhoster.com/link/hls/W5s3fS/inLo5pcsHjo/iqg9wps0m1x_5/playlist.m3u8
 #EXTINF:-1 tvg-id="ActionMax.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7a%2FActionMax_logo.svg%2F960px-ActionMax_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="ActionMax",ActionMax
 http://40.160.24.56/ACTIONMAX_SD/index.m3u8
@@ -2157,7 +2157,7 @@ https://livestream.telvue.com/lompoccmttv1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/
 https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TAPTVChannel25.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5mhYHtD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Lompoc TAP TV Channel 25",Lompoc TAP TV Channel 25
 https://livestream.telvue.com/lompoccmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="LoneStar.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fxstreamcp-assets-msp.streamready.in%2Fassets%2FDISTROTV%2FLIVECHANNEL%2F666988e3bac4421ebc533621%2Fimages%2Flogo_20231219_215208_70.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Lone Star",Lone Star
+#EXTINF:-1 tvg-id="LoneStar.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/061d7c7edf70.png" group-title="Entertainment" tvg-name="Lone Star",Lone Star
 https://lonestar-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LBTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FDjkVuFF.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Long Beach Television",Long Beach Television
 https://edge-f.swagit.com/live/longbeachca/live-3-a/playlist.m3u8
@@ -2822,7 +2822,7 @@ https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/i
 http://23.237.104.106:8080/USA_REVOLT/index.m3u8
 #EXTINF:-1 tvg-id="Revry.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FXuTUaq4.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="Revry",Revry
 https://linear-43.frequency.stream/dist/24i/43/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="RevryHer.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fxstreamcp-assets-msp.streamready.in%2Fassets%2FDISTROTV%2FLIVECHANNEL%2F66698907bac4421ebc533646%2Fimages%2Flogo_20231219_221435_68.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Revry Her",Revry Her
+#EXTINF:-1 tvg-id="RevryHer.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/08829f2ef5a5.png" group-title="Movies" tvg-name="Revry Her",Revry Her
 https://linear-73.frequency.stream/dist/24i/73/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RevryLatinX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fadmin.worldlivetv.stream%2Fupload%2Ffiles%2Fthumbnail%2Fvuth_1676133370_91639_20154.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Revry LatinX",Revry LatinX
 https://linear-142.frequency.stream/dist/24i/142/hls/master/playlist.m3u8
@@ -3515,7 +3515,7 @@ https://stream.swagit.com/live-edge/whiteplainsny/smil:std-4x3-1-b/playlist.m3u8
 https://whittier.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="WHPSCD152.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKW1iQ5W.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="WHPS Detroit",WHPS Detroit
 https://f-tx-edge-87.christianworldmedia.com/313watkins/mp4:313watkins/playlist.m3u8
-#EXTINF:-1 tvg-id="WildNOut.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.samsung.com%2Fus%2Fsmg%2Fcontent%2Fdam%2Fs7%2Fhome%2Ftelevisions-and-home-theater%2Ftvs%2Ftv-plus%2Fall-channels%2F08182020%2FWild%2520N%2520Out_190x190.png%3Fraw%3Dtrue&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Wild 'N Out",Wild 'N Out
+#EXTINF:-1 tvg-id="WildNOut.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/e0372dd72d54.png" group-title="Series" tvg-name="Wild 'N Out",Wild 'N Out
 https://jmp2.uk/plu-5d48678d34ceb37d3c458a55.m3u8
 #EXTINF:-1 tvg-id="Willow.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fcricket.willow.tv%2F_nuxt%2Fimg%2Fwillow_blue_logo.362ed8e.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Willow",Willow
 http://tvsen5.aynascope.net/willowhd/index.m3u8

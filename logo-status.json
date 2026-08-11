@@ -4621,7 +4621,7 @@
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
   "checked": "2026-08-11",
-  "failures": 1
+  "failures": 0
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-08-11",
@@ -5340,13 +5340,22 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/1/1e/LAFF_logo.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/1/1e/LAFF_logo.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/20/Movies_logo.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5355,7 +5364,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/3/38/WSB-TV_2_logo.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/3/38/WSB-TV_2_logo.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/4/4a/WHBQ_%282015%29.svg": {},
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {},
  "https://upload.wikimedia.org/wikipedia/commons/5/53/WDEF_2015.svg": {},
@@ -5380,7 +5392,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/960px-SundanceTV_2014.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/960px-Fts-phoenix-a.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png": {},
@@ -5402,7 +5417,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Home_Network_logo.svg/1920px-Home_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/WFUT-DT_(2021).svg/960px-WFUT-DT_(2021).svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/960px-WVIT_Logo_2017.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/960px-WVIT_Logo_2017.svg.png": {
+  "checked": "2026-08-11",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/960px-FXX_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png": {},
@@ -5552,7 +5570,7 @@
  },
  "https://www.acetelevisionnetwork.com/wp-content/uploads/2021/09/ACE_Logo_Medium_White.png": {
   "checked": "2026-08-11",
-  "failures": 1
+  "failures": 2
  },
  "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png": {
   "checked": "2026-08-11",
@@ -5584,7 +5602,7 @@
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
   "checked": "2026-08-11",
-  "failures": 1
+  "failures": 2
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-11",
@@ -5608,11 +5626,11 @@
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
   "checked": "2026-08-11",
-  "failures": 1
+  "failures": 2
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/66698907bac4421ebc533646/images/logo_20231219_221435_68.png": {
   "checked": "2026-08-11",
-  "failures": 1
+  "failures": 2
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-11",
