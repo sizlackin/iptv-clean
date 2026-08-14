@@ -881,10 +881,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://i.imgur.com/AfUdtEG.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://i.imgur.com/AfjoZgo.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -1006,10 +1002,6 @@
   "failures": 0
  },
  "https://i.imgur.com/CjKQuEP.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/CofYjWh.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -1255,6 +1247,10 @@
  },
  "https://i.imgur.com/GbyHlS2.png": {
   "checked": "2026-08-11",
+  "failures": 0
+ },
+ "https://i.imgur.com/GfsmfGK.png": {
+  "checked": "2026-08-14",
   "failures": 0
  },
  "https://i.imgur.com/GtNgJ28.png": {
@@ -1961,10 +1957,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://i.imgur.com/Pch8vTI.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://i.imgur.com/PdhWTO6.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -2614,10 +2606,6 @@
   "failures": 0
  },
  "https://i.imgur.com/ZQ5uRhr.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/ZScwrpi.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -5181,10 +5169,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/a/a8/2015_Disney_XD_logo.svg": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5197,15 +5181,7 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -5217,7 +5193,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png": {
+  "checked": "2026-08-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/NBC_Sports_Philadelphia.png/960px-NBC_Sports_Philadelphia.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5238,7 +5217,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/960px-Fts-phoenix-a.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/960px-Fts-phoenix-a.svg.png": {
+  "checked": "2026-08-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/960px-SNY_logo.svg.png": {
   "checked": "2026-08-11",
@@ -5298,9 +5280,16 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png": {
+  "checked": "2026-08-14",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png": {
+  "checked": "2026-08-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/960px-Hallmark_Channel.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/250px-NOST-1080x1080.jpg": {},
@@ -5337,6 +5326,7 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/KSNV_logo.svg/960px-KSNV_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TSC_logo.svg/960px-TSC_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png": {},
@@ -5366,11 +5356,15 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/960px-WCAUlogo2.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/960px-We_TV_logo_2014.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/960px-Vice_TV_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png": {
+  "checked": "2026-08-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/960px-Oxygen_TV_%282017_Logo%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/960px-KXAS_2023.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png": {
   "checked": "2026-08-12",
@@ -5390,11 +5384,15 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/ION_Mystery_logo.svg/960px-ION_Mystery_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/0/07/Catholic_Faith_Network_2018.png": {},
  "https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG": {},
  "https://upload.wikimedia.org/wikipedia/en/3/3f/WVVH-CD_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/4/4e/T%2BE_Television.png": {},
- "https://upload.wikimedia.org/wikipedia/en/7/72/WMURCurrentLogo.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/7/72/WMURCurrentLogo.png": {
+  "checked": "2026-08-14",
+  "failures": 1
+ },
  "https://upload.wikimedia.org/wikipedia/en/8/82/Positiv_TV_Network_Logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png": {},
  "https://upload.wikimedia.org/wikipedia/en/b/bd/CJON-TV.PNG": {},
@@ -5484,8 +5482,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-13",
-  "failures": 10
+  "checked": "2026-08-14",
+  "failures": 11
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-11",
@@ -5508,8 +5506,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-13",
-  "failures": 10
+  "checked": "2026-08-14",
+  "failures": 11
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-11",
