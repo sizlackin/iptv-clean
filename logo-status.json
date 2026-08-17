@@ -161,10 +161,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://i.imgur.com/0F1c7x4.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://i.imgur.com/0Qd9Ic7.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -783,10 +779,6 @@
  },
  "https://i.imgur.com/98kLMjj.png": {
   "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/9B6XIQC.png": {
-  "checked": "2026-08-13",
   "failures": 0
  },
  "https://i.imgur.com/9EWffqx.png": {
@@ -2209,10 +2201,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://i.imgur.com/TpCkbkT.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://i.imgur.com/Tq3I0po.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -2275,10 +2263,6 @@
  },
  "https://i.imgur.com/UNZ8bef.png": {
   "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/US0T6DC.png": {
-  "checked": "2026-08-13",
   "failures": 0
  },
  "https://i.imgur.com/UfN6aAi.png": {
@@ -2362,10 +2346,6 @@
   "failures": 0
  },
  "https://i.imgur.com/VcZn60X.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/VeuTWUb.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -2593,10 +2573,6 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://i.imgur.com/Z9xclnE.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
  "https://i.imgur.com/ZAypRkk.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -2806,10 +2782,6 @@
   "failures": 0
  },
  "https://i.imgur.com/cn6pAEZ.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/copIbc9.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -3530,10 +3502,6 @@
   "failures": 0
  },
  "https://i.imgur.com/oX5oR4d.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://i.imgur.com/oafsrlo.png": {
   "checked": "2026-08-11",
   "failures": 0
  },
@@ -5245,7 +5213,10 @@
   "checked": "2026-08-12",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {
+  "checked": "2026-08-17",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png": {
   "checked": "2026-08-11",
   "failures": 0
@@ -5311,7 +5282,10 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png": {
+  "checked": "2026-08-17",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/960px-Hallmark_Channel.svg.png": {
   "checked": "2026-08-15",
   "failures": 0
@@ -5321,11 +5295,17 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/250px-NOST-1080x1080.jpg": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png": {
+  "checked": "2026-08-17",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_Real_America%27s_Voice.svg/960px-Logo_Real_America%27s_Voice.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CHCH2010.svg/960px-CHCH2010.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png": {
+  "checked": "2026-08-17",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SmithsonianChannellogo.png/960px-SmithsonianChannellogo.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png": {},
@@ -5337,7 +5317,6 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/TBN_logo_2015.jpg/960px-TBN_logo_2015.jpg": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/960px-Create_TV_network_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/ActionMax_logo.svg/960px-ActionMax_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/TLN_2015.png/500px-TLN_2015.png": {},
@@ -5366,7 +5345,6 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KOMO-TV_(2021).svg/960px-KOMO-TV_(2021).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/LRW_logo_2012.png/960px-LRW_logo_2012.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WACX_logo_2021.png/960px-WACX_logo_2021.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png": {},
@@ -5403,15 +5381,16 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEB_logo_blue.png/960px-GEB_logo_blue.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KTNV_2023.svg/960px-KTNV_2023.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CTV_Life_Channel_2019.svg/500px-CTV_Life_Channel_2019.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CTV_Life_Channel_2019.svg/500px-CTV_Life_Channel_2019.svg.png": {
+  "checked": "2026-08-17",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/960px-CBS_logo_%282020%29.svg.png": {
   "checked": "2026-08-12",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Cozi_TV_logo.svg/960px-Cozi_TV_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/960px-C-SPAN_Logo_%282019%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/ION_Mystery_logo.svg/960px-ION_Mystery_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png": {},
@@ -5443,16 +5422,11 @@
  },
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png": {},
- "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/BET_Jams_2021.png/960px-BET_Jams_2021.png": {
-  "checked": "2026-08-16",
-  "failures": 1
- },
- "https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Dabl_logo.svg/960px-Dabl_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bounce_TV_logo.svg/960px-Bounce_TV_logo.svg.png": {
-  "checked": "2026-08-15",
-  "failures": 2
+  "checked": "2026-08-17",
+  "failures": 3
  },
  "https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png": {},
  "https://us1-prod-images.disco-api.com/2020/7/13/4f26aaf2-a993-480d-9675-0d501fb8d86f.png?bf=0&f=png&p=true&q=85&w=250": {
@@ -5516,8 +5490,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-16",
-  "failures": 13
+  "checked": "2026-08-17",
+  "failures": 14
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-11",
@@ -5540,8 +5514,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-16",
-  "failures": 13
+  "checked": "2026-08-17",
+  "failures": 14
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-11",
