@@ -1425,6 +1425,8 @@ https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
 #EXTINF:-1 tvg-id="EscambiaCountyTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FTAvJdpo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Escambia County TV ECTV (Escambia County FL)",Escambia County TV ECTV (Escambia County FL)
 https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FESPN_Deportes.svg%2F960px-ESPN_Deportes.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPN Deportes",ESPN Deportes
+http://168.228.44.241:9998/play/a0dz/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
@@ -2657,6 +2659,8 @@ https://livestream.telvue.com/roguevalleycmttv1/f7b44cfafd5c52223d5498196c8a2e7b
 https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjcIprmt.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ryan and Friends",Ryan and Friends
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SPremium.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2FMp1TTWq0%2FIn-Shot-20260818-135217619.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Premium!",S Premium!
+https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaDbc64y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Salem News Channel",Salem News Channel
 https://amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv/playlist/amg00732-salemmediagroup-snc-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="SamsungWildlife.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fx06npU2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Samsung Wild Life",Samsung Wild Life
@@ -2777,6 +2781,10 @@ http://23.237.104.106:8080/USA_STARZ/index.m3u8
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 #EXTINF:-1 tvg-id="StarzComedy.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJpKvjZe.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Starz Comedy",Starz Comedy
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
+#EXTINF:-1 tvg-id="StarzEdge.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMvH3Cz2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz Edge",Starz Edge
+http://168.228.44.241:9998/play/a0e0/index.m3u8
+#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5aibRWY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz Encore Spanish",Starz Encore Spanish
+http://168.228.44.241:9998/play/a0e1/index.m3u8
 #EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FeE9FzEP.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Starz Kids & Family",Starz Kids & Family
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="StingrayGreatestHolidayHits.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHz2d6og.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Stingray Greatest Holiday Hits",Stingray Greatest Holiday Hits
