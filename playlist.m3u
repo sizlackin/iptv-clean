@@ -750,6 +750,8 @@ https://5d658d7e9f562.streamlock.net/alfadytv.tv/alfadytv.smil/playlist.m3u8
 https://iptv.almahditv.com/almahditv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlabamaWeatherNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Falabamaweathernetwork.com%2Fwp-content%2Fuploads%2F2025%2F07%2Fbpt2ej6u.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Alabama Weather Network",Alabama Weather Network
 https://alwxnet-ott-proxy.cloud9streaming.com/alwxnet/live/playlist.m3u8
+#EXTINF:-1 tvg-id="AlbanianTVAmerica.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Falbtvusa.com%2Fwp-content%2Fuploads%2F2021%2F10%2Flogo.final_.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Albanian TV America",Albanian TV America
+http://5.254.89.106/8711/index.m3u8
 #EXTINF:-1 tvg-id="AlhurraIraq.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FfsgQDcN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Alhurra Iraq",Alhurra Iraq
 https://mbn-ingest-worldsafe.akamaized.net/hls/live/2038899/MBN_Iraq_Worldsafe_HLS/master.m3u8
 #EXTINF:-1 tvg-id="AlientoVision.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FxT10iqB.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Aliento Vision",Aliento Vision
@@ -1828,6 +1830,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="KITV41.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fpj0O5nu.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="KITV 4 Island News",KITV 4 Island News
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/c4067ddc-0e67-4928-b7ec-624481f721a6.m3u8
+#EXTINF:-1 tvg-id="KMCTTV391.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fd%2Fd9%2FKMCT_Monroe%2527s_Christian_Television_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="KMCT-TV 39.1",KMCT-TV 39.1
+https://wggstv16.ddns.net:9953/hls/KMCT1.m3u8
 #EXTINF:-1 tvg-id="KMEXDT341.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FD65iNay.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="KMEX-DT1",KMEX-DT1
 https://streaming-live-fcdn.api.prd.univisionnow.com/kmex/kmex.isml/hls/kmex.m3u8
 #EXTINF:-1 tvg-id="KMSPDT1.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHCfd9BV.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="KMSP-DT1",KMSP-DT1
@@ -1930,6 +1934,8 @@ https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/lakehavasucity/G0643_003/playlist.m3u8
 https://2-fss-2.streamhoster.com/pl_138/200226-1359204-1/playlist.m3u8
 #EXTINF:-1 tvg-id="KSCE383.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FP0vZXU0.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="LIFE! End Times TV",LIFE! End Times TV
 https://2-fss-1.streamhoster.com/pl_122/200226-1427780-1/playlist.m3u8
+#EXTINF:-1 tvg-id="Lifetime.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9c%2FLogo_Lifetime_2020.svg%2F960px-Logo_Lifetime_2020.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Lifetime",Lifetime
+https://tvsen7.aynaott.com/lifetime/index.m3u8
 #EXTINF:-1 tvg-id="LifetimeMovies.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FBWmqYTO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Lifetime Movies",Lifetime Movies
 http://23.237.104.106:8080/USA_LMN/index.m3u8
 #EXTINF:-1 tvg-id="LifevisionTV.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/cc583a00edfb.png" group-title="Religious" tvg-name="LifevisionTV",LifevisionTV
@@ -2113,6 +2119,8 @@ https://jmp2.uk/plu-613260e4bdb71c00070d63fa.m3u8
 https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8
 #EXTINF:-1 tvg-id="MoreMax.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc5%2FMoreMax_Logo.svg%2F960px-MoreMax_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="MoreMax",MoreMax
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
+#EXTINF:-1 tvg-id="MoreMax.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc5%2FMoreMax_Logo.svg%2F960px-MoreMax_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="MoreMax East",MoreMax East
+https://sra72yz.s.gy/MORE_MAX_EAST_HD.m3u8
 #EXTINF:-1 tvg-id="FastTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fus1-prod-images.disco-api.com%2F2020%2F7%2F13%2F4f26aaf2-a993-480d-9675-0d501fb8d86f.png%3Fbf%3D0%26f%3Dpng%26p%3Dtrue%26q%3D85%26w%3D250&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="MotorTrend FAST TV",MotorTrend FAST TV
 https://live-manifest.production-public.tubi.io/live/e7be5ad5-9044-4151-95d4-a9aae10ab0a5/playlist.m3u8
 #EXTINF:-1 tvg-id="Movies.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FgAGn3mK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Movies!",Movies!
@@ -2905,6 +2913,8 @@ https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/a
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheDesignNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJ5YJ3r3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="The Design Network",The Design Network
 https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheDoctors.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2sAz8dZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="The Doctors",The Doctors
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
 #EXTINF:-1 tvg-id="TheFilmDetective.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FyfOwmsP.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="The Film Detective",The Film Detective
 https://cinedigm-entertainment-corp-thefilmdetective-1-us.ono.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TheFirstTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FrOSlp93.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="The First TV",The First TV
@@ -3240,6 +3250,8 @@ https://lowa8026-cmyk.github.io/iptv/WGAL-DT3/index.m3u8
 https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null
 #EXTINF:-1 tvg-id="WGGSTV162.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUfN6aAi.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="WGGS-DT2",WGGS-DT2
 https://content.uplynk.com/channel/1f93c13275024afb9e0ead299624073d.m3u8
+#EXTINF:-1 tvg-id="WGGSTV161.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FBtw83JA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="WGGS-TV 16.1",WGGS-TV 16.1
+https://wggstv16.ddns.net:9953/hls/WGGS1.m3u8
 #EXTINF:-1 tvg-id="WGNDT1.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FgvHrpnf.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="WGN-DT1",WGN-DT1
 http://23.237.104.106:8080/USA_WGN/index.m3u8
 #EXTINF:-1 tvg-id="WGTV83.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F89%2FPBS_logo_2019.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="WGTV-DT3",WGTV-DT3
