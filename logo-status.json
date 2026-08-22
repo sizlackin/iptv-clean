@@ -473,6 +473,10 @@
   "checked": "2026-08-18",
   "failures": 0
  },
+ "https://i.imgur.com/4MdSstx.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
  "https://i.imgur.com/4PA2adF.png": {
   "checked": "2026-08-18",
   "failures": 0
@@ -811,10 +815,6 @@
  },
  "https://i.imgur.com/9S9k4IK.png": {
   "checked": "2026-08-18",
-  "failures": 0
- },
- "https://i.imgur.com/9Sw2Cns.png": {
-  "checked": "2026-08-16",
   "failures": 0
  },
  "https://i.imgur.com/9TLTLS3.png": {
@@ -2169,6 +2169,10 @@
   "checked": "2026-08-18",
   "failures": 0
  },
+ "https://i.imgur.com/TUMiKCX.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
  "https://i.imgur.com/TWFDkap.png": {
   "checked": "2026-08-18",
   "failures": 0
@@ -2867,6 +2871,10 @@
  },
  "https://i.imgur.com/eAS86qH.png": {
   "checked": "2026-08-18",
+  "failures": 0
+ },
+ "https://i.imgur.com/eDoJqtg.png": {
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://i.imgur.com/eE9FzEP.png": {
@@ -4157,6 +4165,10 @@
   "checked": "2026-08-18",
   "failures": 0
  },
+ "https://i.imgur.com/zKQMDsu.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
  "https://i.imgur.com/zUMUNhe.png": {
   "checked": "2026-08-18",
   "failures": 0
@@ -4885,6 +4897,14 @@
   "checked": "2026-08-18",
   "failures": 0
  },
+ "https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/24/23/1735058961578/eaf883fb926d_480_270.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
+ "https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/31/22/1735657792230/b870c45f862d_480_270.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
  "https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg": {
   "checked": "2026-08-18",
   "failures": 0
@@ -5082,7 +5102,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4a/WHBQ_%282015%29.svg": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
@@ -5110,11 +5130,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {
@@ -5126,11 +5146,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-22",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png": {
@@ -5282,7 +5302,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/TV5_%28logo%29.svg/960px-TV5_%28logo%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png": {
+  "checked": "2026-08-22",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WTVJ_2023.svg/960px-WTVJ_2023.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png/960px-WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/960px-SRC-TV.svg.png": {},
@@ -5448,8 +5471,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-21",
-  "failures": 18
+  "checked": "2026-08-22",
+  "failures": 19
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-18",
@@ -5472,8 +5495,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-21",
-  "failures": 18
+  "checked": "2026-08-22",
+  "failures": 19
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-18",
