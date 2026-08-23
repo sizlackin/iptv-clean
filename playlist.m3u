@@ -615,7 +615,7 @@ https://aegis-cloudfront-1.tubi.video/2dba5dd9-4097-45e3-b169-56735cc48476/playl
 https://content.uplynk.com/channel/64ca339f04964a5e961c3207a7771bf1.m3u8
 #EXTINF:-1 tvg-id="WJLATV71.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FNfqhdBC.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="ABC 7 Washington DC (WJLA)",ABC 7 Washington DC (WJLA)
 https://linear-681.frequency.stream/dist/stirr/681/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="WMURTV91.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F7%2F72%2FWMURCurrentLogo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News;Weather" tvg-name="ABC 9 Manchester NH (WMUR-TV)",ABC 9 Manchester NH (WMUR-TV)
+#EXTINF:-1 tvg-id="WMURTV91.us@HD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/229a680dc5a0.png" group-title="News;Weather" tvg-name="ABC 9 Manchester NH (WMUR-TV)",ABC 9 Manchester NH (WMUR-TV)
 https://aegis-cloudfront-1.tubi.video/b77ffe96-c5d1-43a7-8687-306ff244d725/playlist.m3u8
 #EXTINF:-1 tvg-id="WFTV91.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F27%2FWWAY_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="ABC 9 Orlando FL (WFTV)",ABC 9 Orlando FL (WFTV)
 https://amg00327-coxmediagroup-wftvbreaking-ono-hec7b.amagi.tv/playlist/amg00327-coxmediagroup-wftvbreaking-ono/playlist.m3u8
@@ -1436,6 +1436,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2506
 https://cpcdn.azureedge.net/ESCAMBIACOFLLIVE1/ESCAMBIACOFLLIVE1/playlist.m3u8
 #EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FESPN_Deportes.svg%2F960px-ESPN_Deportes.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPN Deportes",ESPN Deportes
 http://168.228.44.241:9998/play/a0dz/index.m3u8
+#EXTINF:-1 tvg-id="ESPNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F1b%2FESPNews.svg%2F960px-ESPNews.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News;Sports" tvg-name="ESPNews",ESPNews
+http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
 http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
@@ -1463,6 +1465,8 @@ https://amg12058-c15studio-amg12058c1-lg-us-5787.playouts.now.amagi.tv/playlist.
 https://failarmy-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CityofFairfieldChannel26.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FfiqaiUe.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Fairfield Government Access Channel 26 (Fairfield CA)",Fairfield Government Access Channel 26 (Fairfield CA)
 https://reflect-fairfield-ca.cablecast.tv/live-8/live/live.m3u8
+#EXTINF:-1 tvg-id="FaithTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FlUBnKK1.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Faith TV",Faith TV
+https://faithnow-hls.secdn.net/faithnow-holland-channel/play/FaithTV.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FamilyTies.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FWJEkKCb.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Family Ties",Family Ties
 https://jmp2.uk/plu-5f77939a630f530007dde654.m3u8
 #EXTINF:-1 tvg-id="Farscape.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2WH4lSc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Farscape",Farscape
@@ -2132,8 +2136,6 @@ https://jmp2.uk/plu-613260e4bdb71c00070d63fa.m3u8
 https://jmp2.uk/plu-6132619f9ddaa50007e7dd86.m3u8
 #EXTINF:-1 tvg-id="MoreMax.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc5%2FMoreMax_Logo.svg%2F960px-MoreMax_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="MoreMax",MoreMax
 http://23.237.104.106:8080/USA_MOREMAX/index.m3u8
-#EXTINF:-1 tvg-id="MoreMax.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc5%2FMoreMax_Logo.svg%2F960px-MoreMax_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="MoreMax East",MoreMax East
-https://sra72yz.s.gy/MORE_MAX_EAST_HD.m3u8
 #EXTINF:-1 tvg-id="FastTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fus1-prod-images.disco-api.com%2F2020%2F7%2F13%2F4f26aaf2-a993-480d-9675-0d501fb8d86f.png%3Fbf%3D0%26f%3Dpng%26p%3Dtrue%26q%3D85%26w%3D250&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="MotorTrend FAST TV",MotorTrend FAST TV
 https://live-manifest.production-public.tubi.io/live/e7be5ad5-9044-4151-95d4-a9aae10ab0a5/playlist.m3u8
 #EXTINF:-1 tvg-id="Movies.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FgAGn3mK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Movies!",Movies!
@@ -2716,6 +2718,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2240
 https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
 #EXTINF:-1 tvg-id="SCVTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FqEsZbZz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="SCVTV (Santa Clarita CA)",SCVTV (Santa Clarita CA)
 https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8
+#EXTINF:-1 tvg-id="SECNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FSEC_Network_logo.svg%2F960px-SEC_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="SEC Network",SEC Network
+http://23.237.104.106:8080/USA_SEC_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="SemillitasTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fu3yujUd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Semillitas TV",Semillitas TV
 http://45.5.117.99:8000/play/a0g3/index.m3u8
 #EXTINF:-1 tvg-id="SGTN49.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F4fbJRWW.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Sent TV Global Network Atlanta (SGTN-49)",Sent TV Global Network Atlanta (SGTN-49)
@@ -2958,6 +2962,8 @@ https://amg00145-buzzr-bigballs-tpir-8min-rokuus-otcre.amagi.tv/playlist/amg0014
 https://jmp2.uk/plu-5e825550e758c700077b0aef.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTheTwilightZone.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FFiIRQAR.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic;Series" tvg-name="The Twilight Zone",The Twilight Zone
 https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8
+#EXTINF:-1 tvg-id="TheWalkTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fp3RAxjp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="The Walk TV",The Walk TV
+https://wggstv16.ddns.net:9953/hls/walk1.m3u8
 #EXTINF:-1 tvg-id="TheWalkingDeadenEspanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fh17lAxc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="The Walking Dead en español",The Walking Dead en español
 https://jmp2.uk/plu-5e82bb378601b80007b4bd78.m3u8
 #EXTINF:-1 tvg-id="TheWalkingDeadUniverse.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FIwJ5Pnc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="The Walking Dead Universe",The Walking Dead Universe
