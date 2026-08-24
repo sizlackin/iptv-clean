@@ -209,10 +209,6 @@
   "checked": "2026-08-18",
   "failures": 0
  },
- "https://i.imgur.com/1Ak2MX2.png": {
-  "checked": "2026-08-18",
-  "failures": 0
- },
  "https://i.imgur.com/1B3d8Jc.png": {
   "checked": "2026-08-18",
   "failures": 0
@@ -1881,10 +1877,6 @@
   "checked": "2026-08-18",
   "failures": 0
  },
- "https://i.imgur.com/Or0LKsu.png": {
-  "checked": "2026-08-18",
-  "failures": 0
- },
  "https://i.imgur.com/OrRSj8q.png": {
   "checked": "2026-08-18",
   "failures": 0
@@ -2722,10 +2714,6 @@
   "failures": 0
  },
  "https://i.imgur.com/bwmIEgG.png": {
-  "checked": "2026-08-18",
-  "failures": 0
- },
- "https://i.imgur.com/byJNJdm.png": {
   "checked": "2026-08-18",
   "failures": 0
  },
@@ -3774,10 +3762,6 @@
   "failures": 0
  },
  "https://i.imgur.com/t2ZkRbr.png": {
-  "checked": "2026-08-18",
-  "failures": 0
- },
- "https://i.imgur.com/t794qkT.png": {
   "checked": "2026-08-18",
   "failures": 0
  },
@@ -5166,7 +5150,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png": {
@@ -5174,7 +5158,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/NBC_Sports_Philadelphia.png/960px-NBC_Sports_Philadelphia.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {
@@ -5186,7 +5170,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/960px-Fts-phoenix-a.svg.png": {
@@ -5210,11 +5194,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ICI_Acadie_logo_2018.svg/960px-ICI_Acadie_logo_2018.svg.png": {
-  "checked": "2026-08-12",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {
-  "checked": "2026-08-17",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png": {
@@ -5226,7 +5210,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {
-  "checked": "2026-08-12",
+  "checked": "2026-08-24",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/960px-QVC_logo_2019.svg.png": {
@@ -5257,6 +5241,7 @@
   "checked": "2026-08-11",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Telemundo_31_(2019).svg/960px-Telemundo_31_(2019).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/960px-FXX_Logo.svg.png": {
   "checked": "2026-08-15",
   "failures": 0
@@ -5487,8 +5472,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-23",
-  "failures": 20
+  "checked": "2026-08-24",
+  "failures": 21
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-18",
@@ -5511,8 +5496,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-23",
-  "failures": 20
+  "checked": "2026-08-24",
+  "failures": 21
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-18",
