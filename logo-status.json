@@ -2365,6 +2365,10 @@
   "checked": "2026-08-25",
   "failures": 0
  },
+ "https://i.imgur.com/WE0cRXR.png": {
+  "checked": "2026-08-26",
+  "failures": 0
+ },
  "https://i.imgur.com/WJEkKCb.png": {
   "checked": "2026-08-25",
   "failures": 0
@@ -3441,6 +3445,10 @@
   "checked": "2026-08-25",
   "failures": 0
  },
+ "https://i.imgur.com/nyLrIPP.png": {
+  "checked": "2026-08-26",
+  "failures": 0
+ },
  "https://i.imgur.com/nydZWwg.png": {
   "checked": "2026-08-25",
   "failures": 0
@@ -4182,7 +4190,7 @@
   "failures": 0
  },
  "https://i.postimg.cc/4dHXzBRr/In-Shot-20260816-223433608.png": {
-  "checked": "2026-08-19",
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://i.postimg.cc/Mp1TTWq0/In-Shot-20260818-135217619.png": {
@@ -4346,8 +4354,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-08-19",
-  "failures": 0
+  "checked": "2026-08-26",
+  "failures": 1
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-08-25",
@@ -5066,7 +5074,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/2/20/Movies_logo.png": {
-  "checked": "2026-08-19",
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
@@ -5082,11 +5090,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
-  "checked": "2026-08-19",
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/5/53/WDEF_2015.svg": {
-  "checked": "2026-08-19",
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg": {
@@ -5146,7 +5154,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png": {
@@ -5386,8 +5394,8 @@
  "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/MeTV_Logo.svg/960px-MeTV_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/960px-True_Crime_Network_logo.svg.png": {
-  "checked": "2026-08-19",
-  "failures": 3
+  "checked": "2026-08-26",
+  "failures": 4
  },
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png": {},
@@ -5459,11 +5467,15 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-25",
-  "failures": 22
+  "checked": "2026-08-26",
+  "failures": 23
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-25",
+  "failures": 0
+ },
+ "https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png": {
+  "checked": "2026-08-26",
   "failures": 0
  },
  "https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg": {
@@ -5483,8 +5495,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-25",
-  "failures": 22
+  "checked": "2026-08-26",
+  "failures": 23
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-25",
