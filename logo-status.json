@@ -558,7 +558,7 @@
   "failures": 0
  },
  "https://i.imgur.com/5aibRWY.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://i.imgur.com/5iT7hEa.png": {
@@ -1734,7 +1734,7 @@
   "failures": 0
  },
  "https://i.imgur.com/MvH3Cz2.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://i.imgur.com/N5Canf3.png": {
@@ -4194,7 +4194,7 @@
   "failures": 0
  },
  "https://i.postimg.cc/Mp1TTWq0/In-Shot-20260818-135217619.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png": {
@@ -4354,8 +4354,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-08-26",
-  "failures": 1
+  "checked": "2026-08-27",
+  "failures": 2
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-08-25",
@@ -5102,11 +5102,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {
@@ -5170,7 +5170,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png": {
-  "checked": "2026-08-16",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png": {
@@ -5178,7 +5178,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Estrella_TV_Logo_2020.png/500px-Estrella_TV_Logo_2020.png": {
-  "checked": "2026-08-12",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png": {
@@ -5411,7 +5411,7 @@
   "failures": 0
  },
  "https://vcz-kapang-tv.b-cdn.net/files/thumbs/2026/05/06/1778037346ayAfpsWIMj-300x300-square.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-27",
   "failures": 0
  },
  "https://whiplash.cc/assets/img/channels/atlas.png": {
@@ -5467,8 +5467,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-26",
-  "failures": 23
+  "checked": "2026-08-27",
+  "failures": 24
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-25",
@@ -5495,8 +5495,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-26",
-  "failures": 23
+  "checked": "2026-08-27",
+  "failures": 24
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-25",
