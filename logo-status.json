@@ -12,7 +12,7 @@
   "failures": 0
  },
  "https://albtvusa.com/wp-content/uploads/2021/10/logo.final_.png": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg": {},
@@ -301,6 +301,10 @@
   "checked": "2026-08-25",
   "failures": 0
  },
+ "https://i.imgur.com/2LWc0OG.png": {
+  "checked": "2026-08-28",
+  "failures": 0
+ },
  "https://i.imgur.com/2PL1Au7.png": {
   "checked": "2026-08-25",
   "failures": 0
@@ -350,7 +354,7 @@
   "failures": 0
  },
  "https://i.imgur.com/2sAz8dZ.png": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://i.imgur.com/2u33Ayy.jpeg": {
@@ -478,10 +482,6 @@
   "failures": 0
  },
  "https://i.imgur.com/4Pn0ADQ.png": {
-  "checked": "2026-08-25",
-  "failures": 0
- },
- "https://i.imgur.com/4SmNFCX.png": {
   "checked": "2026-08-25",
   "failures": 0
  },
@@ -934,7 +934,7 @@
   "failures": 0
  },
  "https://i.imgur.com/Btw83JA.png": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://i.imgur.com/Bv9OGrH.png": {
@@ -955,6 +955,10 @@
  },
  "https://i.imgur.com/C4wIRxg.png": {
   "checked": "2026-08-25",
+  "failures": 0
+ },
+ "https://i.imgur.com/CFAn996.png": {
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://i.imgur.com/CIYnLWz.png": {
@@ -1242,7 +1246,7 @@
   "failures": 0
  },
  "https://i.imgur.com/GfsmfGK.png": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://i.imgur.com/GtNgJ28.png": {
@@ -3089,6 +3093,10 @@
   "checked": "2026-08-25",
   "failures": 0
  },
+ "https://i.imgur.com/iDiGBE3.png": {
+  "checked": "2026-08-28",
+  "failures": 0
+ },
  "https://i.imgur.com/iE1izWq.png": {
   "checked": "2026-08-25",
   "failures": 0
@@ -3131,6 +3139,10 @@
  },
  "https://i.imgur.com/iyFXcDy.png": {
   "checked": "2026-08-25",
+  "failures": 0
+ },
+ "https://i.imgur.com/iyYLuJj.png": {
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://i.imgur.com/j0UC4ke.png": {
@@ -4354,8 +4366,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-08-27",
-  "failures": 2
+  "checked": "2026-08-28",
+  "failures": 3
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-08-25",
@@ -4922,7 +4934,7 @@
   "failures": 0
  },
  "https://lovepetstv.com/wp-content/uploads/2022/12/LovePets_Logo_SecondaryColor.png": {
-  "checked": "2026-08-19",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg": {
@@ -5098,7 +5110,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg": {
@@ -5122,7 +5134,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png": {
@@ -5198,7 +5210,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/960px-PIX11_2017.svg.png": {
-  "checked": "2026-08-16",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {
@@ -5210,7 +5222,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png": {
-  "checked": "2026-08-16",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/960px-Logo_UniM%C3%A1s_2021.svg.png": {
@@ -5265,7 +5277,7 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/250px-NOST-1080x1080.jpg": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png": {
-  "checked": "2026-08-17",
+  "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_Real_America%27s_Voice.svg/960px-Logo_Real_America%27s_Voice.svg.png": {},
@@ -5467,8 +5479,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-27",
-  "failures": 24
+  "checked": "2026-08-28",
+  "failures": 25
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-25",
@@ -5495,8 +5507,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-27",
-  "failures": 24
+  "checked": "2026-08-28",
+  "failures": 25
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-25",
