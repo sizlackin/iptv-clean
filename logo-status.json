@@ -474,7 +474,7 @@
   "failures": 0
  },
  "https://i.imgur.com/4MdSstx.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://i.imgur.com/4PA2adF.png": {
@@ -2158,7 +2158,7 @@
   "failures": 0
  },
  "https://i.imgur.com/TUMiKCX.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://i.imgur.com/TWFDkap.png": {
@@ -2858,7 +2858,7 @@
   "failures": 0
  },
  "https://i.imgur.com/eDoJqtg.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://i.imgur.com/eE9FzEP.png": {
@@ -4166,7 +4166,7 @@
   "failures": 0
  },
  "https://i.imgur.com/zKQMDsu.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://i.imgur.com/zUMUNhe.png": {
@@ -4366,8 +4366,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-08-28",
-  "failures": 3
+  "checked": "2026-08-29",
+  "failures": 0
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-08-25",
@@ -4898,11 +4898,11 @@
   "failures": 0
  },
  "https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/24/23/1735058961578/eaf883fb926d_480_270.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/31/22/1735657792230/b870c45f862d_480_270.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg": {
@@ -5094,11 +5094,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4a/WHBQ_%282015%29.svg": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
@@ -5122,11 +5122,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {
-  "checked": "2026-08-20",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-29",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {
@@ -5326,7 +5326,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SEC_Network_logo.svg/960px-SEC_Network_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WACX_logo_2021.png/960px-WACX_logo_2021.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WACX_logo_2021.png/960px-WACX_logo_2021.png": {
+  "checked": "2026-08-29",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TeenNick_2019_logo.svg/960px-TeenNick_2019_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/960px-YES_Network_logo.svg.png": {
   "checked": "2026-08-23",
@@ -5479,8 +5482,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-28",
-  "failures": 25
+  "checked": "2026-08-29",
+  "failures": 26
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-25",
@@ -5507,8 +5510,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-28",
-  "failures": 25
+  "checked": "2026-08-29",
+  "failures": 26
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-25",
