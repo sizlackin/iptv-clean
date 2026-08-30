@@ -4,7 +4,7 @@
   "failures": 0
  },
  "https://admin.worldlivetv.stream/upload/files/thumbnail/vuth_1676133370_91639_20154.png": {
-  "checked": "2026-08-11",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://alabamaweathernetwork.com/wp-content/uploads/2025/07/bpt2ej6u.png": {
@@ -3294,7 +3294,7 @@
   "failures": 0
  },
  "https://i.imgur.com/lUBnKK1.png": {
-  "checked": "2026-08-23",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://i.imgur.com/lZvNXA1.png": {
@@ -3518,7 +3518,7 @@
   "failures": 0
  },
  "https://i.imgur.com/p3RAxjp.png": {
-  "checked": "2026-08-23",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://i.imgur.com/pBBb0wx.png": {
@@ -5061,6 +5061,10 @@
   "checked": "2026-08-25",
   "failures": 0
  },
+ "https://static.wixstatic.com/media/ba7a6c_6cc667c69cf24b94934b9d7f2e9853a5~mv2.png": {
+  "checked": "2026-08-30",
+  "failures": 0
+ },
  "https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg": {
   "checked": "2026-08-25",
   "failures": 0
@@ -5130,7 +5134,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {
@@ -5138,15 +5142,15 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png": {
-  "checked": "2026-08-21",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
-  "checked": "2026-08-22",
+  "checked": "2026-08-30",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png": {
@@ -5482,8 +5486,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-08-29",
-  "failures": 26
+  "checked": "2026-08-30",
+  "failures": 27
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-08-25",
@@ -5510,8 +5514,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-08-29",
-  "failures": 26
+  "checked": "2026-08-30",
+  "failures": 27
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
   "checked": "2026-08-25",
