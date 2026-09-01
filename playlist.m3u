@@ -1791,6 +1791,8 @@ https://jmp2.uk/plu-5cf96b8f4f1ca3f0629f4bf1.m3u8
 https://pb-xhb3ic8b61whm.akamaized.net/Ion_US.m3u8
 #EXTINF:-1 tvg-id="IONPlus.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1dgCvNE.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="ION Plus",ION Plus
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="IraneFardaTV.uk@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FixgcgZY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="IraneFarda TV",IraneFarda TV
+https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="IronChef.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Frk7fMNe.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Iron Chef",Iron Chef
 https://jmp2.uk/plu-6582f8dadfed030008e5a93d.m3u8
 #EXTINF:-1 tvg-id="ItIsWrittenTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F0jgzoSF.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="It Is Written TV",It Is Written TV
