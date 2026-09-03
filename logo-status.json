@@ -29,10 +29,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://d2cc5gnf1jy2pj.cloudfront.net/custom_landing_pages/intouchplus/intouchplus_logo.svg": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/autentichistory_white.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -43,6 +39,10 @@
  },
  "https://dajatv.com/wp-content/uploads/2021/09/logo_daja_2.png": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://digitaltv.prensariozone.com/wp-content/uploads/2022/11/Logo-KidOO.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540": {
@@ -209,10 +209,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/1B3d8Jc.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/1BHDGXx.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -230,14 +226,6 @@
   "failures": 0
  },
  "https://i.imgur.com/1a03FlX.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/1dgCvNE.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/1f798e8.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -266,10 +254,6 @@
   "failures": 0
  },
  "https://i.imgur.com/1luzP3T.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/1rxmu2u.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -365,10 +349,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/373Y8Py.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/37K0AZX.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -445,6 +425,10 @@
   "checked": "2026-09-01",
   "failures": 0
  },
+ "https://i.imgur.com/42UdwD0.png": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
  "https://i.imgur.com/43EpWsD.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -505,10 +489,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/4nP7j4M.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/4v93XUB.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -541,10 +521,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/5RIEi99.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/5VPgAxB.jpg": {
   "checked": "2026-09-01",
   "failures": 0
@@ -558,7 +534,7 @@
   "failures": 0
  },
  "https://i.imgur.com/5aibRWY.png": {
-  "checked": "2026-08-27",
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/5iT7hEa.png": {
@@ -638,10 +614,6 @@
   "failures": 0
  },
  "https://i.imgur.com/6xTD3G8.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/6xjshQj.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -781,10 +753,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/970zAEn.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/98kLMjj.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -870,10 +838,6 @@
   "failures": 0
  },
  "https://i.imgur.com/AYzdlMz.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/AZ8MWRp.jpg": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -977,10 +941,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/CMANZWk.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/CRvQ6sF.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1010,10 +970,6 @@
   "failures": 0
  },
  "https://i.imgur.com/CyQ472C.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/D65iNay.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1061,23 +1017,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/E4PkyqN.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/E84jnP8.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/EHGOQhj.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/EK75DMJ.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/EL9Bwtf.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1149,10 +1093,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/FfEebzW.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/FhIRe7O.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1221,6 +1161,10 @@
   "checked": "2026-09-01",
   "failures": 0
  },
+ "https://i.imgur.com/GPoucaV.png": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
  "https://i.imgur.com/GSM0Pkr.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1281,15 +1225,7 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/HC85eBq.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/HCQDvEe.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/HFmkjiR.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1369,10 +1305,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/IXC8PXf.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/IYuv0RF.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1390,10 +1322,6 @@
   "failures": 0
  },
  "https://i.imgur.com/IjtaG1m.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/IjzCv8f.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1533,10 +1461,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/KW1iQ5W.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/KXdvPum.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1582,10 +1506,6 @@
   "failures": 0
  },
  "https://i.imgur.com/Kt5j8Vr.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/KtXQeeZ.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1653,10 +1573,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/Lv6HuCT.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/Lwwq62E.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1697,10 +1613,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/MNSBpDW.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/MOGQAns.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1717,10 +1629,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/MWvoICD.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/MaFtbM5.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1734,7 +1642,7 @@
   "failures": 0
  },
  "https://i.imgur.com/MvH3Cz2.png": {
-  "checked": "2026-08-27",
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/N5Canf3.png": {
@@ -1754,10 +1662,6 @@
   "failures": 0
  },
  "https://i.imgur.com/NCqZdaL.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/NFts1uU.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1781,23 +1685,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/NfqhdBC.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/NxbDjfI.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/O0sYOED.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://i.imgur.com/O5GXlmE.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/O5uOeQh.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1813,12 +1705,12 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/OIJTECP.png": {
+ "https://i.imgur.com/OMQq19N.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/OMQq19N.png": {
-  "checked": "2026-09-01",
+ "https://i.imgur.com/ONsAt3Z.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/OR9APjb.png": {
@@ -1845,10 +1737,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/OiiM6Mz.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/OjLCew5.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1858,10 +1746,6 @@
   "failures": 0
  },
  "https://i.imgur.com/OkslYzP.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/OqSl2Qf.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1885,19 +1769,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/OxbIla4.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/P0vZXU0.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://i.imgur.com/PF71rdZ.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/PGJOFD4.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1918,10 +1794,6 @@
   "failures": 0
  },
  "https://i.imgur.com/PVt8OPN.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/PWGVjsg.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -1957,10 +1829,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/Q7xrM2w.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/QJtwJoS.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1981,15 +1849,7 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/QsANRSu.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/QsFBCWv.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/QtFM5Oo.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2002,10 +1862,6 @@
   "failures": 0
  },
  "https://i.imgur.com/QznvBD7.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/R6oC2A3.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2109,10 +1965,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/Sr3EoK5.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/SssCaj1.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -2130,10 +1982,6 @@
   "failures": 0
  },
  "https://i.imgur.com/TAvJdpo.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/TBjVU9L.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2217,10 +2065,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/U9HFzJk.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/UCwjdtQ.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -2266,10 +2110,6 @@
   "failures": 0
  },
  "https://i.imgur.com/UoiUwFj.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/Uuc5h1s.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2377,6 +2217,10 @@
   "checked": "2026-09-01",
   "failures": 0
  },
+ "https://i.imgur.com/WYM3tj8.png": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
  "https://i.imgur.com/WaGRlFO.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -2433,8 +2277,8 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/XIoBeja.png": {
-  "checked": "2026-09-01",
+ "https://i.imgur.com/XLGIz2O.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/XQrMCkT.png": {
@@ -2561,10 +2405,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/ZQ5uRhr.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/Zh60l1x.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -2606,10 +2446,6 @@
   "failures": 0
  },
  "https://i.imgur.com/aVkJkgm.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/aWNHg5z.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2713,10 +2549,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/bzgfmRL.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/c2esKHg.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -2769,19 +2601,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/d6ADcR5.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/d6xQiaf.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://i.imgur.com/dGoQ88j.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/dNBZLtD.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2802,10 +2626,6 @@
   "failures": 0
  },
  "https://i.imgur.com/di3XX5L.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/djCq2Z5.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2830,10 +2650,6 @@
   "failures": 0
  },
  "https://i.imgur.com/e1shzv9.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/e3Z2wzG.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -2905,19 +2721,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/evOWORd.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/evzfe9C.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://i.imgur.com/fJxySUg.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/fRjmk5r.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3089,10 +2897,6 @@
   "checked": "2026-08-28",
   "failures": 0
  },
- "https://i.imgur.com/iE1izWq.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/iKDLgOG.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3161,10 +2965,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/jdlYY4t.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/jehiyV7.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3205,10 +3005,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/kEETRln.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/kHFlTEy.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3234,10 +3030,6 @@
   "failures": 0
  },
  "https://i.imgur.com/kpuO8m7.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/ktLKla7.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3325,19 +3117,7 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/m5Anun9.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/m80uxdz.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/mBcwks7.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/mHCabmJ.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3369,10 +3149,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/mrWo0P1.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/mrXMW7H.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3382,10 +3158,6 @@
   "failures": 0
  },
  "https://i.imgur.com/mt8ulVX.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/n057TgX.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3481,10 +3253,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/oNUpXA9.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/oT5CAvd.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3497,8 +3265,8 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/ocq1x2B.png": {
-  "checked": "2026-09-01",
+ "https://i.imgur.com/ocs2DeU.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/owUXUih.png": {
@@ -3517,10 +3285,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/p3RAxjp.png": {
-  "checked": "2026-08-30",
-  "failures": 0
- },
  "https://i.imgur.com/pBBb0wx.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3529,15 +3293,7 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/pFCJGj4.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/pQJxov2.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/pRKEMb1.jpg": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3557,23 +3313,11 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/pj0O5nu.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/pnm60bq.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/ppn5oJy.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/prMkTsZ.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/px0CSti.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3591,6 +3335,10 @@
  },
  "https://i.imgur.com/q8BENJg.png": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://i.imgur.com/qCJ9Poe.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/qEsZbZz.png": {
@@ -3622,10 +3370,6 @@
   "failures": 0
  },
  "https://i.imgur.com/qkHrttj.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/qkfe3o9.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3689,10 +3433,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/rnZN7rD.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/rntSEDZ.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3745,10 +3485,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/sfwIILW.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/sj5h9bl.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3758,10 +3494,6 @@
   "failures": 0
  },
  "https://i.imgur.com/sua70RO.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/suvT0TN.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3809,10 +3541,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/tspT2dF.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/tuP9GW8.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3835,6 +3563,10 @@
  },
  "https://i.imgur.com/u8hbbij.png": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://i.imgur.com/u8zXUOg.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.imgur.com/uENch0P.png": {
@@ -3874,10 +3606,6 @@
   "failures": 0
  },
  "https://i.imgur.com/v0BlxCa.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/v3DJUa8.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -3941,10 +3669,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/w1bK8YN.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/w4fxiKi.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -3966,14 +3690,6 @@
   "failures": 0
  },
  "https://i.imgur.com/wY9WhYS.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/wblxisu.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/wcVntg7.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -4013,10 +3729,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/x0vLIWr.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/x57klfS.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -4045,10 +3757,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/xN4Valg.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/xP7Ehn8.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -4069,15 +3777,7 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://i.imgur.com/xflShTG.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://i.imgur.com/xoaIAus.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/xsm8mMd.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -4118,10 +3818,6 @@
   "failures": 0
  },
  "https://i.imgur.com/yaCK1Mh.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/yaNXOnO.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -4173,11 +3869,11 @@
   "checked": "2026-08-29",
   "failures": 0
  },
- "https://i.imgur.com/zUMUNhe.png": {
-  "checked": "2026-09-01",
+ "https://i.imgur.com/zOXN7hX.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
- "https://i.imgur.com/zZd9Tkt.png": {
+ "https://i.imgur.com/zUMUNhe.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -4206,18 +3902,14 @@
   "failures": 0
  },
  "https://i.postimg.cc/4dHXzBRr/In-Shot-20260816-223433608.png": {
-  "checked": "2026-08-26",
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.postimg.cc/Mp1TTWq0/In-Shot-20260818-135217619.png": {
-  "checked": "2026-08-27",
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://iili.io/FxYNwOB.md.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
@@ -4897,10 +4589,6 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://images.squarespace-cdn.com/content/v1/6a233007201fda6808a47ff9/f4f45cba-d340-4963-860a-37edaf91bc7f/BarkTV_Horizontal_Color.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/24/23/1735058961578/eaf883fb926d_480_270.png": {
   "checked": "2026-08-29",
   "failures": 0
@@ -4941,6 +4629,10 @@
   "checked": "2026-08-28",
   "failures": 0
  },
+ "https://m.media-amazon.com/images/I/419RyCp4+WL.png": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
  "https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg": {
   "checked": "2026-09-01",
   "failures": 0
@@ -4967,6 +4659,18 @@
  },
  "https://overcomerstv.live/wp-content/uploads/2025/10/Overcomers-tv.png": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://play-lh.googleusercontent.com/58IEgCECrId5YdLMZWL9ohHzyZCY1lNduLVxK9QF1P5EZuSIJScTWEMaw2efd88zMkc": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
+ "https://play-lh.googleusercontent.com/7sw8veBR7JtyzyaRHR2KHA_UoLL9sCb56zaLuPqYVbdQ88x2Ga2ZHgAz_Mfr-f2GVtk": {
+  "checked": "2026-09-03",
+  "failures": 0
+ },
+ "https://play-lh.googleusercontent.com/PO0C2_-FdOtMVn1rw_Q0_iystfcf6Ab8h1Q37P8fEgSLuAkQJBCI9kax_FIkUgXppgs4": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://play-lh.googleusercontent.com/qt4POaxei89y6DP7sRJlRNv-yo4jlG3HuVO2Jb54Rf6T7aJ-j7RLG2z4aY9YrU5d0Q=w240-h480-rw": {
@@ -5029,16 +4733,16 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://provider-static.plex.tv/epg/cms/production/f3f74374-7cf6-4fdc-8056-7ef9e8eb989b/N2_logo_color.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://radio.foxnews.com/wp-content/uploads/2017/10/default_logo-150x150.png": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://spcity.org/ImageRepository/Document?documentID=4246": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://static.wikia.nocookie.net/logopedia/images/1/12/0mk7F5ao.png/revision/latest/scale-to-width-down/512": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://static.wikia.nocookie.net/logopedia/images/1/1a/Logo-cbsn-bayarea-1920x1080.jpg/revision/latest/scale-to-width-down/512": {
@@ -5057,8 +4761,8 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png": {
-  "checked": "2026-09-01",
+ "https://static.wikia.nocookie.net/logopedia/images/a/ab/QVC2_%282017%29.svg/revision/latest/scale-to-width-down/512": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://static.wikitide.net/indietvwiki/0/03/Placid_(2026).svg": {
@@ -5081,52 +4785,20 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/1/18/MegaTV.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/1/1e/LAFF_logo.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/2/20/Movies_logo.png": {
-  "checked": "2026-09-02",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
   "checked": "2026-09-02",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {
-  "checked": "2026-08-29",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/4/4a/WHBQ_%282015%29.svg": {
-  "checked": "2026-08-29",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
   "checked": "2026-09-02",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/5/53/WDEF_2015.svg": {
-  "checked": "2026-09-02",
+ "https://upload.wikimedia.org/wikipedia/commons/6/69/ShopHQ_2019_Logo.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg": {
   "checked": "2026-08-28",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg": {
-  "checked": "2026-08-27",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png": {
-  "checked": "2026-08-27",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {
@@ -5137,19 +4809,11 @@
   "checked": "2026-08-29",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/9/9b/WCVB-TV_alternate_2021.svg": {
-  "checked": "2026-08-30",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/b/bb/Shop_LC_Logo.svg": {
-  "checked": "2026-08-28",
+ "https://upload.wikimedia.org/wikipedia/commons/a/aa/Azteca_America_2011_logo.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/c/c2/Fuse_Black_Logo_2017.png": {
-  "checked": "2026-08-30",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/e/e0/WMBC_logo.jpg": {
   "checked": "2026-08-30",
   "failures": 0
  },
@@ -5161,10 +4825,6 @@
   "checked": "2026-08-31",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png": {
   "checked": "2026-08-23",
   "failures": 0
@@ -5174,19 +4834,15 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {
-  "checked": "2026-08-26",
+  "checked": "2026-09-03",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/This_TV_logo.svg/960px-This_TV_logo.svg.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png": {
   "checked": "2026-08-31",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {
-  "checked": "2026-08-24",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/960px-Fts-phoenix-a.svg.png": {
-  "checked": "2026-08-23",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/960px-Reelz.svg.png": {
@@ -5197,36 +4853,17 @@
   "checked": "2026-08-23",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Estrella_TV_Logo_2020.png/500px-Estrella_TV_Logo_2020.png": {
-  "checked": "2026-08-27",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png": {
   "checked": "2026-08-11",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ICI_Acadie_logo_2018.svg/960px-ICI_Acadie_logo_2018.svg.png": {
-  "checked": "2026-08-31",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {
   "checked": "2026-08-24",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/960px-Ion_logo.svg.png": {
-  "checked": "2026-08-11",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/960px-PIX11_2017.svg.png": {
-  "checked": "2026-08-28",
-  "failures": 0
- },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {
   "checked": "2026-08-24",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/960px-QVC_logo_2019.svg.png": {
-  "checked": "2026-08-13",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png": {
@@ -5245,15 +4882,6 @@
   "checked": "2026-08-13",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/WFUT-DT_(2021).svg/960px-WFUT-DT_(2021).svg.png": {
-  "checked": "2026-08-15",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/960px-WVIT_Logo_2017.svg.png": {
-  "checked": "2026-08-25",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Telemundo_31_(2019).svg/960px-Telemundo_31_(2019).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/960px-FXX_Logo.svg.png": {
   "checked": "2026-08-15",
   "failures": 0
@@ -5262,15 +4890,10 @@
   "checked": "2026-08-11",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/960px-WNBC_4_NY.svg.png": {
-  "checked": "2026-08-14",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/BNN_Bloomberg.svg/960px-BNN_Bloomberg.svg.png": {
   "checked": "2026-08-14",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/CBNT-DT_2017.svg/960px-CBNT-DT_2017.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png": {
   "checked": "2026-08-17",
   "failures": 0
@@ -5283,60 +4906,41 @@
   "checked": "2026-08-15",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/NOST-1080x1080.jpg/250px-NOST-1080x1080.jpg": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Stingray_Music_logo.svg/960px-Stingray_Music_logo.svg.png": {
   "checked": "2026-08-28",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_Real_America%27s_Voice.svg/960px-Logo_Real_America%27s_Voice.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/CHCH2010.svg/960px-CHCH2010.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CBC_Logo_1992-Present.svg/960px-CBC_Logo_1992-Present.svg.png": {
-  "checked": "2026-08-17",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/960px-Fox_News_Channel_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Newsy_2021.svg/960px-Newsy_2021.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/CTV_2_2018.svg/960px-CTV_2_2018.svg.png": {
   "checked": "2026-08-16",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/TBN_logo_2015.jpg/960px-TBN_logo_2015.jpg": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Create_TV_network_logo.svg/960px-Create_TV_network_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/960px-NBC_logo_2022_%28vertical%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/TLN_2015.png/500px-TLN_2015.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/TV5_%28logo%29.svg/960px-TV5_%28logo%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png": {
   "checked": "2026-08-22",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WTVJ_2023.svg/960px-WTVJ_2023.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png/960px-WJAR_LOGO_NBC10_Solid_Calls_vert_blu.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/SRC-TV.svg/960px-SRC-TV.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/960px-FOX_wordmark-red.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/960px-Comet_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/KSNV_logo.svg/960px-KSNV_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TSC_logo.svg/960px-TSC_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/960px-Logo_Univision_2019.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/960px-The_CW_2024.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/ICI_Saskatchewan_logo_2018.svg/960px-ICI_Saskatchewan_logo_2018.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KOMO-TV_(2021).svg/960px-KOMO-TV_(2021).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Fox_Weather_logo.svg/960px-Fox_Weather_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/SEC_Network_logo.svg/960px-SEC_Network_logo.svg.png": {
   "checked": "2026-08-31",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WACX_logo_2021.png/960px-WACX_logo_2021.png": {
   "checked": "2026-08-29",
   "failures": 0
@@ -5346,23 +4950,16 @@
   "checked": "2026-08-23",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fts-austin-a.svg/960px-Fts-austin-a.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cottage_Life_Logo.svg/960px-Cottage_Life_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/960px-AXS_TV_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MoreMax_Logo.svg/960px-MoreMax_Logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/WBTS-LD_NBC_10_Boston_logo.png/960px-WBTS-LD_NBC_10_Boston_logo.png": {
-  "checked": "2026-08-25",
-  "failures": 0
- },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Game_Show_Network_2018.svg/960px-Game_Show_Network_2018.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/ICI_Manitoba_logo_2018.svg/960px-ICI_Manitoba_logo_2018.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/960px-Tvokids-logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/960px-Buzzr_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/USA_Network_logo_%282016%29.svg/960px-USA_Network_logo_%282016%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/960px-WCAUlogo2.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/LocalNow_logo_2020.png/500px-LocalNow_logo_2020.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/960px-We_TV_logo_2014.svg.png": {
   "checked": "2026-08-19",
   "failures": 0
@@ -5374,16 +4971,12 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/960px-Oxygen_TV_%282017_Logo%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/960px-KXAS_2023.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png": {
   "checked": "2026-08-12",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/GEB_logo_blue.png/960px-GEB_logo_blue.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/KTNV_2023.svg/960px-KTNV_2023.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/CTV_Life_Channel_2019.svg/500px-CTV_Life_Channel_2019.svg.png": {
   "checked": "2026-08-17",
   "failures": 0
@@ -5394,7 +4987,7 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/ION_Mystery_logo.svg/960px-ION_Mystery_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/As_seen_on_TV.svg/960px-As_seen_on_TV.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png": {},
@@ -5405,45 +4998,37 @@
   "checked": "2026-08-31",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/en/7/72/WMURCurrentLogo.png": {
-  "checked": "2026-08-23",
-  "failures": 2
- },
- "https://upload.wikimedia.org/wikipedia/en/8/82/Positiv_TV_Network_Logo.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/5/50/Jewelry_television_logo.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/5/5f/The_Family_Channel_Logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png": {},
- "https://upload.wikimedia.org/wikipedia/en/b/bd/CJON-TV.PNG": {},
+ "https://upload.wikimedia.org/wikipedia/en/b/bf/Court_TV_2019.png": {},
  "https://upload.wikimedia.org/wikipedia/en/d/d6/Pursuit_Channel_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/d/d9/KMCT_Monroe%27s_Christian_Television_logo.png": {},
- "https://upload.wikimedia.org/wikipedia/en/d/db/2_ABC_WMAR_Baltimore.png": {
-  "checked": "2026-09-01",
-  "failures": 1
- },
  "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Country_Network_Logo.png": {},
- "https://upload.wikimedia.org/wikipedia/en/e/e1/Story_television_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Cornerstone_Television_logo.png/960px-Cornerstone_Television_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/960px-Big_Ten_Network_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/MeTV_Logo.svg/960px-MeTV_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/thumb/8/85/Quest_logo.png/960px-Quest_logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/960px-True_Crime_Network_logo.svg.png": {
   "checked": "2026-08-26",
   "failures": 4
  },
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png": {},
- "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bounce_TV_logo.svg/960px-Bounce_TV_logo.svg.png": {
-  "checked": "2026-09-01",
-  "failures": 5
- },
  "https://upload.wikimedia.org/wikipedia/ml/1/1c/Flowers-Onam.png": {},
  "https://us1-prod-images.disco-api.com/2020/7/13/4f26aaf2-a993-480d-9675-0d501fb8d86f.png?bf=0&f=png&p=true&q=85&w=250": {
   "checked": "2026-09-01",
   "failures": 0
  },
  "https://vcz-kapang-tv.b-cdn.net/files/thumbs/2026/05/06/1778037346ayAfpsWIMj-300x300-square.png": {
-  "checked": "2026-08-27",
+  "checked": "2026-09-03",
+  "failures": 0
+ },
+ "https://w7.pngwing.com/pngs/570/2/png-transparent-telemundo-nbcuniversal-logo-television-kztv-others-television-show-television-channel-telenovela-thumbnail.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://whiplash.cc/assets/img/channels/atlas.png": {
@@ -5464,6 +5049,10 @@
  },
  "https://whiplash.cc/assets/img/channels/windowtv.png": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://worldchannel.org/static/images/logo-world-channel.png": {
+  "checked": "2026-09-03",
   "failures": 0
  },
  "https://www.acetelevisionnetwork.com/wp-content/uploads/2021/09/ACE_Logo_Medium_White.png": {
@@ -5499,8 +5088,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-09-02",
-  "failures": 30
+  "checked": "2026-09-03",
+  "failures": 31
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-09-01",
@@ -5527,14 +5116,10 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-09-02",
-  "failures": 30
+  "checked": "2026-09-03",
+  "failures": 31
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ETV_TELUGU/images/LOGO_HD/image.png": {
-  "checked": "2026-09-01",
-  "failures": 0
- },
- "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s512-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-09-01",
   "failures": 0
  },
