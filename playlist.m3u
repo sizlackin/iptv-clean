@@ -735,6 +735,8 @@ https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(c55d1594-ad62-7434-aa1
 https://reflect-aurora.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F3I1n7fO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Avang TV",Avang TV
 https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AVIRewind.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fzplay.cl%2FLogosV2%2FAVIREWINDS_NEW.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="AVI Rewind",AVI Rewind
+http://45.70.201.81:8000/play/a010/index.m3u8
 #EXTINF:-1 tvg-id="AWE.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FOjpCtGj.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="AWE",AWE
 https://a-cdn.klowdtv.com/live1/awe_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="AWEInternational.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FVhxtMUQ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="AWE International",AWE International
@@ -1308,9 +1310,6 @@ https://estrella-news-oando.amagi.tv/playlist.m3u8
 https://estrellatv-oando.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="PlutoTVEstrellasdeAccion.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGVOYX4L.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Estrellas de Acción",Estrellas de Acción
 https://jmp2.uk/plu-5e972a21ad709d00074195ba.m3u8
-#EXTINF:-1 tvg-id="ETVTelugu.in@USA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fxstreamcp-assets-msp.streamready.in%2Fassets%2FLIVETV%2FLIVECHANNEL%2FLIVETV_LIVETVCHANNEL_ETV_TELUGU%2Fimages%2FLOGO_HD%2Fimage.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" group-title="Entertainment" tvg-name="ETV Telugu USA",ETV Telugu USA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
-https://livegeorouus.akamaized.net/100823/etvhd_2500/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
 #EXTINF:-1 tvg-id="EWTN.us@English" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fsua70RO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="EWTN",EWTN
 https://cdn3.wowza.com/1/QjRzVXJtVml5SUVx/WGJRSWxz/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="EWTN.us@Spanish" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fsua70RO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="EWTN Spanish",EWTN Spanish
@@ -1341,6 +1340,8 @@ https://jmp2.uk/plu-65775af3b3801200084a3aa4.m3u8
 https://edge-f.swagit.com/live/fernandinabeachfl/live-1-a/playlist.m3u8
 #EXTINF:-1 tvg-id="FGTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FRXFmzVY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="FGTV",FGTV
 https://securestream11.champds.com/LIVE/FultonCoGALIVE/FultonCoGALIVE.m3u8
+#EXTINF:-1 tvg-id="FierroaFondoTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1903618079696773120%2FmaQJpd9__400x400.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Auto" tvg-name="Fierro a Fondo TV",Fierro a Fondo TV
+http://45.70.201.81:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="FilAmTVNetwork.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FnRiApdI.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="FilAmTV Network",FilAmTV Network
 https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F8j2npVc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic" tvg-name="FilmRise Classic TV",FilmRise Classic TV
@@ -3052,6 +3053,8 @@ https://fl1002.bozztv.com/gf-zarintv/index.m3u8
 #EXTINF:-1 tvg-id="ZoomNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F03%2F88%2F22%2F21%2F360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://zoomnews.info/" group-title="News" tvg-name="Zoom TV Kurdish",Zoom TV Kurdish
 #EXTVLCOPT:http-referrer=https://zoomnews.info/
 https://live.zoomnews.info/live/Zoom_playlist.m3u8
+#EXTINF:-1 tvg-id="ZTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fzplay.cl%2Fimg%2Fztv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="ZTV",ZTV
+http://45.70.201.81:8000/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="TNTInternational.ru@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fl0RGbRI.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment" tvg-name="ТНТ International",ТНТ International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
