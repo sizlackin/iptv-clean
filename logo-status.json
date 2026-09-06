@@ -4,7 +4,7 @@
   "failures": 0
  },
  "https://admin.worldlivetv.stream/upload/files/thumbnail/vuth_1676133370_91639_20154.png": {
-  "checked": "2026-08-30",
+  "checked": "2026-09-06",
   "failures": 0
  },
  "https://alabamaweathernetwork.com/wp-content/uploads/2025/07/bpt2ej6u.png": {
@@ -15,7 +15,6 @@
   "checked": "2026-09-04",
   "failures": 0
  },
- "https://babaktv.com/wp-content/uploads/2023/09/30A-Classi-Movies.jpeg": {},
  "https://cbs12.com/resources/media/0c1ecad8-fb09-4bb2-beaa-fc561dfe624a-small21x9_LoomerStill.jpg?1603419052801": {
   "checked": "2026-09-01",
   "failures": 0
@@ -1215,10 +1214,6 @@
  },
  "https://i.imgur.com/GbyHlS2.png": {
   "checked": "2026-09-01",
-  "failures": 0
- },
- "https://i.imgur.com/GfsmfGK.png": {
-  "checked": "2026-09-04",
   "failures": 0
  },
  "https://i.imgur.com/GtNgJ28.png": {
@@ -3170,7 +3165,7 @@
   "failures": 0
  },
  "https://i.imgur.com/lUBnKK1.png": {
-  "checked": "2026-08-30",
+  "checked": "2026-09-06",
   "failures": 0
  },
  "https://i.imgur.com/lZvNXA1.png": {
@@ -4793,6 +4788,10 @@
   "checked": "2026-09-01",
   "failures": 0
  },
+ "https://press.upentertainment.com/wp-content/uploads/2022/03/aspire-tv-life-logo.jpg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
  "https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png": {
   "checked": "2026-09-01",
   "failures": 0
@@ -4857,6 +4856,22 @@
   "checked": "2026-09-01",
   "failures": 0
  },
+ "https://static.hbo.com/2025-09/Cinemax_Classics_Plex_Logo_bw.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
+ "https://static.hbo.com/2025-09/Cinemax_Hits_Plex_Logo_bw.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
+ "https://static.hbo.com/2025-09/HBO_Hits_Plex_Logo_bw.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
+ "https://static.hbo.com/2025-09/HBO_Movies_Plex_Logo_bw.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
  "https://static.wikia.nocookie.net/logopedia/images/1/12/0mk7F5ao.png/revision/latest/scale-to-width-down/512": {
   "checked": "2026-09-03",
   "failures": 0
@@ -4886,11 +4901,15 @@
   "failures": 0
  },
  "https://static.wixstatic.com/media/ba7a6c_6cc667c69cf24b94934b9d7f2e9853a5~mv2.png": {
-  "checked": "2026-08-30",
+  "checked": "2026-09-06",
   "failures": 0
  },
  "https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg": {
   "checked": "2026-09-01",
+  "failures": 0
+ },
+ "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Showtime_Family_Zone.svg/960px-Showtime_Family_Zone.svg.png": {
+  "checked": "2026-09-06",
   "failures": 0
  },
  "https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png": {
@@ -4901,13 +4920,22 @@
   "checked": "2026-09-01",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kentucky_Educational_Television_logo_in_2019_PBS_color.svg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kentucky_Educational_Television_logo_in_2019_PBS_color.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
   "checked": "2026-09-02",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {},
+ "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {
+  "checked": "2026-09-06",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
   "checked": "2026-09-02",
   "failures": 0
@@ -4941,7 +4969,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
-  "checked": "2026-08-30",
+  "checked": "2026-09-06",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/GEB_logo_blue.png": {
@@ -4980,10 +5008,6 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png": {
   "checked": "2026-08-23",
-  "failures": 0
- },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/960px-Showtime.svg.png": {
-  "checked": "2026-09-04",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png": {
@@ -5087,7 +5111,6 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Cottage_Life_Logo.svg/960px-Cottage_Life_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/960px-AXS_TV_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/MS_NOW_logo.svg/960px-MS_NOW_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/MoreMax_Logo.svg/960px-MoreMax_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Game_Show_Network_2018.svg/960px-Game_Show_Network_2018.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/960px-ESPN_Deportes.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tvokids-logo.svg/960px-Tvokids-logo.svg.png": {},
@@ -5224,8 +5247,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-09-05",
-  "failures": 33
+  "checked": "2026-09-06",
+  "failures": 34
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-09-01",
@@ -5252,8 +5275,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-09-05",
-  "failures": 33
+  "checked": "2026-09-06",
+  "failures": 34
  },
  "https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-09-01",
