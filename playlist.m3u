@@ -1690,11 +1690,11 @@ https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19
 https://amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg02713-amg02713c11-amgplt0852/playlist.m3u8
 #EXTINF:-1 tvg-id="HauntTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F63934c218ef524000757b122%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Haunt TV",Haunt TV
 https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="HBOHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.hbo.com%2F2025-09%2FHBO_Hits_Plex_Logo_bw.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits",HBO Hits
+#EXTINF:-1 tvg-id="HBOHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits",HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
-#EXTINF:-1 tvg-id="HBOHits.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.hbo.com%2F2025-09%2FHBO_Hits_Plex_Logo_bw.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits East",HBO Hits East
+#EXTINF:-1 tvg-id="HBOHits.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits East",HBO Hits East
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
-#EXTINF:-1 tvg-id="HBOMovies.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.hbo.com%2F2025-09%2FHBO_Movies_Plex_Logo_bw.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Movies",HBO Movies
+#EXTINF:-1 tvg-id="HBOMovies.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F56%2FHBO_Movies_Logo.svg%2F960px-HBO_Movies_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Movies",HBO Movies
 http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FbVbpgiD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="HCTV Educational Access Channel",HCTV Educational Access Channel
 https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
@@ -2684,6 +2684,8 @@ https://livestream.telvue.com/roguevalleycmttv1/f7b44cfafd5c52223d5498196c8a2e7b
 https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjcIprmt.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ryan and Friends",Ryan and Friends
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="SFree.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2FDZ47qB39%2FIn-Shot-20260816-210045369.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Free!",S Free!
+https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8
 #EXTINF:-1 tvg-id="SPremium.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2FMp1TTWq0%2FIn-Shot-20260818-135217619.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Premium!",S Premium!
 https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaDbc64y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Salem News Channel",Salem News Channel
@@ -2885,7 +2887,7 @@ https://d3f4oii5n0oeqi.cloudfront.net/11701/88814573/hls/master.m3u8?ads.xumo_ch
 #EXTINF:-1 tvg-id="TelemundoCorpusChristi.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F98%2FTelemundo_Corpus_Christi_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Telemundo Corpus Christi",Telemundo Corpus Christi
 https://content.uplynk.com/channel/b6a96ed39d694ae1b738faa98cf7dd3f.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ftelemundo_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Telemundo East",Telemundo East
-http://45.190.13.8/TelemundoHD/index.m3u8
+https://streamer1.nexgen.bz/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="TelemundoTelenovelasClasicas.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F9bPcYIN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Telemundo telenovelas clásicas",Telemundo telenovelas clásicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
 #EXTINF:-1 tvg-id="Telemundo.us@West" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ftelemundo_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Telemundo West",Telemundo West
