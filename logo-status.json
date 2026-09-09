@@ -552,10 +552,6 @@
   "checked": "2026-09-08",
   "failures": 0
  },
- "https://i.imgur.com/5aibRWY.png": {
-  "checked": "2026-09-03",
-  "failures": 0
- },
  "https://i.imgur.com/5iT7hEa.png": {
   "checked": "2026-09-08",
   "failures": 0
@@ -2285,7 +2281,7 @@
   "failures": 0
  },
  "https://i.imgur.com/WE0cRXR.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://i.imgur.com/WJEkKCb.png": {
@@ -3085,7 +3081,7 @@
   "failures": 0
  },
  "https://i.imgur.com/jjUzuLV.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://i.imgur.com/jmkLR6L.png": {
@@ -3337,7 +3333,7 @@
   "failures": 0
  },
  "https://i.imgur.com/nyLrIPP.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://i.imgur.com/nydZWwg.png": {
@@ -3829,7 +3825,7 @@
   "failures": 0
  },
  "https://i.imgur.com/wkzwXFO.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://i.imgur.com/wlYUEYc.png": {
@@ -4053,7 +4049,7 @@
   "failures": 0
  },
  "https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png": {
-  "checked": "2026-09-01",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://iili.io/JGqD21e.png": {
@@ -4969,7 +4965,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {
@@ -4977,7 +4973,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/6/69/ShopHQ_2019_Logo.png": {
@@ -5036,6 +5032,10 @@
   "checked": "2026-09-08",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Paramount%2B_with_Showtime_logo.svg/960px-Paramount%2B_with_Showtime_logo.svg.png": {
+  "checked": "2026-09-09",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ICI_RDI_logo.svg/960px-ICI_RDI_logo.svg.png": {
   "checked": "2026-09-03",
   "failures": 0
@@ -5064,7 +5064,10 @@
   "checked": "2026-09-04",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png": {
+  "checked": "2026-09-09",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {
   "checked": "2026-08-24",
   "failures": 0
@@ -5134,7 +5137,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/TV5_%28logo%29.svg/960px-TV5_%28logo%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/960px-Newsmax_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/MovieSphere_Gold_2025_logo.svg/500px-MovieSphere_Gold_2025_logo.svg.png": {
+  "checked": "2026-09-09",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png": {
   "checked": "2026-08-22",
   "failures": 0
@@ -5173,6 +5179,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Vice_TV_logo.svg/960px-Vice_TV_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Starz_Encore_Espa%C3%B1ol_Logo_2022.svg/960px-Starz_Encore_Espa%C3%B1ol_Logo_2022.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png": {
   "checked": "2026-08-14",
   "failures": 0
@@ -5195,7 +5202,10 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/As_seen_on_TV.svg/960px-As_seen_on_TV.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/As_seen_on_TV.svg/960px-As_seen_on_TV.svg.png": {
+  "checked": "2026-09-09",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Daystar_(2008%E2%80%93present)_unmodified_logo.svg/960px-Daystar_(2008%E2%80%93present)_unmodified_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/960px-2024_Disney_Channel_text_logo.svg.png": {},
@@ -5264,8 +5274,8 @@
   "failures": 0
  },
  "https://www.acetelevisionnetwork.com/wp-content/uploads/2021/09/ACE_Logo_Medium_White.png": {
-  "checked": "2026-09-08",
-  "failures": 1
+  "checked": "2026-09-09",
+  "failures": 0
  },
  "https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel53-147x150-square.png": {
   "checked": "2026-09-08",
@@ -5296,15 +5306,15 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-09-08",
-  "failures": 36
+  "checked": "2026-09-09",
+  "failures": 37
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-09-08",
   "failures": 0
  },
  "https://www.tablotv.com/wp-content/uploads/2025/05/Osteen_black.png": {
-  "checked": "2026-09-02",
+  "checked": "2026-09-09",
   "failures": 0
  },
  "https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg": {
@@ -5324,8 +5334,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-09-08",
-  "failures": 36
+  "checked": "2026-09-09",
+  "failures": 37
  },
  "https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-09-08",

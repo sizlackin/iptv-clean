@@ -2748,6 +2748,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywoo
 https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
 #EXTINF:-1 tvg-id="ShoutFactoryTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FAgoGr6y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Shout! TV",Shout! TV
 https://d1s1wrpgemt9re.cloudfront.net/Shout_TV.m3u8
+#EXTINF:-1 tvg-id="Showtime.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F09%2FParamount%252B_with_Showtime_logo.svg%2F960px-Paramount%252B_with_Showtime_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Showtime",Showtime
+http://4.30.180.36:8420/showtime/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="ShowtimeFamilyZone.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F0b%2FShowtime_Family_Zone.svg%2F960px-Showtime_Family_Zone.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Family" tvg-name="Showtime Family Zone",Showtime Family Zone
 http://23.237.104.106:8080/USA_SHOWTIME_FAMILY/index.m3u8
 #EXTINF:-1 tvg-id="SitcomLegends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F633354b63df9700007f6a1b7%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Sitcom Legends",Sitcom Legends
@@ -2804,7 +2806,7 @@ http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
 #EXTINF:-1 tvg-id="StarzEdge.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMvH3Cz2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz Edge",Starz Edge
 http://168.228.44.241:9998/play/a0e0/index.m3u8
-#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5aibRWY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz Encore Spanish",Starz Encore Spanish
+#EXTINF:-1 tvg-id="StarzEncoreSpanish.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdd%2FStarz_Encore_Espa%25C3%25B1ol_Logo_2022.svg%2F960px-Starz_Encore_Espa%25C3%25B1ol_Logo_2022.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz Encore Spanish",Starz Encore Spanish
 http://168.228.44.241:9998/play/a0e1/index.m3u8
 #EXTINF:-1 tvg-id="StarzKidsFamily.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FeE9FzEP.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Starz Kids & Family",Starz Kids & Family
 http://23.237.104.106:8080/USA_STARZ_FAMILY/index.m3u8
@@ -3130,6 +3132,8 @@ https://d3ify425qsio2d.cloudfront.net/playlist.m3u8
 http://190.197.41.183/Unimas/mono.m3u8
 #EXTINF:-1 tvg-id="UniMas.us@Mountain" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F34%2FLogo_UniM%25C3%25A1s_2021.svg%2F960px-Logo_UniM%25C3%25A1s_2021.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="UniMas Mountain",UniMas Mountain
 http://168.228.44.241:9997/play/a09e/index.m3u8
+#EXTINF:-1 tvg-id="UniMas.us@WFUTDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3b%2FWFUT-DT_%282021%29.svg%2F960px-WFUT-DT_%282021%29.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="UniMas WFUT-DT",UniMas WFUT-DT
+http://4.30.180.36:8420/wfutdt/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="UniversalComedy.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FavBL8pQ.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Comedy;Movies;Series" tvg-name="Universal Comedy",Universal Comedy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
@@ -3256,8 +3260,6 @@ http://181.224.255.210:8001/play/a0rq/index.m3u8
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@WFTXTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F27%2FWWAY_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="WFTX News Fort Myers FL",WFTX News Fort Myers FL
 https://content.uplynk.com/channel/8975f81e6efd4e609873c3e8e25c7756.m3u8
-#EXTINF:-1 tvg-id="UniMas.us@WFUTDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3b%2FWFUT-DT_%282021%29.svg%2F960px-WFUT-DT_%282021%29.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="WFUT-DT1",WFUT-DT1
-https://streaming-live-fcdn.api.prd.univisionnow.com/wfut/wfut.isml/hls/wfut.m3u8
 #EXTINF:-1 tvg-id="MovieSphereGold.us@WFXT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F87%2FMovieSphere_Gold_2025_logo.svg%2F500px-MovieSphere_Gold_2025_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="WFXT-DT2",WFXT-DT2
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="Univision.us@WGBODT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5RIEi99.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="http://tv.univision.com/player/channel/univision-chicago" group-title="Undefined" tvg-name="WGBO-DT 66.1",WGBO-DT 66.1
