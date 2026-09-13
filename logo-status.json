@@ -4,7 +4,7 @@
   "failures": 0
  },
  "https://admin.worldlivetv.stream/upload/files/thumbnail/vuth_1676133370_91639_20154.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://alabamaweathernetwork.com/wp-content/uploads/2025/07/bpt2ej6u.png": {
@@ -1696,10 +1696,6 @@
   "checked": "2026-09-08",
   "failures": 0
  },
- "https://i.imgur.com/N7oSm4d.png": {
-  "checked": "2026-09-08",
-  "failures": 0
- },
  "https://i.imgur.com/N9nQpnP.png": {
   "checked": "2026-09-08",
   "failures": 0
@@ -3165,7 +3161,7 @@
   "failures": 0
  },
  "https://i.imgur.com/lUBnKK1.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://i.imgur.com/lZvNXA1.png": {
@@ -4185,8 +4181,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-09-12",
-  "failures": 1
+  "checked": "2026-09-13",
+  "failures": 0
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-09-08",
@@ -4817,7 +4813,7 @@
   "failures": 0
  },
  "https://press.upentertainment.com/wp-content/uploads/2022/03/aspire-tv-life-logo.jpg": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://provider-static.plex.tv/a/epg/channels/logos/gracenote/a1a2cdc3d6f0714c586e9959732580c7.png": {
@@ -4913,7 +4909,7 @@
   "failures": 0
  },
  "https://static.wixstatic.com/media/ba7a6c_6cc667c69cf24b94934b9d7f2e9853a5~mv2.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://t4.ftcdn.net/jpg/03/88/22/21/360_F_388222175_D6PTsMoUyegpPJ63zvkecPsZAttc95mD.jpg": {
@@ -4921,7 +4917,7 @@
   "failures": 0
  },
  "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Showtime_Family_Zone.svg/960px-Showtime_Family_Zone.svg.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/HBO_Movies_Logo.svg/960px-HBO_Movies_Logo.svg.png": {
@@ -4941,7 +4937,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kentucky_Educational_Television_logo_in_2019_PBS_color.svg": {
@@ -4953,7 +4949,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg": {
@@ -4973,7 +4969,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {
-  "checked": "2026-09-05",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/Telemundo_Corpus_Christi_logo.png": {
@@ -4989,7 +4985,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/FNX_Web_Logo.png": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-13",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/GEB_logo_blue.png": {
@@ -5169,7 +5165,6 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/FXM_Logo.svg/960px-FXM_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png": {
   "checked": "2026-08-12",
   "failures": 0
@@ -5287,8 +5282,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-09-12",
-  "failures": 40
+  "checked": "2026-09-13",
+  "failures": 41
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-09-08",
@@ -5315,8 +5310,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-09-12",
-  "failures": 40
+  "checked": "2026-09-13",
+  "failures": 41
  },
  "https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-09-08",

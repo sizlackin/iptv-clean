@@ -1584,8 +1584,6 @@ https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
 #EXTINF:-1 tvg-id="FX.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4d%2FFX_International_logo.svg%2F960px-FX_International_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="FX",FX
 http://23.237.104.106:8080/USA_FX/index.m3u8
-#EXTINF:-1 tvg-id="FXMovieChannel.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe7%2FFXM_Logo.svg%2F960px-FXM_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="FX Movie Channel",FX Movie Channel
-https://sra72yz.s.gy/FX_MOVIE_CHANNEL_US.m3u8
 #EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FENj5GIp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Gagsnetwork",Gagsnetwork
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1 tvg-id="Community12TV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FOel3q43.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Gainesville Community 12TV (Gainesville FL)",Gainesville Community 12TV (Gainesville FL)
@@ -2327,17 +2325,17 @@ https://nhl-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="NHRATV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjZgcm4k.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="NHRA TV",NHRA TV
 https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKT4tdQs.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr.",Nick Jr.
-https://sra72yz.s.gy/NICK_JR_US.m3u8
+http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62bdb75c3afd1200079146a6%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FE84jnP8.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nickelodeon",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeonenespanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5d8d08395f39465da6fb3ec4%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nickelodeon en español",Nickelodeon en español
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 #EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5ca673e0d0bd6c2689c94ce3%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Nickelodeon Pluto TV",Nickelodeon Pluto TV
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F654ca7f92c1d3300086b608c%2FcolorLogoPNG_1751457678592.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nicktoons",Nicktoons
-https://sra72yz.s.gy/NICKTOONS_US.m3u8
+http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7EngqUi.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ninja Kidz",Ninja Kidz
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="NorCastWeather.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FAfjoZgo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="NorCast Weather",NorCast Weather
@@ -2810,8 +2808,6 @@ https://jmp2.uk/plu-65c69bbfd77d450008c7ffee.m3u8
 https://jmp2.uk/plu-695c32e61ca20bb8ca802eb9.m3u8
 #EXTINF:-1 tvg-id="StarTrekVoyager.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F634dacf51d90320007fcd5fa%2FcolorLogoPNG_1758310287876.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="Star Trek: Voyager",Star Trek: Voyager
 https://jmp2.uk/plu-634dacf51d90320007fcd5fa.m3u8
-#EXTINF:-1 tvg-id="Starz.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FN7oSm4d.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Starz",Starz
-http://23.237.104.106:8080/USA_STARZ/index.m3u8
 #EXTINF:-1 tvg-id="StarzCinema.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FghzzKoT.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Starz Cinema",Starz Cinema
 http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
 #EXTINF:-1 tvg-id="StarzComedy.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJpKvjZe.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Starz Comedy",Starz Comedy
