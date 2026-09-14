@@ -900,10 +900,6 @@
   "checked": "2026-09-08",
   "failures": 0
  },
- "https://i.imgur.com/BhHKphL.png": {
-  "checked": "2026-09-08",
-  "failures": 0
- },
  "https://i.imgur.com/Bl8X7EW.png": {
   "checked": "2026-09-08",
   "failures": 0
@@ -1609,7 +1605,7 @@
   "failures": 0
  },
  "https://i.imgur.com/Lv6HuCT.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://i.imgur.com/Lwwq62E.png": {
@@ -2465,7 +2461,7 @@
   "failures": 0
  },
  "https://i.imgur.com/ZQ5uRhr.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://i.imgur.com/Zh60l1x.png": {
@@ -3237,7 +3233,7 @@
   "failures": 0
  },
  "https://i.imgur.com/n057TgX.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://i.imgur.com/n24MrsX.png": {
@@ -3401,7 +3397,7 @@
   "failures": 0
  },
  "https://i.imgur.com/pj0O5nu.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://i.imgur.com/pnm60bq.png": {
@@ -4717,7 +4713,7 @@
   "failures": 0
  },
  "https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg": {
@@ -4725,11 +4721,11 @@
   "failures": 0
  },
  "https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://imgx.fubo.tv/station_logos/telemundo_c.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png": {
@@ -4941,7 +4937,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/1/1c/Kentucky_Educational_Television_logo_in_2019_PBS_color.svg": {
-  "checked": "2026-09-06",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png": {
@@ -4989,7 +4985,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/e/e8/GEB_logo_blue.png": {
-  "checked": "2026-09-05",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/DPel%C3%ADcula_2021.svg/960px-DPel%C3%ADcula_2021.svg.png": {
@@ -4997,7 +4993,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png": {
@@ -5021,7 +5017,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Stingray_Djazz.png/960px-Stingray_Djazz.png": {
-  "checked": "2026-09-07",
+  "checked": "2026-09-14",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/960px-CTV_logo_2018.svg.png": {
@@ -5124,7 +5120,10 @@
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/960px-Russia-today-logo.svg.png": {
+  "checked": "2026-09-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/960px-2015_Disney_XD_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/TSC_logo.svg/960px-TSC_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Galavision_Logo_2024.svg/960px-Galavision_Logo_2024.svg.png": {},
@@ -5164,7 +5163,10 @@
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png": {},
- "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Disney_Jr._Logo.svg/960px-2024_Disney_Jr._Logo.svg.png": {
+  "checked": "2026-09-14",
+  "failures": 0
+ },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Circle_Network_logo.svg/960px-Circle_Network_logo.svg.png": {
   "checked": "2026-08-12",
   "failures": 0
@@ -5282,8 +5284,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-09-13",
-  "failures": 41
+  "checked": "2026-09-14",
+  "failures": 42
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-09-08",
@@ -5310,8 +5312,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-09-13",
-  "failures": 41
+  "checked": "2026-09-14",
+  "failures": 42
  },
  "https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-09-08",
