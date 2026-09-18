@@ -215,6 +215,8 @@ http://temp2.isilive.ca/live/nunavut/live-eng/index.m3u8
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@4K" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Ftv.lovenature.com%2Fwp-content%2Fuploads%2F2024%2F10%2FLoveNature2024_Logo_full_colour-copy.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Love Nature",Love Nature
 https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
+#EXTINF:-1 tvg-id="LoveNature.ca@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Ftv.lovenature.com%2Fwp-content%2Fuploads%2F2024%2F10%2FLoveNature2024_Logo_full_colour-copy.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Love Nature",Love Nature
+https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 #EXTINF:-1 tvg-id="Matlock.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F63da365f60bc8f0008a50f44%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Matlock",Matlock
 https://jmp2.uk/plu-63da365f60bc8f0008a50f44.m3u8
 #EXTINF:-1 tvg-id="MHZ.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fa5fw83n.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="MHZ",MHZ
@@ -409,7 +411,7 @@ https://d10cyxntpn0bwm.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHotCountry.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FPZhxyIT.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Stingray Hot Country",Stingray Hot Country
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayiConcerts.ca@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGKc7RFz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Stingray iConcerts",Stingray iConcerts
-https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
+http://str2.iptvhd.ru:8080/iConcertsHD/index.m3u8
 #EXTINF:-1 tvg-id="StingrayJukeboxOldies.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5b%2FStingray_Music_logo.svg%2F960px-Stingray_Music_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Stingray Jukebox Oldies",Stingray Jukebox Oldies
 https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayKaraoke.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F9TLTLS3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Stingray Karaoke",Stingray Karaoke
@@ -661,8 +663,6 @@ https://abcnews-streams.akamaized.net/hls/live/2023567/abcnewshudson8/master.m3u
 https://abcnews-streams.akamaized.net/hls/live/2023568/abcnewshudson9/master.m3u8
 #EXTINF:-1 tvg-id="ABCNewsLive10.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F63%2FABC_News_Live_logo_2021.svg%2F960px-ABC_News_Live_logo_2021.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="ABC News Live 10",ABC News Live 10
 https://abcnews-streams.akamaized.net/hls/live/2023569/abcnewshudson10/master.m3u8
-#EXTINF:-1 tvg-id="ABC.us@West" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpvXZ8DX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="ABC West",ABC West
-http://stream.cammonitorplus.net/1797/index.m3u8
 #EXTINF:-1 tvg-id="ABC.us@WWAY" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpvXZ8DX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="ABC WWAY 3",ABC WWAY 3
 https://townnews.g-mana.live/media/027a05c7-43b6-49eb-ad10-a0c0f10a0754/main.m3u8
 #EXTINF:-1 tvg-id="ABHPTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FQznvBD7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="ABHP TV",ABHP TV
@@ -1588,7 +1588,7 @@ http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1 tvg-id="Community12TV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FOel3q43.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Gainesville Community 12TV (Gainesville FL)",Gainesville Community 12TV (Gainesville FL)
 https://lin10.isilive.ca/live/gainesville/live/index.m3u8
 #EXTINF:-1 tvg-id="Galavision.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Faf%2FGalavision_Logo_2024.svg%2F960px-Galavision_Logo_2024.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Galavision",Galavision
-https://streaming-live-fcdn.api.prd.univisionnow.com/galaeast/galaeast.isml/hls/galaeast.m3u8
+http://200.115.120.1:8000/play/ca128/index.m3u8
 #EXTINF:-1 tvg-id="Galavision.us@West" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Faf%2FGalavision_Logo_2024.svg%2F960px-Galavision_Logo_2024.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Galavision West",Galavision West
 https://streaming-live-fcdn.api.prd.univisionnow.com/galawest/galawest.isml/hls/galawest.m3u8
 #EXTINF:-1 tvg-id="GalvestonCountyTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuzjuxdI.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Galveston County TV",Galveston County TV
@@ -2468,7 +2468,7 @@ https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
 #EXTINF:-1 tvg-id="PBS.us@WNET" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F27%2FWWAY_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="PBS WNET",PBS WNET
 http://4.30.180.36:8420/wnethd/index.m3u8?token=test
 #EXTINF:-1 tvg-id="PeopleAreAwesome.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMsIx7Ax.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="People Are Awesome",People Are Awesome
-https://jukin-peopleareawesome-2-au.samsung.wurl.tv/playlist.m3u8
+https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8
 #EXTINF:-1 tvg-id="PeppaPig.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5d14fb6c84dd37df3b4290c5%2FcolorLogoPNG_1730733871298.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Peppa Pig",Peppa Pig
 https://jmp2.uk/plu-5d14fb6c84dd37df3b4290c5.m3u8
 #EXTINF:-1 tvg-id="PerryMason.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F63e20bd160bc8f0008b4c949%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Perry Mason",Perry Mason
@@ -2903,6 +2903,8 @@ https://reflect-temecula.cablecast.tv/live-2/live/stream-1/live.m3u8
 https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/tempe/G0355_003/chunklist.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FtsljAnY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Tennis Channel",Tennis Channel
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 tvg-id="TennisChannel2.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimage-resizer-cloud-cdn.api.cms.amdvids.com%2Fimage%2F7382296F-97F6-4450-B77B-8FE331FC04F6%2F3-1x1.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Tennis Channel 2",Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="TennisChannel.us@Plus2" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FtsljAnY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="TennisChannel 2",TennisChannel 2
 https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
 #EXTINF:-1 tvg-id="TerraMaterWILD.de@English" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FEbMK3Ph.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary" tvg-name="Terra Mater WILD English",Terra Mater WILD English
