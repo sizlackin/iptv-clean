@@ -1170,6 +1170,8 @@ https://d1si3n1st4nkgb.cloudfront.net/10502/88886011/hls/master.m3u8?ads.xumo_ch
 https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CineTerror.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5f12111c9e6c2c00078ef3bb%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Cine Terror",Cine Terror
 https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
+#EXTINF:-1 tvg-id="CinemaxAction.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F7%2F78%2FCinemax_Action_Logo.png%2F960px-Cinemax_Action_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Cinemax Action East",Cinemax Action East
+https://sra72yz.s.gy/CINEMAX_ACTION_HD.m3u8
 #EXTINF:-1 tvg-id="CinemaxClassics.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F6%2F66%2FCinemax_Classics_Logo.png%2F960px-Cinemax_Classics_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Cinemax Classics",Cinemax Classics
 http://23.237.104.106:8080/USA_5STARMAX/index.m3u8
 #EXTINF:-1 tvg-id="CinemaxHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2Ff%2Ffb%2FCinemax_Hits_Logo.png%2F960px-Cinemax_Hits_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Cinemax Hits",Cinemax Hits
@@ -1715,8 +1717,8 @@ https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19
 https://amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg02713-amg02713c11-amgplt0852/playlist.m3u8
 #EXTINF:-1 tvg-id="HauntTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F63934c218ef524000757b122%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="HauntTV",HauntTV
 https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="HBOHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits",HBO Hits
-http://tvsen7.aynascope.net/hbo2/index.m3u8
+#EXTINF:-1 tvg-id="HBODrama.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F5c%2FHBO_Drama_Logo.svg%2F960px-HBO_Drama_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Drama",HBO Drama
+https://sra72yz.s.gy/HBO_DRAMA_HD.m3u8
 #EXTINF:-1 tvg-id="HBOHits.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits East",HBO Hits East
 http://4.30.180.36:8420/hbo2/index.m3u8?token=test
 #EXTINF:-1 tvg-id="HBOMovies.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F56%2FHBO_Movies_Logo.svg%2F960px-HBO_Movies_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Movies",HBO Movies
@@ -2327,6 +2329,8 @@ https://nhl-firetv.amagi.tv/playlist.m3u8
 https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKT4tdQs.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. (United States)",Nick Jr. (United States)
 http://212.5.144.156:8080/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKT4tdQs.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. (United States) East",Nick Jr. (United States) East
+https://sra72yz.s.gy/NICK_JR_HD.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62bdb75c3afd1200079146a6%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FE84jnP8.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nickelodeon (United States)",Nickelodeon (United States)
@@ -2336,7 +2340,7 @@ https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 #EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5ca673e0d0bd6c2689c94ce3%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Nickelodeon Pluto TV",Nickelodeon Pluto TV
 https://jmp2.uk/plu-5ca673e0d0bd6c2689c94ce3.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F654ca7f92c1d3300086b608c%2FcolorLogoPNG_1751457678592.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nicktoons (United States)",Nicktoons (United States)
-http://41.205.93.154/NICKTOONS/index.m3u8
+https://sra72yz.s.gy/NICKTOONS_HD.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7EngqUi.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ninja Kidz TV",Ninja Kidz TV
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="NMBTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHTNoNnh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="NMBTV",NMBTV
