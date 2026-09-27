@@ -257,6 +257,12 @@ https://jmp2.uk/plu-65cf8d7428730900087c5907.m3u8
 https://jmp2.uk/plu-62f4f5de1c100100075665ef.m3u8
 #EXTINF:-1 tvg-id="NCISLosAngeles.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F66a106c8a79dea0008aa5ef3%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="NCIS: Los Angeles (United States)",NCIS: Los Angeles (United States)
 https://jmp2.uk/plu-66a106c8a79dea0008aa5ef3.m3u8
+#EXTINF:-1 tvg-id="NewChannel.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fvideocdn.bamboo-cloud.com%2Fp%2F11294%2Fsp%2F1129400%2Fthumbnail%2Fentry_id%2F0_hd6fo6eq%2Fversion%2F100002%2Fwidth%2F1920&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4" group-title="Kids;Music" tvg-name="New Channel",New Channel
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4
+https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
+#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fvideocdn.bamboo-cloud.com%2Fp%2F11294%2Fsp%2F1129400%2Fthumbnail%2Fentry_id%2F0_vjhh0bly%2Fversion%2F100012%2Fwidth%2F1920&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85" group-title="Kids" tvg-name="New Channel Pop!",New Channel Pop!
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62bdb75c3afd1200079146a6%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. Pluto TV CA",Nick Jr. Pluto TV CA
 https://jmp2.uk/plu-62bdb75c3afd1200079146a6.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F654ca7f92c1d3300086b608c%2FcolorLogoPNG_1751457678592.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nicktoons (United States) CA",Nicktoons (United States) CA
@@ -1866,6 +1872,8 @@ https://lightning-fnf-samsungaus.amagi.tv/playlist.m3u8
 https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8
 #EXTINF:-1 tvg-id="KBRI8.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fr8lLsyh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="KBRI-8",KBRI-8
 https://brightonco.cablecast.tv/live-4/live/live.m3u8
+#EXTINF:-1 tvg-id="KBSAmerica.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Flogopedia%2Fimages%2Fb%2Fb5%2FKBS_America_2020.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="KBS America",KBS America
+https://xyktmobile00.s.gy/PPV918_KBSAMERI
 #EXTINF:-1 tvg-id="KBSV231.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F6lklsyN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General;Religious" tvg-name="KBSV 23.1",KBSV 23.1
 http://66.242.170.53/hls/live/temp/index.m3u8
 #EXTINF:-1 tvg-id="KCAT.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FZAypRkk.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="KCAT",KCAT
@@ -2729,6 +2737,9 @@ https://vodcdn.bamboo-cloud.com/livehls/6a81c67306304414d27742d3/master.m3u8
 https://vodcdn.bamboo-cloud.com/livehls/6aac8803063044569e156563/master.m3u8
 #EXTINF:-1 tvg-id="SMetroTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2F1z72qQKC%2FIn-Shot-20260908-064106298.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Metro TV",S Metro TV
 https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8
+#EXTINF:-1 tvg-id="SPlayEvent.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2F5y6t70Mz%2FIn-Shot-20260908-113231556.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://splay.bamboo-cloud.com/channel/6aa1fc1f063044342e102703" group-title="Kids" tvg-name="S Play Event",S Play Event
+#EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6aa1fc1f063044342e102703
+https://vodcdn.bamboo-cloud.com/livehls/6a9f929f0630443af52c7162/master.m3u8
 #EXTINF:-1 tvg-id="SPremium.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2FMp1TTWq0%2FIn-Shot-20260818-135217619.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Premium!",S Premium!
 https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaDbc64y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Salem News Channel",Salem News Channel
@@ -3196,6 +3207,8 @@ http://168.228.44.241:9997/play/a09e/index.m3u8
 http://4.30.180.36:8420/wfutdt/mono.m3u8?token=test
 #EXTINF:-1 tvg-id="UniMas.us@WXTVDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F34%2FLogo_UniM%25C3%25A1s_2021.svg%2F960px-Logo_UniM%25C3%25A1s_2021.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="UniMas WXTV-DT",UniMas WXTV-DT
 https://streaming-live-fcdn.api.prd.univisionnow.com/wxtv/wxtv.isml/hls/wxtv.m3u8
+#EXTINF:-1 tvg-id="UniversalCinema.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FXxfET68.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Universal Cinema",Universal Cinema
+http://45.167.1.138:8000/play/a06m
 #EXTINF:-1 tvg-id="UniversalComedy.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FavBL8pQ.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" group-title="Comedy;Movies;Series" tvg-name="Universal Comedy",Universal Comedy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8
