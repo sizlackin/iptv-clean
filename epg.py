@@ -255,6 +255,21 @@ def open_guide(url: str):
     return response
 
 
+# A few guide channel names per file go into the stats, so it's easy to see
+# how a file names its channels when it stops matching.
+SAMPLE_FIRST = 8
+SAMPLE_WORDS = ("mega", "kntv", "wcau", "nbc", "telemundo", "univision", "golazo", "tudn", "bein", "fox")
+SAMPLE_MAX = 30
+
+
+def record_sample(samples: list[list[object]], xmltv_id: str, names: list[str]) -> None:
+    if len(samples) >= SAMPLE_MAX:
+        return
+    text = f"{xmltv_id} {' '.join(names)}".casefold()
+    if len(samples) < SAMPLE_FIRST or any(word in text for word in SAMPLE_WORDS):
+        samples.append([xmltv_id, names[:3]])
+
+
 def harvest(
     stream,
     source_rank: int,
@@ -263,9 +278,11 @@ def harvest(
     window_end: int,
     candidates: dict[str, tuple[tuple[int, int, int], str]],
     programmes: dict[str, list[dict[str, object]]],
+    samples: list[list[object]],
 ) -> tuple[int, int]:
     """Read one XMLTV document. Returns (guide channels matched, programmes kept)."""
     guide_to_tvg: dict[str, dict[str, int]] = {}
+    samples.clear()
     order = 0
     matched = 0
     kept = 0
@@ -283,6 +300,7 @@ def harvest(
             element.clear()
             if not xmltv_id:
                 continue
+            record_sample(samples, xmltv_id, names)
             found = match_guide_channel(index, xmltv_id, names)
             if not found:
                 continue
@@ -351,9 +369,10 @@ def main() -> None:
     for rank, url in enumerate(sources):
         print(f"Fetching {url}")
         try:
+            samples: list[list[object]] = []
             with open_guide(url) as stream:
                 matched, kept = harvest(
-                    stream, rank, index, window_start, window_end, candidates, programmes
+                    stream, rank, index, window_start, window_end, candidates, programmes, samples
                 )
         except (urllib.error.URLError, OSError, TimeoutError, EOFError) as exc:
             print(f"  ! skipped ({exc})")
@@ -365,7 +384,10 @@ def main() -> None:
             continue
         print(f"  matched {matched} guide channels, kept {kept} programmes")
         used_sources.append(url)
-        source_stats.append({"url": url, "matched": matched, "programmes": kept})
+        entry = {"url": url, "matched": matched, "programmes": kept}
+        if matched < 40:
+            entry["sample_channels"] = samples
+        source_stats.append(entry)
 
     collected: dict[str, list[dict[str, object]]] = {}
     tiers = {0: 0, 1: 0, 2: 0}
