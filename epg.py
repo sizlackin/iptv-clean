@@ -83,7 +83,21 @@ CALLSIGN_FEED_RE = re.compile(r"^([CKW][A-Z]{2,4}?)(?:DT|TV|CD|LD)?$")
 NOT_CALLSIGNS = {"WEST", "WESTHD", "CANADA", "CA", "KIDS", "CLASSIC", "WORLD", "CENTRAL"}
 # Call letters inside guide names/ids: "KNTV", "WCAU-DT", "CBLT DT2".
 CALLSIGN_TOKEN_RE = re.compile(r"(?<![A-Z0-9])([CKW][A-Z]{2,4})(?:[- ]?(?:DT|TV|CD|LD|HD)\d*)?(?![A-Z])")
-COUNTRY_SUFFIX_RE = re.compile(r"\.(us|ca|cl|mx|uk)$", re.IGNORECASE)
+# epgshare01 ends ids with the file they came from: ".us", ".ca2", ".us_locals1".
+FILE_SUFFIX_RE = re.compile(r"\.[a-z][a-z0-9_]{1,14}$")
+PAREN_RE = re.compile(r"\s*\(([^)]*)\)\s*")
+COUNTRY_WORDS = {
+    "chile": "cl", "us": "us", "usa": "us", "united states": "us", "eeuu": "us",
+    "canada": "ca", "mexico": "mx", "méxico": "mx",
+}
+# A guide entry that is ONLY call letters ("KNTV-DT") is the station's main
+# channel. Only these networks are ever a station's main channel in our list;
+# the rest (Roar, MeTV, Telemundo on an NBC station...) are side channels.
+MAIN_CHANNEL_NETWORKS = {
+    "nbc", "cbs", "abc", "fox", "pbs", "cbctelevision", "ctv",
+    "iciradiocanadatele", "tva", "ntv", "univision",
+}
+SUBCHANNEL_RE = re.compile(r"[A-Z]{3,5}[- ]?(?:DT|TV|CD|LD)[2-9]")
 
 
 def normalise(value: str) -> str:
@@ -100,8 +114,14 @@ def split_camel(value: str) -> str:
 def network_word(network: str) -> str:
     """Short brand used to confirm a call-letter match: 'CBCTelevision' -> 'cbc'."""
     words = split_camel(network).split()
-    first = normalise(words[0]) if words else ""
-    return first if len(first) >= 3 else normalise(network)
+    if not words:
+        return normalise(network)
+    first = words[0]
+    # Keep short all-caps brands (NBC, CBC, MNT); otherwise the first word
+    # must be long enough not to hit other names ("Uni" would match Univision).
+    if (first.isupper() and len(first) >= 3) or len(first) >= 5:
+        return normalise(first)
+    return normalise(network)
 
 
 def feed_callsign(feed: str) -> str | None:
@@ -121,6 +141,10 @@ class PlaylistIndex:
         self.keys: dict[str, dict[str, int]] = {}
         # callsign -> {tvg_id: normalised network key}
         self.callsigns: dict[str, dict[str, str]] = {}
+        # tvg_id -> country code (".us" -> "us"), and whether it can be a
+        # station's main channel.
+        self.country: dict[str, str] = {}
+        self.main_channel: set[str] = set()
 
     def add_key(self, key: str, tvg_id: str, tier: int) -> None:
         key = normalise(key)
@@ -137,8 +161,11 @@ class PlaylistIndex:
         country = bare.rsplit(".", 1)[1] if "." in bare else ""
         callsign = feed_callsign(feed) if feed else None
 
+        self.country[tvg_id] = country.casefold()
         self.add_key(tvg_id, tvg_id, 0)
         if callsign:
+            if normalise(network) in MAIN_CHANNEL_NETWORKS:
+                self.main_channel.add(tvg_id)
             self.callsigns.setdefault(callsign, {})[tvg_id] = network_word(network)
             # "NBC WBAL-TV" style names are specific enough on their own.
             self.add_key(name, tvg_id, 1)
@@ -172,6 +199,30 @@ def load_playlist() -> PlaylistIndex:
     return index
 
 
+def name_variants(text: str) -> list[tuple[str, str | None]]:
+    """Ways a guide might spell a name, each with the country it requires.
+
+    "Canal.Mega.(Chile).cl" -> ("Canal Mega (Chile)", None), ("Canal Mega", "cl"),
+    ("Mega", "cl").
+    """
+    base = FILE_SUFFIX_RE.sub("", text.strip()).replace(".", " ")
+    variants: list[tuple[str, str | None]] = [(text, None), (base, None)]
+    country = None
+    match = PAREN_RE.search(base)
+    if match:
+        country = COUNTRY_WORDS.get(match.group(1).strip().casefold())
+        if country:
+            base = PAREN_RE.sub(" ", base).strip()
+            variants.append((base, country))
+    for prefix in ("canal ", "el canal "):
+        if base.casefold().startswith(prefix):
+            variants.append((base[len(prefix):], country))
+    for suffix in (" hd", " sd"):
+        if base.casefold().endswith(suffix):
+            variants.append((base[: -len(suffix)], country))
+    return variants
+
+
 def match_guide_channel(index: PlaylistIndex, xmltv_id: str, names: list[str]) -> dict[str, int]:
     """Return {tvg_id: tier} for everything this guide channel could be."""
     found: dict[str, int] = {}
@@ -182,22 +233,29 @@ def match_guide_channel(index: PlaylistIndex, xmltv_id: str, names: list[str]) -
 
     texts = [xmltv_id, *names]
     for text in texts:
-        for variant in {text, COUNTRY_SUFFIX_RE.sub("", text.strip())}:
+        for variant, country in name_variants(text):
             for tvg_id, tier in index.keys.get(normalise(variant), {}).items():
-                offer(tvg_id, tier)
+                if country is None or index.country.get(tvg_id) == country:
+                    offer(tvg_id, tier)
 
-    # Local stations: call letters must match AND the network's name must
-    # appear in the guide's name, because one station often carries several
-    # networks (Fox and MovieSphere both on WFXT).
+    # Local stations by call letters. If the guide names the network too
+    # ("FOX (WCTI-TV2)") it must be ours; if it's ONLY call letters
+    # ("KNTV-DT") it's the station's main channel, so it only goes to a
+    # main-channel network (never Roar or MeTV on the same station).
     joined = normalise(" ".join(texts))
+    upper_texts = " ".join(texts).upper()
+    is_subchannel = bool(SUBCHANNEL_RE.search(upper_texts))
     for text in texts:
         for token in CALLSIGN_TOKEN_RE.findall(text.upper()):
             stations = index.callsigns.get(token)
             if not stations:
                 continue
+            names_a_network = any(key and key in joined for key in stations.values())
             for tvg_id, network_key in stations.items():
                 if network_key and network_key in joined:
                     offer(tvg_id, 0)
+                elif not names_a_network and not is_subchannel and tvg_id in index.main_channel:
+                    offer(tvg_id, 1)
     return found
 
 
