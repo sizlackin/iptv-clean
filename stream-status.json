@@ -6422,49 +6422,49 @@
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.vegasplus.us/vegas/ftv/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.vegasplus.us/vegas/lasvegastonight/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.vegasplus.us/vegas/latch/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.vegasplus.us/vegas/mpin/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.vegasplus.us/vegas/vltv/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
-  "last": "ok",
+  "last": "blocked",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 403"
  },
  "https://cdn.whiplash.cc/whiplash-2/index.m3u8": {
   "checked": "2026-09-30",
@@ -9050,7 +9050,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "no answer (timed out)"
+  "why": "HTTP 503"
  },
  "https://edge-f.swagit.com/live/glendaleaz/live-1-a-1/playlist.m3u8": {
   "checked": "2026-09-30",
@@ -9950,7 +9950,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "no answer (timed out)"
+  "why": "HTTP 404"
  },
  "https://jmp2.uk/plu-5812bfbe4ced4f7b601b12e6.m3u8": {
   "checked": "2026-09-30",
@@ -10238,7 +10238,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "error (RemoteDisconnected)"
+  "why": "HTTP 404"
  },
  "https://jmp2.uk/plu-5cabdf1437b88b26947346b2.m3u8": {
   "checked": "2026-09-30",
@@ -14235,10 +14235,11 @@
  "https://lin10.isilive.ca/live/gainesville/live/index.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
-  "fail_days": 0,
-  "last": "ok",
+  "fail_days": 1,
+  "last": "dead",
+  "last_fail_day": "2026-09-30",
   "last_ok": "2026-09-30",
-  "why": "HTTP 200"
+  "why": "HTTP 404"
  },
  "https://lin12.isilive.ca/live/greensboro/GTN/index.m3u8": {
   "checked": "2026-09-30",
@@ -14850,7 +14851,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "no answer (timed out)"
  },
  "https://live.zoomnews.info/live/Zoom_playlist.m3u8": {
   "checked": "2026-09-30",
@@ -14943,11 +14944,11 @@
  "https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
-  "fail_days": 1,
-  "last": "dead",
+  "fail_days": 0,
+  "last": "ok",
   "last_fail_day": "2026-09-30",
   "last_ok": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "HTTP 200"
  },
  "https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8": {
   "checked": "2026-09-30",
@@ -15760,20 +15761,13 @@
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12CH_FFLD_MILF_A1/index_new.m3u8?omap=https": {
   "checked": "2026-09-30",
   "dead": false,
-  "fail_days": 1,
-  "last": "dead",
+  "fail_days": 0,
+  "last": "ok",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "last_ok": "2026-09-30",
+  "why": "HTTP 200"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12HH_A1/index_new.m3u8?omap=https": {
-  "checked": "2026-09-30",
-  "dead": false,
-  "fail_days": 1,
-  "last": "dead",
-  "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
- },
- "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8?omap=https": {
   "checked": "2026-09-30",
   "dead": false,
   "fail_days": 0,
@@ -15781,6 +15775,15 @@
   "last_fail_day": "2026-09-30",
   "last_ok": "2026-09-30",
   "why": "HTTP 200"
+ },
+ "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12JH_CENT_A1/index_new.m3u8?omap=https": {
+  "checked": "2026-09-30",
+  "dead": false,
+  "fail_days": 0,
+  "last": "dead",
+  "last_fail_day": "2026-09-30",
+  "last_ok": "2026-09-30",
+  "why": "HTTP 404"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https": {
   "checked": "2026-09-30",
@@ -15804,7 +15807,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "HTTP 408"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8": {
   "checked": "2026-09-30",
@@ -15820,7 +15823,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "HTTP 408"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NYC_A1/index_new.m3u8": {
   "checked": "2026-09-30",
@@ -15833,11 +15836,11 @@
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8": {
   "checked": "2026-09-30",
   "dead": false,
-  "fail_days": 1,
-  "last": "dead",
+  "fail_days": 0,
+  "last": "ok",
   "last_fail_day": "2026-09-30",
   "last_ok": "2026-09-30",
-  "why": "HTTP 408"
+  "why": "HTTP 200"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8?omap=https": {
   "checked": "2026-09-30",
@@ -15845,15 +15848,16 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "HTTP 408"
  },
  "https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https": {
   "checked": "2026-09-30",
   "dead": false,
-  "fail_days": 1,
-  "last": "dead",
+  "fail_days": 0,
+  "last": "ok",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "last_ok": "2026-09-30",
+  "why": "HTTP 200"
  },
  "https://mdc4.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12LH_WEST_A1/index_new.m3u8": {
   "checked": "2026-09-30",
@@ -19905,7 +19909,7 @@
   "fail_days": 1,
   "last": "dead",
   "last_fail_day": "2026-09-30",
-  "why": "HTTP 404"
+  "why": "no answer (timed out)"
  },
  "https://wnjtdt.lls.pbs.org/out/v1/e62efd8d4f92403996425fc389df0ffd/index.m3u8": {
   "checked": "2026-09-30",
