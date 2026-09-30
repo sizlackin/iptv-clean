@@ -35,7 +35,7 @@ EPG_FILE = Path("epg.json")
 SITE_DIR = Path("site")
 SITE_BASE = "https://sizlackin.github.io/iptv-clean"
 ADDON_ID_PREFIX = "iptv_"
-ADDON_VERSION = "1.3.0"
+ADDON_VERSION = "1.4.0"
 
 # Clock times shown in channel descriptions are rendered in this zone.
 DISPLAY_TIMEZONE = "America/Toronto"
@@ -55,6 +55,7 @@ GENRE_FILTERS = [
     "Canada",
     "USA",
     "Sports",
+    "Soccer",
     "News",
     "Movies",
     "Series",
@@ -135,6 +136,30 @@ LANGUAGE_NAMES = {
     "iku": "Inuktitut",
     "cre": "Cree",
 }
+
+# Hand-picked channels that regularly show live soccer (matched on the bare
+# tvg-id, every feed of the channel counts). Order = order in the Soccer row:
+# soccer-only channels first, then the big Spanish-language match carriers.
+# To add one, put its tvg-id (lowercase, without the @ part) in this list.
+SOCCER_CHANNELS = [
+    "cbssportsgolazonetwork.us",  # CBS Sports Golazo Network - soccer 24/7
+    "golazonetwork.us",           # Golazo Network - soccer 24/7
+    "fifaplus.uk",                # FIFA+ - matches and replays
+    "tudn.us",                    # TUDN - Liga MX, Mexico national team
+    "univision.us",               # Univision - Liga MX, Champions League
+    "unimas.us",                  # UniMas - Liga MX, Champions League
+    "galavision.us",              # Galavision - Liga MX
+    "telemundo.us",               # Telemundo - World Cup, Premier League
+    "nbcuniverso.us",             # NBC Universo - Premier League
+    "espndeportes.us",            # ESPN Deportes - LaLiga, Bundesliga
+    "foxdeportes.us",             # Fox Deportes - Liga MX, World Cup
+    "foxsports1.us",              # FS1 - MLS, Liga MX, World Cup
+    "beinsportsxtra.us",          # beIN SPORTS XTRA - LaLiga, Ligue 1
+    "beinsportsxtraenespanol.us", # beIN SPORTS XTRA en Espanol
+    "tycsportsusa.ar",            # TyC Sports USA - Argentine football
+    "mega.cl",                    # Mega (Chile) - Chile national team
+]
+SOCCER_RANK = {bare: rank for rank, bare in enumerate(SOCCER_CHANNELS)}
 
 # Ranked "most popular" shortlist, matched on the bare tvg-id. The list is
 # longer than POPULAR_LIMIT so the row backfills if iptv-org drops a channel.
@@ -425,7 +450,16 @@ def genre_memberships(channel: Channel, popular_ids: set[str]) -> set[str]:
         result.add(channel.country)
     if channel.id in popular_ids:
         result.add("Popular")
+    if channel.bare_id in SOCCER_RANK:
+        result.add("Soccer")
     return result
+
+
+def soccer_order(channel: Channel) -> tuple[int, str]:
+    return (
+        SOCCER_RANK.get(channel.bare_id or "", len(SOCCER_RANK)),
+        (channel.display_name or channel.name).casefold(),
+    )
 
 
 def pick_popular(channels: list[Channel]) -> list[Channel]:
@@ -846,6 +880,12 @@ def main() -> None:
     for genre in GENRE_FILTERS:
         if genre == "Popular":
             filtered = popular_previews
+        elif genre == "Soccer":
+            filtered = [
+                meta_preview(c)
+                for c in sorted(channels, key=soccer_order)
+                if genre in genre_memberships(c, popular_ids)
+            ]
         else:
             filtered = [
                 meta_preview(c)
