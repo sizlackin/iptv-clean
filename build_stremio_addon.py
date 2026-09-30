@@ -35,7 +35,7 @@ EPG_FILE = Path("epg.json")
 SITE_DIR = Path("site")
 SITE_BASE = "https://sizlackin.github.io/iptv-clean"
 ADDON_ID_PREFIX = "iptv_"
-ADDON_VERSION = "1.2.0"
+ADDON_VERSION = "1.3.0"
 
 # Clock times shown in channel descriptions are rendered in this zone.
 DISPLAY_TIMEZONE = "America/Toronto"
@@ -690,10 +690,100 @@ def build_manifest() -> dict[str, object]:
                 "id": "live-tv",
                 "name": "Live TV",
                 "genres": GENRE_FILTERS,
-                "extra": [{"name": "genre", "options": GENRE_FILTERS, "isRequired": False}],
+                "extra": [
+                    {"name": "genre", "options": GENRE_FILTERS, "isRequired": False},
+                    {"name": "search", "isRequired": False},
+                ],
             },
         ],
     }
+
+
+# --- Search -----------------------------------------------------------------
+# GitHub Pages can only serve files that already exist, so search results are
+# pre-built: one small file per thing someone might type. Stremio asks for
+# catalog/tv/live-tv/search=<exactly what was typed>.json, so every key is
+# written in the common capitalisations too (cbc / Cbc / CBC).
+SEARCH_MIN_CHARS = 2
+SEARCH_MAX_RESULTS = 60
+SEARCH_SAFE = re.compile(r"^[\w .'&+!-]+$", re.UNICODE)
+
+
+def _fold(text: str) -> str:
+    """Lowercase and strip accents so 'Ficción' also matches 'ficcion'."""
+    import unicodedata
+
+    decomposed = unicodedata.normalize("NFKD", text)
+    plain = "".join(ch for ch in decomposed if not unicodedata.combining(ch))
+    return re.sub(r"\s+", " ", plain.casefold()).strip()
+
+
+def _search_names(channel: Channel) -> list[str]:
+    names = {channel.display_name or channel.name, channel.name}
+    return [n for n in names if n]
+
+
+def _typed_forms(key: str) -> set[str]:
+    """Spellings Stremio might send for one lowercase key."""
+    forms = {key, key.upper(), key[:1].upper() + key[1:], key.title()}
+    return {f for f in forms if SEARCH_SAFE.match(f)}
+
+
+def build_search_index(channels: list[Channel], popular_ids: set[str]) -> dict[str, list[Channel]]:
+    """Map every typed prefix (from any word onward) to the channels it finds."""
+    scores: dict[str, dict[str, tuple[int, Channel]]] = {}
+    for channel in channels:
+        for raw_name in _search_names(channel):
+            for name in {raw_name.casefold(), _fold(raw_name)}:
+                name = re.sub(r"\s+", " ", name).strip()
+                words = name.split(" ")
+                for start in range(len(words)):
+                    tail = " ".join(words[start:])
+                    for end in range(SEARCH_MIN_CHARS, len(tail) + 1):
+                        key = tail[:end].rstrip()
+                        if len(key) < SEARCH_MIN_CHARS:
+                            continue
+                        # Lower is better: exact name, then start of name,
+                        # then start of a later word. Popular channels first.
+                        if start == 0 and key == name:
+                            rank = 0
+                        elif start == 0:
+                            rank = 1
+                        else:
+                            rank = 2
+                        if channel.id not in popular_ids:
+                            rank += 3
+                        bucket = scores.setdefault(key, {})
+                        best = bucket.get(channel.id)
+                        if best is None or rank < best[0]:
+                            bucket[channel.id] = (rank, channel)
+
+    index: dict[str, list[Channel]] = {}
+    for key, bucket in scores.items():
+        ordered = sorted(
+            bucket.values(),
+            key=lambda item: (item[0], (item[1].display_name or item[1].name).casefold()),
+        )
+        index[key] = [channel for _, channel in ordered[:SEARCH_MAX_RESULTS]]
+    return index
+
+
+def write_search_files(channels: list[Channel], popular_ids: set[str]) -> int:
+    folder = SITE_DIR / "catalog/tv/live-tv"
+    previews = {c.id: meta_preview(c) for c in channels}
+    written: set[str] = set()
+    for key, found in build_search_index(channels, popular_ids).items():
+        body = json.dumps(
+            {"metas": [previews[c.id] for c in found]},
+            ensure_ascii=False,
+            separators=(",", ":"),
+        )
+        for typed in _typed_forms(key):
+            if typed in written:
+                continue
+            written.add(typed)
+            (folder / f"search={typed}.json").write_text(body + "\n", encoding="utf-8")
+    return len(written)
 
 
 def build_index(
@@ -766,6 +856,9 @@ def main() -> None:
             SITE_DIR / "catalog/tv/live-tv" / f"genre={genre}.json",
             {"metas": filtered},
         )
+
+    search_files = write_search_files(channels, popular_ids)
+    print(f"Search: wrote {search_files} ready-made result files")
 
     guide_count = 0
     for channel in channels:
