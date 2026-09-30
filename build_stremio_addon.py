@@ -32,10 +32,11 @@ except ImportError:  # pragma: no cover
 
 PLAYLIST = Path("playlist.m3u")
 EPG_FILE = Path("epg.json")
+STREAM_STATUS_FILE = Path("stream-status.json")
 SITE_DIR = Path("site")
 SITE_BASE = "https://sizlackin.github.io/iptv-clean"
 ADDON_ID_PREFIX = "iptv_"
-ADDON_VERSION = "1.4.0"
+ADDON_VERSION = "1.5.0"
 
 # Clock times shown in channel descriptions are rendered in this zone.
 DISPLAY_TIMEZONE = "America/Toronto"
@@ -502,6 +503,48 @@ def load_epg() -> tuple[dict[str, list[dict[str, object]]], int]:
     return channels, generated
 
 
+def load_stream_status() -> dict[str, dict[str, object]]:
+    try:
+        status = json.loads(STREAM_STATUS_FILE.read_text(encoding="utf-8"))
+        return status if isinstance(status, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def apply_stream_health(channels: list[Channel]) -> tuple[list[Channel], list[Channel]]:
+    """Drop links check_streams.py found dead; put links that worked first.
+
+    Returns (visible, hidden). A channel is hidden only when every one of its
+    links is dead. Links never checked yet are kept.
+    """
+    status = load_stream_status()
+    if not status:
+        print(f"No {STREAM_STATUS_FILE} yet - showing every channel.")
+        return channels, []
+
+    def rank(entry: StreamEntry) -> int:
+        record = status.get(entry.url) or {}
+        if record.get("last") == "ok":
+            return 0
+        if record.get("last") == "dead":
+            return 2
+        return 1  # blocked from the checker's location, or not checked yet
+
+    visible: list[Channel] = []
+    hidden: list[Channel] = []
+    dropped = 0
+    for channel in channels:
+        alive = [e for e in channel.streams if not (status.get(e.url) or {}).get("dead")]
+        dropped += len(channel.streams) - len(alive)
+        if not alive:
+            hidden.append(channel)
+            continue
+        channel.streams = sorted(alive, key=rank)
+        visible.append(channel)
+    print(f"Stream health: dropped {dropped} dead links, hid {len(hidden)} channels with no working link")
+    return visible, hidden
+
+
 def local_zone():
     if ZoneInfo is None:
         return dt.timezone.utc
@@ -827,6 +870,7 @@ def build_index(
     guide_count: int,
     generated: int,
     zone,
+    hidden_count: int = 0,
 ) -> str:
     manifest_url = f"{SITE_BASE}/manifest.json"
     stremio_url = manifest_url.replace("https://", "stremio://", 1)
@@ -839,7 +883,38 @@ def build_index(
 <title>Cesar Live TV</title>
 <style>
 :root{{color-scheme:dark;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}body{{margin:0;background:#0f1115;color:#f4f5f7;display:grid;min-height:100vh;place-items:center}}main{{width:min(680px,calc(100% - 36px));background:#171a21;border:1px solid #2a2f3a;border-radius:24px;padding:28px;box-sizing:border-box;margin:24px 0}}.dot{{display:inline-block;width:10px;height:10px;border-radius:50%;background:#1ed760;box-shadow:0 0 14px #1ed76088;margin-right:8px}}h1{{margin:.25rem 0 1rem;font-size:2rem}}h2{{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#8d95a3;margin:22px 0 10px}}p{{color:#b8bec9;line-height:1.5}}.stats{{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}}.stat{{background:#101217;border:1px solid #292e38;border-radius:14px;padding:12px 16px}}.stat b{{display:block;font-size:1.25rem;color:white}}.chips{{display:flex;gap:8px;flex-wrap:wrap}}.chip{{background:#101217;border:1px solid #292e38;border-radius:999px;padding:6px 12px;font-size:.85rem;color:#cfd5df}}a.button{{display:block;text-align:center;background:#1ed760;color:#06130a;text-decoration:none;font-weight:800;padding:15px 18px;border-radius:999px;margin-top:22px}}code{{display:block;background:#0d0f13;border-radius:12px;padding:12px;overflow-wrap:anywhere;color:#dfe4ec}}small{{color:#767e8c}}</style></head>
-<body><main><div><span class="dot"></span>GitHub-powered</div><h1>Cesar Live TV</h1><p>Your custom Stremio live-TV addon. It is rebuilt automatically from your cleaned Canada + USA IPTV playlist.</p><div class="stats"><div class="stat"><b>{channel_count}</b>channels</div><div class="stat"><b>{stream_count}</b>streams</div><div class="stat"><b>{guide_count}</b>with guide</div></div><h2>Popular row</h2><div class="chips">{chips}</div><a class="button" href="{html.escape(stremio_url)}">Install in Stremio</a><p>Manual addon URL:</p><code>{html.escape(manifest_url)}</code><p><small>Guide last built {html.escape(stamp)} ({html.escape(DISPLAY_TIMEZONE)})</small></p></main></body></html>\n"""
+<body><main><div><span class="dot"></span>GitHub-powered</div><h1>Cesar Live TV</h1><p>Your custom Stremio live-TV addon. It is rebuilt automatically from your cleaned Canada + USA IPTV playlist.</p><div class="stats"><div class="stat"><b>{channel_count}</b>channels</div><div class="stat"><b>{stream_count}</b>streams</div><div class="stat"><b>{guide_count}</b>with guide</div><div class="stat"><b>{hidden_count}</b>hidden (not working)</div></div><h2>Popular row</h2><div class="chips">{chips}</div><a class="button" href="{html.escape(stremio_url)}">Install in Stremio</a><p>Manual addon URL:</p><code>{html.escape(manifest_url)}</code><p><small>Guide last built {html.escape(stamp)} ({html.escape(DISPLAY_TIMEZONE)})</small></p></main></body></html>\n"""
+
+
+def build_status(
+    channels: list[Channel],
+    hidden: list[Channel],
+    guide_count: int,
+    stream_count: int,
+    generated: int,
+) -> dict[str, object]:
+    """Small health report published next to the addon (status.json)."""
+    guide_stats: dict[str, object] = {}
+    try:
+        guide_stats = json.loads(EPG_FILE.read_text(encoding="utf-8")).get("stats") or {}
+    except (OSError, json.JSONDecodeError):
+        pass
+    link_status = load_stream_status()
+    link_counts: dict[str, int] = {}
+    for record in link_status.values():
+        key = "dead" if record.get("dead") else str(record.get("last") or "unchecked")
+        link_counts[key] = link_counts.get(key, 0) + 1
+    return {
+        "built": int(dt.datetime.now(dt.timezone.utc).timestamp()),
+        "guide_generated": generated,
+        "channels_shown": len(channels),
+        "channels_hidden": len(hidden),
+        "links_shown": stream_count,
+        "channels_with_guide": guide_count,
+        "link_check": link_counts,
+        "guide": guide_stats,
+        "hidden_channels": sorted(c.display_name or c.name for c in hidden),
+    }
 
 
 def build_logo() -> str:
@@ -857,6 +932,8 @@ def main() -> None:
     records, feeds = load_database()
     hits = enrich(channels, records, feeds)
     print(f"  matched {hits}/{len(channels)} channels to a database record")
+
+    channels, hidden = apply_stream_health(channels)
 
     epg, generated = load_epg()
     zone = local_zone()
@@ -915,10 +992,14 @@ def main() -> None:
 
     stream_count = sum(len(channel.streams) for channel in channels)
     (SITE_DIR / "index.html").write_text(
-        build_index(len(channels), stream_count, popular, guide_count, generated, zone),
+        build_index(len(channels), stream_count, popular, guide_count, generated, zone, len(hidden)),
         encoding="utf-8",
     )
     (SITE_DIR / "addon-logo.svg").write_text(build_logo(), encoding="utf-8")
+    write_json(
+        SITE_DIR / "status.json",
+        build_status(channels, hidden, guide_count, stream_count, generated),
+    )
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
     print(f"Built static Stremio addon: {len(channels)} channels / {stream_count} streams")

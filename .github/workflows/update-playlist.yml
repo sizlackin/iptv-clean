@@ -8,6 +8,7 @@ on:
       - "cleaner.py"
       - "build_stremio_addon.py"
       - "epg.py"
+      - "check_streams.py"
       - ".github/workflows/update-playlist.yml"
   schedule:
     - cron: "17 9 * * *"
@@ -43,6 +44,10 @@ jobs:
       - name: Build cleaned playlist
         run: python cleaner.py
 
+      - name: Check which stream links work
+        run: python check_streams.py
+        continue-on-error: true
+
       - name: Build programme guide
         run: python epg.py
         continue-on-error: true
@@ -56,6 +61,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add playlist.m3u posters/ logo-status.json
+          [ -f stream-status.json ] && git add stream-status.json
 
           if git diff --cached --quiet; then
             echo "Playlist data is already up to date."

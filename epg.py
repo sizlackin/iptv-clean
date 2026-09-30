@@ -1,20 +1,29 @@
 #!/usr/bin/env python3
 """Build epg.json: a compact programme guide index for the channels in playlist.m3u.
 
-Downloads one or more XMLTV guides, matches their channels against the tvg-id /
-tvg-name values already in the playlist, and keeps only the upcoming programmes
-for channels we actually carry.
+Downloads XMLTV guides from epgshare01, matches their channels against the
+channels already in the playlist, and keeps only the upcoming programmes for
+channels we actually carry.
 
-Matching is deliberately fuzzy (normalised id + every <display-name>) because
-public XMLTV feeds do not all use iptv-org channel ids. The build log prints a
-match rate so it is obvious when a source stops lining up.
+Which guide files to use is discovered from the epgshare01 file list every run
+(by name group, e.g. "US" or "US_LOCALS"), because the site renumbers files
+from time to time (US1 became US2, CA1 disappeared). A fixed fallback list is
+used if the file list can't be read.
+
+Matching happens in tiers, best first, and each channel keeps the single best
+guide it found:
+  0. Local stations matched on their call letters (KNTV, WCAU, CBLT...) and
+     the full tvg-id (e.g. "Telemundo.us@West").
+  1. The channel's own name or network + feed ("Telemundo West").
+  2. The bare network name ("Telemundo"). Never used for local stations, whose
+     schedule differs from the national feed.
 
 Output shape:
 {
   "generated": 1754900000,
-  "timezone": "America/Toronto",
   "sources": [...],
-  "channels": {"CP24.ca": [{"s": 1754900000, "e": 1754903600, "t": "...", "d": "..."}]}
+  "stats": {...},
+  "channels": {"CP24.ca@SD": [{"s": 1754900000, "e": 1754903600, "t": "...", "d": "..."}]}
 }
 """
 
@@ -22,7 +31,6 @@ from __future__ import annotations
 
 import datetime as dt
 import gzip
-import io
 import json
 import re
 import urllib.error
@@ -33,12 +41,29 @@ from pathlib import Path
 PLAYLIST = Path("playlist.m3u")
 OUTPUT = Path("epg.json")
 
-# Any source that 404s, times out or returns junk is skipped with a warning —
-# the addon build still succeeds, just without guide data from that source.
-EPG_SOURCES = [
-    "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz",
+EPG_INDEX = "https://epgshare01.online/epgshare01/"
+EPG_FILE_RE = re.compile(r"epg_ripper_([A-Za-z_]+?)(\d+)\.xml\.gz")
+
+# Guide groups to use, in order of preference when two guides match equally
+# well. US_LOCALS is large (~55 MB) so it goes last.
+WANTED_GROUPS = [
+    "CA",
+    "US",
+    "US_SPORTS",
+    "CL",
+    "BEIN",
+    "PLEX",
+    "DISTROTV",
+    "FANDUEL",
+    "US_LOCALS",
+]
+FALLBACK_SOURCES = [
     "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
-    "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
 ]
 
 # How far ahead to keep, and the hard cap per channel (keeps epg.json small).
@@ -47,11 +72,18 @@ MAX_PROGRAMMES_PER_CHANNEL = 40
 # Keep programmes that started up to this long ago so "now playing" survives.
 HOURS_BEHIND = 4
 
-REQUEST_TIMEOUT = 180
+REQUEST_TIMEOUT = 300
 USER_AGENT = "Mozilla/5.0 (compatible; iptv-clean/1.0; +https://github.com/sizlackin/iptv-clean)"
 
 ATTR_RE = re.compile(r'([A-Za-z0-9_-]+)="([^"]*)"')
 XMLTV_TIME_RE = re.compile(r"^(\d{14})(?:\s*([+-]\d{4}))?")
+
+# Feed codes that are local-station call letters: KNTV, WCAU, KMEXDT, CBLTDT.
+CALLSIGN_FEED_RE = re.compile(r"^([CKW][A-Z]{2,4}?)(?:DT|TV|CD|LD)?$")
+NOT_CALLSIGNS = {"WEST", "WESTHD", "CANADA", "CA", "KIDS", "CLASSIC", "WORLD", "CENTRAL"}
+# Call letters inside guide names/ids: "KNTV", "WCAU-DT", "CBLT DT2".
+CALLSIGN_TOKEN_RE = re.compile(r"(?<![A-Z0-9])([CKW][A-Z]{2,4})(?:[- ]?(?:DT|TV|CD|LD|HD)\d*)?(?![A-Z])")
+COUNTRY_SUFFIX_RE = re.compile(r"\.(us|ca|cl|mx|uk)$", re.IGNORECASE)
 
 
 def normalise(value: str) -> str:
@@ -59,12 +91,72 @@ def normalise(value: str) -> str:
     return re.sub(r"[^a-z0-9]", "", (value or "").casefold())
 
 
-def playlist_keys() -> dict[str, set[str]]:
-    """Map each playlist tvg-id to the set of normalised keys it may match on."""
+def split_camel(value: str) -> str:
+    """'MovieSphereGold' -> 'Movie Sphere Gold' (only used to build keys)."""
+    value = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", value)
+    return re.sub(r"(?<=[A-Z])(?=[A-Z][a-z])", " ", value)
+
+
+def network_word(network: str) -> str:
+    """Short brand used to confirm a call-letter match: 'CBCTelevision' -> 'cbc'."""
+    words = split_camel(network).split()
+    first = normalise(words[0]) if words else ""
+    return first if len(first) >= 3 else normalise(network)
+
+
+def feed_callsign(feed: str) -> str | None:
+    code = feed.upper()
+    if code in NOT_CALLSIGNS:
+        return None
+    match = CALLSIGN_FEED_RE.match(code)
+    return match.group(1) if match else None
+
+
+class PlaylistIndex:
+    """Lookup tables from guide keys to the playlist tvg-ids they may match."""
+
+    def __init__(self) -> None:
+        self.tvg_ids: set[str] = set()
+        # normalised key -> {tvg_id: tier}
+        self.keys: dict[str, dict[str, int]] = {}
+        # callsign -> {tvg_id: normalised network key}
+        self.callsigns: dict[str, dict[str, str]] = {}
+
+    def add_key(self, key: str, tvg_id: str, tier: int) -> None:
+        key = normalise(key)
+        if not key:
+            return
+        bucket = self.keys.setdefault(key, {})
+        if tier < bucket.get(tvg_id, 99):
+            bucket[tvg_id] = tier
+
+    def add_channel(self, tvg_id: str, name: str) -> None:
+        self.tvg_ids.add(tvg_id)
+        bare, _, feed = tvg_id.partition("@")
+        network = bare.rsplit(".", 1)[0] if "." in bare else bare
+        country = bare.rsplit(".", 1)[1] if "." in bare else ""
+        callsign = feed_callsign(feed) if feed else None
+
+        self.add_key(tvg_id, tvg_id, 0)
+        if callsign:
+            self.callsigns.setdefault(callsign, {})[tvg_id] = network_word(network)
+            # "NBC WBAL-TV" style names are specific enough on their own.
+            self.add_key(name, tvg_id, 1)
+            return
+
+        plain_feed = feed.upper() in ("", "SD", "HD")
+        for text in (name, f"{network}{feed}", f"{network}{feed}{country}",
+                     split_camel(network) + feed):
+            self.add_key(text, tvg_id, 1)
+        generic_tier = 1 if plain_feed else 2
+        for text in (bare, network, split_camel(network)):
+            self.add_key(text, tvg_id, generic_tier)
+
+
+def load_playlist() -> PlaylistIndex:
     if not PLAYLIST.exists():
         raise SystemExit(f"Missing {PLAYLIST}. Run cleaner.py first.")
-
-    keys: dict[str, set[str]] = {}
+    index = PlaylistIndex()
     for line in PLAYLIST.read_text(encoding="utf-8-sig", errors="replace").splitlines():
         if not line.startswith("#EXTINF:"):
             continue
@@ -75,17 +167,38 @@ def playlist_keys() -> dict[str, set[str]]:
         tvg_id = (attrs.get("tvg-id") or "").strip()
         if not tvg_id:
             continue
-        bare = tvg_id.split("@", 1)[0]
         name = (attrs.get("tvg-name") or visible or "").strip()
+        index.add_channel(tvg_id, name)
+    return index
 
-        candidates = {tvg_id, bare, name}
-        # "CP24.ca" should also match a guide that just calls it "CP24".
-        if "." in bare:
-            candidates.add(bare.rsplit(".", 1)[0])
-        keys.setdefault(tvg_id, set()).update(
-            normalise(c) for c in candidates if normalise(c)
-        )
-    return keys
+
+def match_guide_channel(index: PlaylistIndex, xmltv_id: str, names: list[str]) -> dict[str, int]:
+    """Return {tvg_id: tier} for everything this guide channel could be."""
+    found: dict[str, int] = {}
+
+    def offer(tvg_id: str, tier: int) -> None:
+        if tier < found.get(tvg_id, 99):
+            found[tvg_id] = tier
+
+    texts = [xmltv_id, *names]
+    for text in texts:
+        for variant in {text, COUNTRY_SUFFIX_RE.sub("", text.strip())}:
+            for tvg_id, tier in index.keys.get(normalise(variant), {}).items():
+                offer(tvg_id, tier)
+
+    # Local stations: call letters must match AND the network's name must
+    # appear in the guide's name, because one station often carries several
+    # networks (Fox and MovieSphere both on WFXT).
+    joined = normalise(" ".join(texts))
+    for text in texts:
+        for token in CALLSIGN_TOKEN_RE.findall(text.upper()):
+            stations = index.callsigns.get(token)
+            if not stations:
+                continue
+            for tvg_id, network_key in stations.items():
+                if network_key and network_key in joined:
+                    offer(tvg_id, 0)
+    return found
 
 
 def parse_xmltv_time(value: str) -> int | None:
@@ -106,63 +219,89 @@ def parse_xmltv_time(value: str) -> int | None:
     return int(aware.timestamp())
 
 
-def fetch(url: str) -> bytes | None:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def discover_sources() -> list[str]:
+    request = urllib.request.Request(EPG_INDEX, headers={"User-Agent": USER_AGENT})
     try:
-        with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
-            payload = response.read()
-    except (urllib.error.URLError, urllib.error.HTTPError, OSError, TimeoutError) as exc:
-        print(f"  ! skipped {url} ({exc})")
-        return None
+        with urllib.request.urlopen(request, timeout=60) as response:
+            listing = response.read().decode("utf-8", errors="replace")
+    except (urllib.error.URLError, OSError, TimeoutError) as exc:
+        print(f"  ! could not read the guide file list ({exc}); using fallback list")
+        return list(FALLBACK_SOURCES)
 
-    if url.endswith(".gz") or payload[:2] == b"\x1f\x8b":
-        try:
-            payload = gzip.decompress(payload)
-        except OSError as exc:
-            print(f"  ! could not decompress {url} ({exc})")
-            return None
-    return payload
+    by_group: dict[str, list[str]] = {}
+    for match in EPG_FILE_RE.finditer(listing):
+        group = match.group(1).rstrip("_").upper()
+        by_group.setdefault(group, [])
+        name = match.group(0)
+        if name not in by_group[group]:
+            by_group[group].append(name)
+
+    sources: list[str] = []
+    for group in WANTED_GROUPS:
+        for name in sorted(by_group.get(group, [])):
+            sources.append(EPG_INDEX + name)
+    if not sources:
+        print("  ! guide file list had none of the wanted files; using fallback list")
+        return list(FALLBACK_SOURCES)
+    return sources
+
+
+def open_guide(url: str):
+    """Open a (possibly gzipped) guide as a stream, so big files never sit in memory."""
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    response = urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT)
+    if url.endswith(".gz"):
+        return gzip.GzipFile(fileobj=response)
+    return response
 
 
 def harvest(
-    payload: bytes,
-    key_index: dict[str, str],
+    stream,
+    source_rank: int,
+    index: PlaylistIndex,
     window_start: int,
     window_end: int,
-    collected: dict[str, list[dict[str, object]]],
+    candidates: dict[str, tuple[tuple[int, int, int], str]],
+    programmes: dict[str, list[dict[str, object]]],
 ) -> tuple[int, int]:
-    """Stream one XMLTV document, returning (channels matched, programmes kept)."""
-    xmltv_to_tvg: dict[str, str] = {}
+    """Read one XMLTV document. Returns (guide channels matched, programmes kept)."""
+    guide_to_tvg: dict[str, dict[str, int]] = {}
+    order = 0
     matched = 0
     kept = 0
 
-    stream = io.BytesIO(payload)
-    for event, element in ET.iterparse(stream, events=("end",)):
+    for _, element in ET.iterparse(stream, events=("end",)):
         tag = element.tag.rsplit("}", 1)[-1]
 
         if tag == "channel":
             xmltv_id = (element.get("id") or "").strip()
-            candidates = [xmltv_id]
-            candidates += [
-                (child.text or "")
+            names = [
+                (child.text or "").strip()
                 for child in element
                 if child.tag.rsplit("}", 1)[-1] == "display-name"
             ]
-            for candidate in candidates:
-                target = key_index.get(normalise(candidate))
-                if target:
-                    if xmltv_id and xmltv_id not in xmltv_to_tvg:
-                        xmltv_to_tvg[xmltv_id] = target
-                        matched += 1
-                    break
             element.clear()
+            if not xmltv_id:
+                continue
+            found = match_guide_channel(index, xmltv_id, names)
+            if not found:
+                continue
+            order += 1
+            matched += 1
+            guide_key = f"{source_rank}|{xmltv_id}"
+            guide_to_tvg[xmltv_id] = found
+            for tvg_id, tier in found.items():
+                score = (tier, source_rank, order)
+                best = candidates.get(tvg_id)
+                if best is None or score < best[0]:
+                    candidates[tvg_id] = (score, guide_key)
             continue
 
         if tag != "programme":
             continue
 
-        target = xmltv_to_tvg.get((element.get("channel") or "").strip())
-        if not target:
+        xmltv_id = (element.get("channel") or "").strip()
+        if xmltv_id not in guide_to_tvg:
             element.clear()
             continue
 
@@ -181,7 +320,6 @@ def harvest(
             elif child_tag == "desc" and not description:
                 description = (child.text or "").strip()
         element.clear()
-
         if not title:
             continue
 
@@ -190,58 +328,70 @@ def harvest(
             entry["e"] = stop
         if description:
             entry["d"] = description[:400]
-        collected.setdefault(target, []).append(entry)
+        programmes.setdefault(f"{source_rank}|{xmltv_id}", []).append(entry)
         kept += 1
 
     return matched, kept
 
 
 def main() -> None:
-    keys = playlist_keys()
-
-    # Reverse index: normalised key -> tvg-id. First writer wins, so more
-    # specific ids registered earlier are not clobbered by generic names.
-    key_index: dict[str, str] = {}
-    for tvg_id, candidates in keys.items():
-        for candidate in candidates:
-            key_index.setdefault(candidate, tvg_id)
-
+    index = load_playlist()
     now = int(dt.datetime.now(dt.timezone.utc).timestamp())
     window_start = now - HOURS_BEHIND * 3600
     window_end = now + HOURS_AHEAD * 3600
 
-    collected: dict[str, list[dict[str, object]]] = {}
+    # Best guide channel per playlist channel, and programmes per guide channel.
+    candidates: dict[str, tuple[tuple[int, int, int], str]] = {}
+    programmes: dict[str, list[dict[str, object]]] = {}
     used_sources: list[str] = []
+    source_stats: list[dict[str, object]] = []
 
-    print(f"Playlist channels with a tvg-id: {len(keys)}")
-    for url in EPG_SOURCES:
+    print(f"Playlist channels with a tvg-id: {len(index.tvg_ids)}")
+    sources = discover_sources()
+    for rank, url in enumerate(sources):
         print(f"Fetching {url}")
-        payload = fetch(url)
-        if not payload:
-            continue
         try:
-            matched, kept = harvest(payload, key_index, window_start, window_end, collected)
+            with open_guide(url) as stream:
+                matched, kept = harvest(
+                    stream, rank, index, window_start, window_end, candidates, programmes
+                )
+        except (urllib.error.URLError, OSError, TimeoutError, EOFError) as exc:
+            print(f"  ! skipped ({exc})")
+            source_stats.append({"url": url, "error": str(exc)[:200]})
+            continue
         except ET.ParseError as exc:
             print(f"  ! malformed XML, skipped ({exc})")
+            source_stats.append({"url": url, "error": f"bad XML: {exc}"[:200]})
             continue
-        print(f"  matched {matched} channels, kept {kept} programmes")
+        print(f"  matched {matched} guide channels, kept {kept} programmes")
         used_sources.append(url)
+        source_stats.append({"url": url, "matched": matched, "programmes": kept})
 
-    for tvg_id, programmes in collected.items():
-        programmes.sort(key=lambda p: p["s"])
+    collected: dict[str, list[dict[str, object]]] = {}
+    tiers = {0: 0, 1: 0, 2: 0}
+    for tvg_id, (score, guide_key) in candidates.items():
+        entries = sorted(programmes.get(guide_key, []), key=lambda p: p["s"])
         deduped: list[dict[str, object]] = []
         seen: set[tuple[object, object]] = set()
-        for programme in programmes:
+        for programme in entries:
             marker = (programme["s"], programme["t"])
-            if marker in seen:
-                continue
-            seen.add(marker)
-            deduped.append(programme)
-        collected[tvg_id] = deduped[:MAX_PROGRAMMES_PER_CHANNEL]
+            if marker not in seen:
+                seen.add(marker)
+                deduped.append(programme)
+        if deduped:
+            collected[tvg_id] = deduped[:MAX_PROGRAMMES_PER_CHANNEL]
+            tiers[score[0]] += 1
 
+    stats = {
+        "channels": len(index.tvg_ids),
+        "with_guide": len(collected),
+        "by_match_type": {"call_letters_or_exact_id": tiers[0], "name": tiers[1], "network": tiers[2]},
+        "sources": source_stats,
+    }
     payload = {
         "generated": now,
         "sources": used_sources,
+        "stats": stats,
         "channels": collected,
     }
     OUTPUT.write_text(
@@ -249,12 +399,13 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    coverage = (len(collected) / len(keys) * 100) if keys else 0
-    total = sum(len(v) for v in collected.values())
+    total = len(index.tvg_ids)
+    coverage = (len(collected) / total * 100) if total else 0
     print(
-        f"Wrote {OUTPUT}: {len(collected)}/{len(keys)} channels have a guide "
-        f"({coverage:.1f}%), {total} programmes, {OUTPUT.stat().st_size / 1024:.0f} KB"
+        f"Wrote {OUTPUT}: {len(collected)}/{total} channels have a guide "
+        f"({coverage:.1f}%), {OUTPUT.stat().st_size / 1024:.0f} KB"
     )
+    print(f"  match types: {stats['by_match_type']}")
     if not collected:
         print("WARNING: no guide data matched. The addon will build without EPG.")
 

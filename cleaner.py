@@ -40,6 +40,13 @@ EXTRA_CHANNELS: list[tuple[str, str, set[str]]] = [
     ("Chile", "https://iptv-org.github.io/iptv/countries/cl.m3u", {"Mega.cl"}),
 ]
 
+# iptv-org's country playlists only carry ONE link per channel. Their full
+# stream list has every known link, so the extra ones are added as backups.
+# check_streams.py later hides the links that don't work.
+ADD_BACKUP_LINKS = True
+ALL_STREAMS_URL = "https://raw.githubusercontent.com/iptv-org/api/gh-pages/streams.json"
+PER_ENTRY_HTTP_ATTRS = re.compile(r'\s+http-(?:user-agent|referrer)="[^"]*"')
+
 OUTPUT = Path("playlist.m3u")
 POSTERS_DIR = Path("posters")
 LOGO_STATUS_FILE = Path("logo-status.json")
@@ -428,6 +435,50 @@ def keep_only_channels(text: str, wanted_ids: set[str]) -> str:
     return "\n".join(kept) + "\n"
 
 
+def backup_link_blocks(merged: list[str]) -> list[str]:
+    """Extra links for channels already in the playlist (never new channels)."""
+    first_line: dict[str, str] = {}
+    known_urls: set[str] = set()
+    for line in merged:
+        if line.startswith("#EXTINF:"):
+            tvg_id = get_attr(line, "tvg-id")
+            if tvg_id and tvg_id not in first_line:
+                first_line[tvg_id] = PER_ENTRY_HTTP_ATTRS.sub("", line)
+        elif line and not line.startswith("#"):
+            known_urls.add(line.strip())
+
+    print(f"Downloading full stream list for backup links: {ALL_STREAMS_URL}")
+    try:
+        streams = json.loads(download(ALL_STREAMS_URL))
+    except Exception as exc:
+        print(f"  Skipping backup links: {exc}")
+        return []
+
+    blocks: list[str] = []
+    added = 0
+    channels_helped: set[str] = set()
+    for stream in streams:
+        channel, feed, url = stream.get("channel"), stream.get("feed"), stream.get("url")
+        if not channel or not url:
+            continue
+        tvg_id = f"{channel}@{feed}" if feed else channel
+        line = first_line.get(tvg_id)
+        url = url.strip()
+        if line is None or url in known_urls:
+            continue
+        known_urls.add(url)
+        blocks.append(line)
+        if stream.get("referrer"):
+            blocks.append(f"#EXTVLCOPT:http-referrer={stream['referrer']}")
+        if stream.get("user_agent"):
+            blocks.append(f"#EXTVLCOPT:http-user-agent={stream['user_agent']}")
+        blocks.append(url)
+        added += 1
+        channels_helped.add(tvg_id)
+    print(f"  Added {added} backup links to {len(channels_helped)} channels")
+    return blocks
+
+
 def main() -> None:
     logo_lookup = load_logo_lookup()
 
@@ -478,6 +529,9 @@ def main() -> None:
             if key not in seen_exact_entries:
                 seen_exact_entries.add(key)
                 merged.extend(block)
+
+    if ADD_BACKUP_LINKS:
+        merged.extend(backup_link_blocks(merged))
 
     OUTPUT.write_text("\n".join(merged).rstrip() + "\n", encoding="utf-8")
     count = sum(1 for line in merged if line.startswith("#EXTINF:"))
