@@ -32,6 +32,14 @@ SOURCES = [
     ("USA", "https://iptv-org.github.io/iptv/countries/us.m3u"),
 ]
 
+# Hand-picked channels from other countries' iptv-org lists. Only the listed
+# channels are kept (matched on the bare tvg-id, e.g. "Mega.cl"), not the
+# whole country. To add one, put its tvg-id in the set for that country, or
+# add a new line with the country code from iptv-org/countries/<code>.m3u.
+EXTRA_CHANNELS: list[tuple[str, str, set[str]]] = [
+    ("Chile", "https://iptv-org.github.io/iptv/countries/cl.m3u", {"Mega.cl"}),
+]
+
 OUTPUT = Path("playlist.m3u")
 POSTERS_DIR = Path("posters")
 LOGO_STATUS_FILE = Path("logo-status.json")
@@ -403,6 +411,23 @@ def process_playlist(
     return output
 
 
+def keep_only_channels(text: str, wanted_ids: set[str]) -> str:
+    """Return just the entries whose bare tvg-id is in wanted_ids."""
+    wanted = {item.lower() for item in wanted_ids}
+    kept: list[str] = ["#EXTM3U"]
+    keeping = False
+    for raw_line in text.splitlines():
+        line = raw_line.rstrip("\r")
+        if line.startswith("#EXTM3U"):
+            continue
+        if line.startswith("#EXTINF:"):
+            tvg_id = (get_attr(line, "tvg-id") or "").split("@", 1)[0].lower()
+            keeping = tvg_id in wanted
+        if keeping:
+            kept.append(line)
+    return "\n".join(kept) + "\n"
+
+
 def main() -> None:
     logo_lookup = load_logo_lookup()
 
@@ -410,6 +435,19 @@ def main() -> None:
     for country, url in SOURCES:
         print(f"Downloading {country}: {url}")
         texts.append((country, download(url)))
+
+    # Extra picks are optional: if a country list is down, skip it instead of
+    # failing the whole daily update.
+    for country, url, wanted_ids in EXTRA_CHANNELS:
+        print(f"Downloading {country} extras {sorted(wanted_ids)}: {url}")
+        try:
+            filtered = keep_only_channels(download(url), wanted_ids)
+        except Exception as exc:
+            print(f"  Skipping {country} extras: {exc}")
+            continue
+        found = sum(1 for line in filtered.splitlines() if line.startswith("#EXTINF:"))
+        print(f"  Kept {found} stream(s)")
+        texts.append((country, filtered))
 
     all_text = [text for _, text in texts]
     broken_logos = find_broken_logos(collect_logo_urls(all_text, logo_lookup))
