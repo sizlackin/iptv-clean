@@ -1073,7 +1073,7 @@
   "failures": 0
  },
  "https://i.imgur.com/EL9Bwtf.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/ENOr31n.png": {
@@ -1617,7 +1617,7 @@
   "failures": 0
  },
  "https://i.imgur.com/Lv6HuCT.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/Lwwq62E.png": {
@@ -2125,7 +2125,7 @@
   "failures": 0
  },
  "https://i.imgur.com/U5fZkCN.jpeg": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/U6cu5Ms.png": {
@@ -2193,7 +2193,7 @@
   "failures": 0
  },
  "https://i.imgur.com/Uuc5h1s.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/V562tpO.png": {
@@ -2493,7 +2493,7 @@
   "failures": 0
  },
  "https://i.imgur.com/ZQ5uRhr.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/Zh60l1x.png": {
@@ -2817,7 +2817,7 @@
   "failures": 0
  },
  "https://i.imgur.com/fRjmk5r.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/fU0ZhKD.png": {
@@ -2905,7 +2905,7 @@
   "failures": 0
  },
  "https://i.imgur.com/gqEDwPn.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/gwPaw3v.png": {
@@ -3057,7 +3057,7 @@
   "failures": 0
  },
  "https://i.imgur.com/jOKA735.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/jTD9nLE.png": {
@@ -3277,7 +3277,7 @@
   "failures": 0
  },
  "https://i.imgur.com/n057TgX.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/n24MrsX.png": {
@@ -3377,7 +3377,7 @@
   "failures": 0
  },
  "https://i.imgur.com/oNUpXA9.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/oT5CAvd.png": {
@@ -3449,7 +3449,7 @@
   "failures": 0
  },
  "https://i.imgur.com/pj0O5nu.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/pnm60bq.png": {
@@ -3725,11 +3725,11 @@
   "failures": 0
  },
  "https://i.imgur.com/uVdKHMG.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/uXBPJHZ.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.imgur.com/uYXuwmV.png": {
@@ -4061,11 +4061,11 @@
   "failures": 0
  },
  "https://i.postimg.cc/1z72qQKC/In-Shot-20260908-064106298.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.postimg.cc/432q9g12/In-Shot-20260908-063951605.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://i.postimg.cc/5y6t70Mz/In-Shot-20260908-113231556.png": {
@@ -4233,8 +4233,8 @@
   "failures": 0
  },
  "https://images.pluto.tv/channels/5ff768b6a4c8b80008498610/colorLogoPNG_1756804608228.png": {
-  "checked": "2026-10-11",
-  "failures": 1
+  "checked": "2026-10-12",
+  "failures": 0
  },
  "https://images.pluto.tv/channels/5ff8c708653d080007361b14/featuredImage.jpg": {
   "checked": "2026-10-06",
@@ -4765,7 +4765,7 @@
   "failures": 0
  },
  "https://img.static-ottera.com/prod/tg/linear_channel/thumbnails/widescreen/EJIyYyBMkbW5UntSCAkGp-uLla7Z8KWHvDjyEqoOf3k.jpg": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg": {
@@ -4773,11 +4773,15 @@
   "failures": 0
  },
  "https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
+  "failures": 0
+ },
+ "https://imgx.fubo.tv/station_logos/fox_c.png": {
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://imgx.fubo.tv/station_logos/telemundo_c.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://ipuntotv.com/IMAGES/Knino-logo.png": {
@@ -4857,7 +4861,7 @@
   "failures": 0
  },
  "https://play-lh.googleusercontent.com/3716tvZCgzpIt-X1giV8jKwCdC8zwOI4eMUfO_ETWzNX6eGKIi2RiUK9a_fr6BCzjw": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://play-lh.googleusercontent.com/58IEgCECrId5YdLMZWL9ohHzyZCY1lNduLVxK9QF1P5EZuSIJScTWEMaw2efd88zMkc": {
@@ -4965,7 +4969,7 @@
   "failures": 0
  },
  "https://static.wikia.nocookie.net/logopedia/images/4/43/Create_TV_2006.svg/revision/latest/smart/width/386/height/259?cb=20240205233457": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://static.wikia.nocookie.net/logopedia/images/a/ab/QVC2_%282017%29.svg/revision/latest/scale-to-width-down/512": {
@@ -4977,7 +4981,7 @@
   "failures": 0
  },
  "https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://static.wikitide.net/indietvwiki/0/03/Placid_(2026).svg": {
@@ -5004,6 +5008,10 @@
   "checked": "2026-10-06",
   "failures": 0
  },
+ "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/HBO_Hits_Logo.svg/960px-HBO_Hits_Logo.svg.png": {
+  "checked": "2026-10-12",
+  "failures": 0
+ },
  "https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png": {
   "checked": "2026-10-06",
   "failures": 0
@@ -5013,11 +5021,11 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/0/05/A_logo_for_BizTV.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/1/1a/CBUT_Logo_%28cleaned_up_ver%29.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/1/1c/Discovery_Family_Channel_%28DFC%29.png": {
@@ -5037,7 +5045,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png": {
-  "checked": "2026-10-05",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png": {
@@ -5117,7 +5125,7 @@
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/NTD_Logo_with_symbol.svg/960px-NTD_Logo_with_symbol.svg.png": {
-  "checked": "2026-10-04",
+  "checked": "2026-10-12",
   "failures": 0
  },
  "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png": {
@@ -5133,6 +5141,7 @@
   "checked": "2026-09-28",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/InvestigationDiscoveryLogo2020.svg/960px-InvestigationDiscoveryLogo2020.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/960px-TruTV_2014.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/960px-MyNetworkTV_2D_Logo.svg.png": {
@@ -5226,6 +5235,7 @@
   "checked": "2026-09-29",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CBCT-DT_2017.svg/960px-CBCT-DT_2017.svg.png": {
   "checked": "2026-09-30",
   "failures": 0
@@ -5310,6 +5320,7 @@
   "checked": "2026-08-14",
   "failures": 0
  },
+ "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/960px-HBO_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/WeatherNation_Logo.svg/960px-WeatherNation_Logo.svg.png": {
   "checked": "2026-10-07",
   "failures": 0
@@ -5331,7 +5342,6 @@
   "checked": "2026-08-12",
   "failures": 0
  },
- "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/960px-Fox_Networks_Group_US_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Univision_tlnovelas_%282019%29.svg/960px-Univision_tlnovelas_%282019%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png": {},
@@ -5358,6 +5368,7 @@
  "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Cinemax_Classics_Logo.png/960px-Cinemax_Classics_Logo.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png": {},
+ "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/NFL_Network_logo.svg/960px-NFL_Network_logo.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Wild_TV_logo_2020.png/960px-Wild_TV_logo_2020.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png": {},
  "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png": {},
@@ -5439,8 +5450,8 @@
   "failures": 0
  },
  "https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tv-plus/all-channels/08182020/Wild%20N%20Out_190x190.png?raw=true": {
-  "checked": "2026-10-11",
-  "failures": 75
+  "checked": "2026-10-12",
+  "failures": 76
  },
  "https://www.stingray.com/wp-content/uploads/2023/12/stingray_zenlifebystingray_white.svg": {
   "checked": "2026-10-06",
@@ -5471,8 +5482,8 @@
   "failures": 0
  },
  "https://xstreamcp-assets-msp.streamready.in/assets/DISTROTV/LIVECHANNEL/666988e3bac4421ebc533621/images/logo_20231219_215208_70.png": {
-  "checked": "2026-10-11",
-  "failures": 75
+  "checked": "2026-10-12",
+  "failures": 76
  },
  "https://yt3.googleusercontent.com/CRP3YudPa55QypbDnIvuh3erLZTsn2HK8ESR-2fJFFiLJVf7US2CKQELCKK_UowmHA3wCjAdxg=s512-c-k-c0x00ffffff-no-rj": {
   "checked": "2026-10-06",
