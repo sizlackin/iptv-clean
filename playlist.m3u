@@ -1063,13 +1063,13 @@ https://aegis-cloudfront-1.tubi.video/8d1f164d-34ef-4f70-b948-ae33826a0aaa/playl
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-kirobreaking-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="CBS.us@KMTVTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FE4PkyqN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KMTV-TV",CBS KMTV-TV
 https://aegis-cloudfront-1.tubi.video/0b16cabe-a8fd-4d91-99e5-3efb7aa740cc/playlist.m3u8
-#EXTINF:-1 tvg-id="CBS.us@KUTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FCBS_logo_%25282020%2529.svg%2F960px-CBS_logo_%25282020%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KUTV",CBS KUTV
+#EXTINF:-1 tvg-id="CBS.us@KUTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd3%2FKUTV_13.svg%2F960px-KUTV_13.svg.png%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dimageinfo%26utm_content%3Dthumbnail&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KUTV",CBS KUTV
 https://linear-707.frequency.stream/dist/stirr/707/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="CBS.us@KWTVDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FCBS_logo_%25282020%2529.svg%2F960px-CBS_logo_%25282020%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KWTV-DT",CBS KWTV-DT
 https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb6744b0425.m3u8
-#EXTINF:-1 tvg-id="CBS.us@KZTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FCBS_logo_%25282020%2529.svg%2F960px-CBS_logo_%25282020%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KZTV",CBS KZTV
+#EXTINF:-1 tvg-id="CBS.us@KZTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F03%2FKZTV_logo%252C_introduced_in_2021.svg%2F960px-KZTV_logo%252C_introduced_in_2021.svg.png%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dimageinfo%26utm_content%3Dthumbnail&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS KZTV",CBS KZTV
 https://content.uplynk.com/channel/d1f868588ae5476dadaeff450170a183.m3u8
-#EXTINF:-1 tvg-id="CBS.us@WCBITV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FCBS_logo_%25282020%2529.svg%2F960px-CBS_logo_%25282020%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS WCBI-TV",CBS WCBI-TV
+#EXTINF:-1 tvg-id="CBS.us@WCBITV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F50%2FWCBITVDT.png%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dimageinfo%26utm_content%3Dthumbnail_unscaled&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS WCBI-TV",CBS WCBI-TV
 https://townnews.g-mana.live/media/4efc62fa-ad0b-445c-a839-4d1e7636988e/main.m3u8
 #EXTINF:-1 tvg-id="CBS.us@WDEFTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fee%2FCBS_logo_%25282020%2529.svg%2F960px-CBS_logo_%25282020%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="CBS WDEF-TV",CBS WDEF-TV
 https://townnews.g-mana.live/media/a54a6409-5e91-46f0-9fee-06904c1fd094/main.m3u8
@@ -4957,8 +4957,6 @@ https://jmp2.uk/plu-5d695f7db53adf96b78e7ce3.m3u8
 https://aegis-cloudfront-1.tubi.video/cb7f305d-049a-4feb-bc6e-028c43ad3c3e/master.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F3yXRbQy.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Tooncast",Tooncast
 https://streaming.onnethn.com/TOONCAST/playlist.m3u8
-#EXTINF:-1 tvg-id="Tooncast.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F3yXRbQy.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Tooncast",Tooncast
-http://170.244.209.30:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJMnxswq.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="ToonGoggles",ToonGoggles
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
 #EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJMnxswq.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="ToonGoggles",ToonGoggles
