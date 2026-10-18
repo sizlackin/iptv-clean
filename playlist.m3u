@@ -1409,8 +1409,6 @@ https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 http://212.5.144.156:8080/discovery/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTurbo.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F74%2FDiscovery_Turbo_2025.svg%2F1920px-Discovery_Turbo_2025.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Auto" tvg-name="Discovery Turbo (United States)",Discovery Turbo (United States)
 http://41.205.93.154/ESPNNEWS/index.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Fff%2F2024_Disney_Channel_text_logo.svg%2F960px-2024_Disney_Channel_text_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Disney Channel (United States)",Disney Channel (United States)
-http://212.5.144.156/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe3%2F2024_Disney_Jr._Logo.svg%2F960px-2024_Disney_Jr._Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Disney Junior (United States)",Disney Junior (United States)
 http://tvsen5.aynascope.net/disney/index.m3u8
 #EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa8%2F2015_Disney_XD_logo.svg%2F960px-2015_Disney_XD_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Disney XD (United States)",Disney XD (United States)
@@ -2036,6 +2034,8 @@ https://amg01576-blueskyeenterta-lovepetsemea-samsungse-ctamh.amagi.tv/playlist/
 https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUSA.ng@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/1ea719a7e3c4.png" group-title="Religious" tvg-name="LoveWorld USA",LoveWorld USA
 https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="LucasFriends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2FcLft65S5%2FDmin-CTnq-400x400.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Lucas & Friends",Lucas & Friends
+https://app.viloud.tv/hls/channel/01e3b17a3605b7c0389411ae3d5dfd6e.m3u8
 #EXTINF:-1 tvg-id="LuckyDog.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1j4gwL3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary" tvg-name="Lucky Dog",Lucky Dog
 https://d3j95sejv6mybj.cloudfront.net/Lucky_Dog.m3u8
 #EXTINF:-1 tvg-id="MadDogandMerrill.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5QQy3aW.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Cooking" tvg-name="Mad Dog and Merrill",Mad Dog and Merrill
@@ -3795,6 +3795,9 @@ https://circle-klowdtv.amagi.tv/playlist.m3u8
 https://circle-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Circle.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe8%2FCircle_Network_logo.svg%2F960px-Circle_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Circle",Circle
 https://circle-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CNN.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FCNN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN",CNN
+#EXTVLCOPT:http-referrer=https://usnewson.com
+https://p13.usnlive.com/stream/cnn.m3u8
 #EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb6%2FLogo_de_CNN_en_Espa%25C3%25B1ol_%25282010-2015%2529.svg%2F960px-Logo_de_CNN_en_Espa%25C3%25B1ol_%25282010-2015%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN en Espanol",CNN en Espanol
 https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ColdCaseFiles.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FmowSfj6.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Cold Case Files",Cold Case Files
@@ -4089,6 +4092,9 @@ https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
+#EXTVLCOPT:http-referrer=https://usnewson.com/
+https://p14.usnlive.com/stream/foxnews.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FYIamDGn.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Culture" tvg-name="Fox Soul",Fox Soul
 https://aegis-cloudfront-1.tubi.video/0c4bd880-76cc-4000-b9cb-8edabeb88daa/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
@@ -4385,6 +4391,10 @@ https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg0
 https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@English" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Flogopedia%2Fimages%2F2%2F25%2FMr._Bean_Animated_Series_stacked_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Mr Bean Animated",Mr Bean Animated
 https://d2t1w90tnft92.cloudfront.net/Mr_Bean_Animated.m3u8
+#EXTINF:-1 tvg-id="MSNOW.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc2%2FMS_NOW_logo.svg%2F960px-MS_NOW_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="MS NOW",MS NOW
+#EXTVLCOPT:http-referrer=https://usnewson.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+https://p13.usnlive.com/stream/msnbc.m3u8
 #EXTINF:-1 tvg-id="MST3K.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2LSdcga.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="MST3K",MST3K
 https://jmp2.uk/plu-545943f1c9f133a519bbac92.m3u8
 #EXTINF:-1 tvg-id="MST3K.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2LSdcga.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="MST3K",MST3K
@@ -4531,6 +4541,10 @@ https://a-cdn.klowdtv.com/live1/oane/playlist.m3u8
 https://jmp2.uk/plu-5e7cf6c7b156d500078c5f44.m3u8
 #EXTINF:-1 tvg-id="OANPlus.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FT9VhMAD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="OAN Plus",OAN Plus
 https://oneamericanews-roku-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F8%2F84%2FOne_America_News_Network_logo.svg%2F960px-One_America_News_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="One America News Network",One America News Network
+#EXTVLCOPT:http-referrer=https://usnewson.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:158.0) Gecko/20100101 Firefox/158.0
+https://p14.usnlive.com/stream/oann.m3u8
 #EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F8%2F84%2FOne_America_News_Network_logo.svg%2F960px-One_America_News_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="One America News Network",One America News Network
 https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="OnePiece.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5f7790b3ed0c88000720b241%2FcolorLogoPNG_1731837233662.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation" tvg-name="One Piece",One Piece
