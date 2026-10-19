@@ -261,10 +261,10 @@ https://jmp2.uk/plu-65cf8d7428730900087c5907.m3u8
 https://jmp2.uk/plu-62f4f5de1c100100075665ef.m3u8
 #EXTINF:-1 tvg-id="NCISLosAngeles.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F66a106c8a79dea0008aa5ef3%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="NCIS: Los Angeles (United States)",NCIS: Los Angeles (United States)
 https://jmp2.uk/plu-66a106c8a79dea0008aa5ef3.m3u8
-#EXTINF:-1 tvg-id="NewChannel.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fvideocdn.bamboo-cloud.com%2Fp%2F11294%2Fsp%2F1129400%2Fthumbnail%2Fentry_id%2F0_hd6fo6eq%2Fversion%2F100002%2Fwidth%2F1920&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4" group-title="Kids;Music" tvg-name="New Channel",New Channel
+#EXTINF:-1 tvg-id="NewChannel.ca@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/60ed255a8c7f.png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4" group-title="Kids;Music" tvg-name="New Channel",New Channel
 #EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab2104508fd5ee36702e3d4
 https://vodcdn.bamboo-cloud.com/livehls/6ab2104508fd5ee36702e3d4/master.m3u8
-#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fvideocdn.bamboo-cloud.com%2Fp%2F11294%2Fsp%2F1129400%2Fthumbnail%2Fentry_id%2F0_vjhh0bly%2Fversion%2F100012%2Fwidth%2F1920&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85" group-title="Kids" tvg-name="New Channel Pop!",New Channel Pop!
+#EXTINF:-1 tvg-id="NewChannelPop.ca@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/11b44e8e2dba.png" http-referrer="https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85" group-title="Kids" tvg-name="New Channel Pop!",New Channel Pop!
 #EXTVLCOPT:http-referrer=https://splay.bamboo-cloud.com/channel/6ab37c6c7e057f9063071c85
 https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62bdb75c3afd1200079146a6%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. Pluto TV CA",Nick Jr. Pluto TV CA
@@ -1730,8 +1730,6 @@ https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist
 http://tvsen7.aynascope.net/hbo/index.m3u8
 #EXTINF:-1 tvg-id="HBOHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits",HBO Hits
 http://tvsen7.aynascope.net/hbo2/index.m3u8
-#EXTINF:-1 tvg-id="HBOMovies.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F56%2FHBO_Movies_Logo.svg%2F960px-HBO_Movies_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Movies",HBO Movies
-http://23.237.104.106:8080/USA_HBO_ZONE/index.m3u8
 #EXTINF:-1 tvg-id="HBTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FxADoSqE.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="HBTV",HBTV
 https://reflect-huntingtonbeach.cablecast.tv/live-4/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="HCTVEducationalAccessChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FbVbpgiD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="HCTV Educational Access Channel",HCTV Educational Access Channel
