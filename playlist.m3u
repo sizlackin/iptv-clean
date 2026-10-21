@@ -323,7 +323,7 @@ https://jmp2.uk/plu-693adae77f21340ef9746f56.m3u8
 https://jmp2.uk/plu-62ea3f8a38acc80007072d26.m3u8
 #EXTINF:-1 tvg-id="PlutoTVParanormal.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62e92a58f3e4290007290c96%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary" tvg-name="Pluto TV Paranormal (United States) CA",Pluto TV Paranormal (United States) CA
 https://jmp2.uk/plu-62e92a58f3e4290007290c96.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality (United States) CA",Pluto TV Reality (United States) CA
+#EXTINF:-1 tvg-id="PlutoTVReality.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality CA",Pluto TV Reality CA
 https://jmp2.uk/plu-67922858b83355184c699699.m3u8
 #EXTINF:-1 tvg-id="PlutoTVRetroActionMovies.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F69a9ae4d3bd16a4ed04240d7%2FcolorLogoPNG_1774879695281.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic;Movies" tvg-name="Pluto TV Retro Action Movies",Pluto TV Retro Action Movies
 https://jmp2.uk/plu-69a9ae4d3bd16a4ed04240d7.m3u8
@@ -789,6 +789,8 @@ https://jmp2.uk/plu-5e1f7da4bc7d740009831259.m3u8
 http://23.237.104.106:8080/USA_AMERICAN_HEROES/index.m3u8
 #EXTINF:-1 tvg-id="AmericanHorrors.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F16f5571a82819e8992a748c70b256cbe63105f4b546b73d129668dc2cb701d91.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="American Horrors",American Horrors
 http://107.167.7.162:8081/playlist/amhor/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericanNinjaWarrior.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FRoqueDJ%2Fiptv-svg%2Fmain%2F1792421696158.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="American Ninja Warrior",American Ninja Warrior
+https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads.xumo_channelId=99951318&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99951318
 #EXTINF:-1 tvg-id="Ameritrade.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71CZKwin9mL.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Business" tvg-name="Ameritrade",Ameritrade
 https://tdameritrade-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AMGTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fm5Anun9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Family" tvg-name="AMG TV",AMG TV
@@ -987,6 +989,10 @@ https://bonappetit-samsung.amagi.tv/playlist.m3u8
 https://jmp2.uk/plu-68e9913c4a666b9054849832.m3u8
 #EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F35%2FBoomerang_2014_logo.svg%2F960px-Boomerang_2014_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Boomerang",Boomerang
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
+#EXTINF:-1 tvg-id="BotflixRadioo.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fbotflix.tv%2Fassets%2Fimg%2Fbotflix-mark.90c6a6f9a4.webp&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Botflix Radioo",Botflix Radioo
+https://hls.botflix.tv/radioo/index.m3u8
+#EXTINF:-1 tvg-id="BotflixTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fbotflix.tv%2Fassets%2Fimg%2Fbotflix-mark.90c6a6f9a4.webp&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Entertainment" tvg-name="Botflix TV",Botflix TV
+https://hls.botflix.tv/tv/index.m3u8
 #EXTINF:-1 tvg-id="Bounce.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F718bHckb8eL.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Bounce",Bounce
 http://23.237.104.106:8080/USA_BOUNCE/index.m3u8
 #EXTINF:-1 tvg-id="BounceXL.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGzxgSkc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Bounce XL",Bounce XL
@@ -1544,8 +1550,6 @@ http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 https://jmp2.uk/plu-62e92392a3e6270007f562e8.m3u8
 #EXTINF:-1 tvg-id="ForeverKids.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FdeeQqYZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Forever Kids",Forever Kids
 https://jmp2.uk/plu-56171fafada51f8004c4b40f.m3u8
-#EXTINF:-1 tvg-id="Fox.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ffox_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Fox (United States)",Fox (United States)
-http://stream.cammonitorplus.net/1752/index.m3u8
 #EXTINF:-1 tvg-id="Fox.us@KBSI" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Ftvstations%2Fimages%2F8%2F8e%2FKBSIO6.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Fox (United States) KBSI",Fox (United States) KBSI
 https://live.field59.com/kbsi/kbsi1/playlist.m3u8
 #EXTINF:-1 tvg-id="Fox.us@KCPQ" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ffox_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Fox (United States) KCPQ",Fox (United States) KCPQ
@@ -2571,15 +2575,15 @@ https://jmp2.uk/plu-5cf96c0222df39f1a338d163.m3u8
 https://jmp2.uk/plu-5adf96e3e738977e2c31cb04.m3u8
 #EXTINF:-1 tvg-id="PlutoTVReaction.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FH9k3OXN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Pluto TV Reaction",Pluto TV Reaction
 https://jmp2.uk/plu-617b37b361e0fd0008cfd8c5.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality (United States)",Pluto TV Reality (United States)
+#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality",Pluto TV Reality
 https://jmp2.uk/plu-69fa3faab9c0f0d444e64de3.m3u8
-#EXTINF:-1 tvg-id="PlutoTVRomance.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGJBxfyf.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="Pluto TV Romance (United States)",Pluto TV Romance (United States)
+#EXTINF:-1 tvg-id="PlutoTVRomance.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGJBxfyf.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="Pluto TV Romance",Pluto TV Romance
 https://jmp2.uk/plu-5a66795ef91fef2c7031c599.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSanctuary.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FFu2jn2t.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Pluto TV Sanctuary",Pluto TV Sanctuary
 https://jmp2.uk/plu-63eb57d6c111bc0008fe2658.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSciFi.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F66166cb1307fa30008f275e7%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="Pluto TV Sci-Fi (United States)",Pluto TV Sci-Fi (United States)
 https://jmp2.uk/plu-5b4fc274694c027be6ed3eea.m3u8
-#EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuhunRoU.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary;Science" tvg-name="Pluto TV Science (United States)",Pluto TV Science (United States)
+#EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuhunRoU.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary;Science" tvg-name="Pluto TV Science",Pluto TV Science
 https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSpotlight.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUmuJkVB.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Pluto TV Spotlight",Pluto TV Spotlight
 https://jmp2.uk/plu-5ba3fb9c4b078e0f37ad34e8.m3u8
@@ -2591,7 +2595,7 @@ https://jmp2.uk/plu-6887aaf4e3703b7d42b71a1e.m3u8
 https://jmp2.uk/plu-5c6dc88fcd232425a6e0f06e.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTheTwilightZone.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FFiIRQAR.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic;Series" tvg-name="Pluto TV The Twilight Zone",Pluto TV The Twilight Zone
 https://jmp2.uk/plu-67352ed93a61d4000881f9fa.m3u8
-#EXTINF:-1 tvg-id="PlutoTVThrillers.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FULKvDN7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Pluto TV Thrillers (United States)",Pluto TV Thrillers (United States)
+#EXTINF:-1 tvg-id="PlutoTVThrillers.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FULKvDN7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Pluto TV Thrillers",Pluto TV Thrillers
 https://jmp2.uk/plu-5b4e69e08291147bd04a9fd7.m3u8
 #EXTINF:-1 tvg-id="PlutoTVTrendingNow.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F673247127d5da5000817b4d6%2FcolorLogoPNG_1732662634386.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Pluto TV Trending Now",Pluto TV Trending Now
 https://jmp2.uk/plu-673247127d5da5000817b4d6.m3u8
@@ -3509,6 +3513,8 @@ https://rpn.bozztv.com/gfaith/gfaith-amazing/index.m3u8
 http://41.205.93.154/AMC/index.m3u8
 #EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FL1h6W5Q.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="AMC en Espanol",AMC en Espanol
 https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericanNinjaWarrior.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FRoqueDJ%2Fiptv-svg%2Fmain%2F1792421696158.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="American Ninja Warrior",American Ninja Warrior
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042
 #EXTINF:-1 tvg-id="AmericasTestKitchen.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FprMkTsZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Cooking" tvg-name="America's Test Kitchen",America's Test Kitchen
 https://pb-zwcfuzg8t5abc.akamaized.net/Americas_Test_Kitchen.m3u8
 #EXTINF:-1 tvg-id="AmericasTestKitchen.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FprMkTsZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Cooking" tvg-name="America's Test Kitchen",America's Test Kitchen
@@ -4632,7 +4638,7 @@ https://aegis-cloudfront-1.tubi.video/9c59800e-fa9a-4539-b8e5-5769918e7c5a/playl
 https://jmp2.uk/plu-5f4d3d06fb60d8000781fce8.m3u8
 #EXTINF:-1 tvg-id="PlutoTVElReinoInfantil.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fu7DOoBK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Pluto TV El Reino Infantil",Pluto TV El Reino Infantil
 https://jmp2.uk/plu-66fedd65d7de140008dccd66.m3u8
-#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality (United States)",Pluto TV Reality (United States)
+#EXTINF:-1 tvg-id="PlutoTVReality.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F67922858b83355184c699699%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Pluto TV Reality",Pluto TV Reality
 https://jmp2.uk/plu-5d8bf0b06d2d855ee15115e3.m3u8
 #EXTINF:-1 tvg-id="PlutoTVWipeout.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKVTNBFr.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Pluto TV Wipeout",Pluto TV Wipeout
 https://jmp2.uk/plu-604f8125c6669b00077f7699.m3u8
