@@ -803,6 +803,10 @@ https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch1/video.m3u8
 https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="AmuTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKXdvPum.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Amu TV",Amu TV
 https://jmc-live.ercdn.net/amutv/amutv.m3u8
+#EXTINF:-1 tvg-id="AneflixLive.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2021%2F06%2F26%2F18%2F11%2Flive-6366830_960_720.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://vaughn.live/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" group-title="Movies" tvg-name="Aneflix Live",Aneflix Live
+#EXTVLCOPT:http-referrer=https://vaughn.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+https://stream-cdn-iad.vaughnsoft.net/play/live_a_neflix01.flv
 #EXTINF:-1 tvg-id="AngerManagementChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FVXZgrNy.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy;Series" tvg-name="Anger Management Channel",Anger Management Channel
 https://amg00353-lionsgatestudio-angermgmt-samsungau-o9jg9.amagi.tv/playlist/amg00353-lionsgatestudio-angermgmt-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimalPlanet.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F20%2F2018_Animal_Planet_logo.svg%2F960px-2018_Animal_Planet_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary" tvg-name="Animal Planet (United States)",Animal Planet (United States)
@@ -1483,8 +1487,6 @@ http://tvsen7.aynascope.net/espn/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
 #EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Fespn-hd-deportes_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPN Deportes",ESPN Deportes
 http://168.228.44.241:9998/play/a0dz/index.m3u8
-#EXTINF:-1 tvg-id="ESPNU.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
-http://23.237.104.106:8080/USA_ESPNU/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHiBrysh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="ESPNU",ESPNU
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 tvg-id="EstrellaGames.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FZ52nEnH.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment;Family" tvg-name="Estrella Games",Estrella Games
@@ -1606,6 +1608,8 @@ https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8
 https://foxsoul-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FO9BapV9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 1",Fox Sports 1
 http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ffs2_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 2 (United States)",Fox Sports 2 (United States)
+https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
 https://247wlive.foxweather.com/stream/index.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FQq6heRq.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Free Speech TV",Free Speech TV
@@ -1624,6 +1628,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=978
 https://jmp2.uk/plu-580e87ff497c73ba2f321dd3.m3u8
 #EXTINF:-1 tvg-id="Fuse.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fc%2Fc2%2FFuse_Black_Logo_2017.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Fuse",Fuse
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
+#EXTINF:-1 tvg-id="FX.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F4d%2FFX_International_logo.svg%2F960px-FX_International_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="FX",FX
+https://tvsen7.aynascope.net/fx/index.m3u8
 #EXTINF:-1 tvg-id="G10TV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5VPgAxB.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="G10TV",G10TV
 https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FENj5GIp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Gagsnetwork",Gagsnetwork
@@ -1711,7 +1717,7 @@ https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="Gunsmoke.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62e916affb29c60007211c8a%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Gunsmoke",Gunsmoke
 https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8
 #EXTINF:-1 tvg-id="HallmarkChannel.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F53%2FHallmark_Channel.svg%2F960px-Hallmark_Channel.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Family" tvg-name="Hallmark Channel",Hallmark Channel
-http://23.237.104.106:8080/USA_HALLMARK/index.m3u8
+http://41.205.93.154/HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F29af70d1-d3ba-4a16-bc4d-bd99e7e7def4%2Fhallmark-movies-and-more_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Hallmark Movies & More",Hallmark Movies & More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
 #EXTINF:-1 tvg-id="HappyDays.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62e917b5e354cf0007b97a67%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Happy Days (United States)",Happy Days (United States)
@@ -2093,6 +2099,10 @@ https://5b200f5268ceb.streamlock.net/MCPSS/MCPSS247.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MediasetItalia.it@USA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FF4gyqhw.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="General" tvg-name="Mediaset Italia USA",Mediaset Italia USA
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://d3k8wzt41aflvx.cloudfront.net/MediasetUSA/Live.m3u8
+#EXTINF:-1 tvg-id="MegaExtrenoHD.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fcdn.vaughnsoft.net%2Fprofile%2F1792355588%2Fmega_extremo.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://vaughn.live/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36" group-title="Movies" tvg-name="Mega Extreno",Mega Extreno
+#EXTVLCOPT:http-referrer=https://vaughn.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36
+https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
 #EXTINF:-1 tvg-id="MegaTV.us@WSBSTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMiPdjSX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Mega TV (United States) WSBS-TV",Mega TV (United States) WSBS-TV
 https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 #EXTINF:-1 tvg-id="MeritStreet.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fstatic.wikia.nocookie.net%2Flogopedia%2Fimages%2F1%2F1d%2FMerit_Street_Media_2024_1.svg%2Frevision%2Flatest%2Fscale-to-width-down%2F512&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Merit Street",Merit Street
@@ -3515,6 +3525,8 @@ http://41.205.93.154/AMC/index.m3u8
 https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericanNinjaWarrior.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FRoqueDJ%2Fiptv-svg%2Fmain%2F1792421696158.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="American Ninja Warrior",American Ninja Warrior
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993042/hls/master.m3u8?ads.xumo_channelId=99993042&ads.asnw=169843&ads.afid=405342864&ads.sfid=19647852&ads.csid=lgchannels_us_nbcuamericanninjawarrior_ssai_cro&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior&ads.channelId=99993042
+#EXTINF:-1 tvg-id="AmericanNinjaWarrior.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2FRoqueDJ%2Fiptv-svg%2Fmain%2F1792421696158.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="American Ninja Warrior",American Ninja Warrior
+https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
 #EXTINF:-1 tvg-id="AmericasTestKitchen.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FprMkTsZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Cooking" tvg-name="America's Test Kitchen",America's Test Kitchen
 https://pb-zwcfuzg8t5abc.akamaized.net/Americas_Test_Kitchen.m3u8
 #EXTINF:-1 tvg-id="AmericasTestKitchen.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FprMkTsZ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Cooking" tvg-name="America's Test Kitchen",America's Test Kitchen
@@ -4094,11 +4106,10 @@ https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1
 http://138.121.15.230:9002/FOX-NEWS/index.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
 http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
-#EXTVLCOPT:http-referrer=https://usnewson.com/
-https://p14.usnlive.com/stream/foxnews.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FYIamDGn.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Culture" tvg-name="Fox Soul",Fox Soul
 https://aegis-cloudfront-1.tubi.video/0c4bd880-76cc-4000-b9cb-8edabeb88daa/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FO9BapV9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 1",Fox Sports 1
+https://tvsen7.aynascope.net/foxsports1/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
 https://jmp2.uk/plu-640a68880e884c0009979cc2.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
@@ -4149,8 +4160,6 @@ https://amogonetworx-grjngo-3-se.samsung.wurl.tv/playlist.m3u8
 https://amogonetworx-grjngo-3-gb.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GrjngoWesternMovies.de@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FwFqhK3p.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Grjngo Western Movies",Grjngo Western Movies
 https://pb-rtme7tnh9wa6k.akamaized.net/playlist.m3u8
-#EXTINF:-1 tvg-id="HallmarkChannel.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F53%2FHallmark_Channel.svg%2F960px-Hallmark_Channel.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Family" tvg-name="Hallmark Channel",Hallmark Channel
-http://41.205.93.154/HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F29af70d1-d3ba-4a16-bc4d-bd99e7e7def4%2Fhallmark-movies-and-more_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Hallmark Movies & More",Hallmark Movies & More
 https://jmp2.uk/plu-628e685ba3811100070551a8.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F29af70d1-d3ba-4a16-bc4d-bd99e7e7def4%2Fhallmark-movies-and-more_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Hallmark Movies & More",Hallmark Movies & More
@@ -4499,6 +4508,8 @@ https://aegis-cloudfront-1.tubi.video/1f4cbb33-cb23-40ab-b54b-2965cc551b32/playl
 https://aegis-cloudfront-1.tubi.video/b8c5eb48-349b-454f-9625-63911ee923f5/playlist.m3u8
 #EXTINF:-1 tvg-id="NickJr.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKT4tdQs.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. (United States)",Nick Jr. (United States)
 http://tvsen7.aynascope.net/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F654ca7f92c1d3300086b608c%2FcolorLogoPNG_1751457678592.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nicktoons (United States)",Nicktoons (United States)
+https://tvsen7.aynascope.net/nicktoons/index.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7EngqUi.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ninja Kidz TV",Ninja Kidz TV
 https://playworksdigital-ninjakidztv-1-us.xumo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Nosey.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fi5doCQK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Nosey",Nosey
