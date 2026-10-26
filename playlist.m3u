@@ -1421,6 +1421,8 @@ http://212.5.144.156:8080/discovery/index.m3u8
 http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="DisneyJunior.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe3%2F2024_Disney_Jr._Logo.svg%2F960px-2024_Disney_Jr._Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Disney Junior (United States)",Disney Junior (United States)
 http://tvsen5.aynascope.net/disney/index.m3u8
+#EXTINF:-1 tvg-id="DisneyXD.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Fa8%2F2015_Disney_XD_logo.svg%2F960px-2015_Disney_XD_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Disney XD (United States)",Disney XD (United States)
+http://89.187.179.148:826/1368/gXwiagaXda/1672
 #EXTINF:-1 tvg-id="DistrictofColumbiaNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGGZ8BQ8.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="District of Columbia Network",District of Columbia Network
 https://video.oct.dc.gov/out/u/DCN.m3u8
 #EXTINF:-1 tvg-id="DiyaTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1fC7tqH.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Diya TV",Diya TV
