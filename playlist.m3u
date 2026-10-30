@@ -1742,6 +1742,8 @@ https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19
 https://amg02713-amg02713c11-amgplt0852.playout.now3.amagi.tv/ts-us-e2-n2/playlist/amg02713-amg02713c11-amgplt0852/playlist.m3u8
 #EXTINF:-1 tvg-id="HauntTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F63934c218ef524000757b122%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="HauntTV",HauntTV
 https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="HBCUGOSports.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FTY6sx5W.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="HBCU-GO Sports",HBCU-GO Sports
+https://a-cdn.klowdtv.com/live3/hbcugo_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="HBO.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fde%2FHBO_logo.svg%2F960px-HBO_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO (United States)",HBO (United States)
 http://tvsen7.aynascope.net/hbo/index.m3u8
 #EXTINF:-1 tvg-id="HBOHits.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fthumb.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff0%2FHBO_Hits_Logo.svg%2F960px-HBO_Hits_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="HBO Hits",HBO Hits
@@ -2121,8 +2123,6 @@ https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fnew.opencaster.com%2Fuploads%2Flogos%2Flogo_14_1752798826.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Metaleitor TV",Metaleitor TV
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
-#EXTINF:-1 tvg-id="MeTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fplay-lh.googleusercontent.com%2FPO0C2_-FdOtMVn1rw_Q0_iystfcf6Ab8h1Q37P8fEgSLuAkQJBCI9kax_FIkUgXppgs4&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="MeTV",MeTV
-https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8
 #EXTINF:-1 tvg-id="MidnightPulp.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fa%2Fepg%2Fchannels%2Flogos%2Fgracenote%2Fa1a2cdc3d6f0714c586e9959732580c7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Midnight Pulp",Midnight Pulp
 https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaX1GkCD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Midpen Media Center Channel 26",Midpen Media Center Channel 26
@@ -2771,8 +2771,6 @@ https://livestream.telvue.com/roguevalleycmttv1/f7b44cfafd5c52223d5498196c8a2e7b
 https://livestream.telvue.com/roguevalleycmttv3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjcIprmt.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ryan and Friends",Ryan and Friends
 https://ryanandfriends-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="SMetroTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.postimg.cc%2F1z72qQKC%2FIn-Shot-20260908-064106298.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="S Metro TV",S Metro TV
-https://vodcdn.bamboo-cloud.com/livehls/6a9f8b4606304461c50dfe93/master.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaDbc64y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Salem News Channel",Salem News Channel
 https://amg00732-salemmediagroup-snc-ono-ekp8j.amagi.tv/playlist/amg00732-salemmediagroup-snc-ono/playlist.m3u8
 #EXTINF:-1 tvg-id="SamsungWildlife.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fx06npU2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Samsung Wildlife",Samsung Wildlife
@@ -2857,6 +2855,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2260
 https://a89829b8dca2471ab52ea9a57bc28a35.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/CanelaTV_SonyCanalNovelas/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyKALHindi.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F9Qq8DKh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Sony KAL Hindi",Sony KAL Hindi
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyMovies.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F9b%2FSony_Movies_Logo.svg%2F500px-Sony_Movies_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Sony Movies (United States)",Sony Movies (United States)
+https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="SoundViewCommunityMedia.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F3gASzGc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Sound View Community Media",Sound View Community Media
 https://livestream.telvue.com/soundviewcmt2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SpikeOutdoors.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FcdCD2A2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Spike Outdoors",Spike Outdoors
@@ -4967,6 +4967,8 @@ https://amg00145-letsplayinc-thepriceisright-xumo-eqq6a.amagi.tv/playlist.m3u8
 https://pb-7ien6yaxy2am1.akamaized.net/playlist.m3u8
 #EXTINF:-1 tvg-id="TheWalkingDeadUniverse.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FIwJ5Pnc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="The Walking Dead Universe",The Walking Dead Universe
 https://amc-twdfanexperience-1-us.xumo.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TheWeatherChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FPIaNjfa.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="The Weather Channel",The Weather Channel
+https://a-cdn.klowdtv.com/live2/theweatherchannel_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="TheYoungTurks.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FXDNXJCl.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="The Young Turks",The Young Turks
 https://amg01220-amg01220c1-firetv-us-5111.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThisOldHouse.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FnrVLyE6.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="This Old House",This Old House
