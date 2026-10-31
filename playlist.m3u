@@ -1265,8 +1265,6 @@ https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
 http://41.205.93.154/CNBC/index.m3u8
 #EXTINF:-1 tvg-id="CNN.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FCNN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN",CNN
 http://212.5.144.156:8080/cnn/index.m3u8
-#EXTINF:-1 tvg-id="CNNChile.cl@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Ft4EXijz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN Chile",CNN Chile
-http://190.110.96.238:8000/play/a0f5/index.m3u8
 #EXTINF:-1 tvg-id="CNNenEspanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb6%2FLogo_de_CNN_en_Espa%25C3%25B1ol_%25282010-2015%2529.svg%2F960px-Logo_de_CNN_en_Espa%25C3%25B1ol_%25282010-2015%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN en Espanol",CNN en Espanol
 https://streaming.onnethn.com/CNN_ESPANOL/playlist.m3u8
 #EXTINF:-1 tvg-id="CNNOriginals.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Ff351d697-1e1f-4e7d-86c7-5995698e593f%2FCNN_Originals_ChannelLogo_Dark_1500x1000_2025_-_Grace_Hartwig.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CNN Originals",CNN Originals
@@ -1641,7 +1639,7 @@ https://tvsen7.aynascope.net/fx/index.m3u8
 #EXTINF:-1 tvg-id="G10TV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5VPgAxB.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="G10TV",G10TV
 https://reflect-jacksonville.cablecast.tv/live-8/live/live.m3u8
 #EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FENj5GIp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Gagsnetwork",Gagsnetwork
-http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
+http://stream.mcquack.net/458/index.m3u8
 #EXTINF:-1 tvg-id="Galavision.us@EastHD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Faf%2FGalavision_Logo_2024.svg%2F960px-Galavision_Logo_2024.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Galavision East",Galavision East
 https://streaming-live-fcdn.api.prd.univisionnow.com/galaeast/galaeast.isml/hls/galaeast.m3u8
 #EXTINF:-1 tvg-id="Galavision.us@West" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fa%2Faf%2FGalavision_Logo_2024.svg%2F960px-Galavision_Logo_2024.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Galavision West",Galavision West
@@ -3114,6 +3112,8 @@ https://turnerlive.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_356
 #EXTINF:-1 tvg-id="TNTInternational.ru@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fl0RGbRI.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Entertainment" tvg-name="TNT International",TNT International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
+#EXTINF:-1 tvg-id="TNTSports4.uk@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fgithub.com%2Ftv-logo%2Ftv-logos%2Fblob%2Fmain%2Fcountries%2Funited-kingdom%2Ftnt-sports-4-uk.png%3Fraw%3Dtrue&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="TNT Sports 4",TNT Sports 4
+http://37.49.224.5:80/stream/4/index.m3u8
 #EXTINF:-1 tvg-id="TODAYAllDay.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FLhbQ8Mr.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="TODAY All Day",TODAY All Day
 https://d37kx062o4ii0p.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fgia.tv%2Fstreams%2Fpptv%2F208314.jpg%3F1750373428&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Tom And Jerry",Tom And Jerry
@@ -4137,8 +4137,6 @@ http://104.143.4.5:2080/funroads.m3u8
 https://www.funroads-hls1.com/funroads.m3u8
 #EXTINF:-1 tvg-id="FunRoads.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2Q6TENm.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Auto;Travel" tvg-name="Fun Roads",Fun Roads
 https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="Gagsnetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FENj5GIp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Gagsnetwork",Gagsnetwork
-http://stream.mcquack.net/458/index.m3u8
 #EXTINF:-1 tvg-id="GameShowCentral.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUuc5h1s.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Game Show Central",Game Show Central
 https://jmp2.uk/plu-62e90e8cb05d2b0007f10a61.m3u8
 #EXTINF:-1 tvg-id="GameShowCentral.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUuc5h1s.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Game Show Central",Game Show Central
@@ -4835,6 +4833,9 @@ https://mumt03.tangotv.in/Dsly5z3HSVBC2TAMIL/index.m3u8
 https://mumt01.tangotv.in/O5aw8Zn3SVBC3KANNADA/index.m3u8
 #EXTINF:-1 tvg-id="SVBC4.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FSVBC4.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC 4",SVBC 4
 https://mumt05.tangotv.in/87NeALx2SVBC4HINDI/index.m3u8
+#EXTINF:-1 tvg-id="SVBC4.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FSVBC4.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC 4",SVBC 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/621/master.m3u8
 #EXTINF:-1 tvg-id="SVBC.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fdtil.tmsimg.com%2Fassets%2Fs143889_ld_h9_ab.png%3Flock%3D720x540&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC",SVBC
 https://mumt04.tangotv.in/m18aqlK4SVBCTELUGU/index.m3u8
 #EXTINF:-1 tvg-id="SVBC.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fdtil.tmsimg.com%2Fassets%2Fs143889_ld_h9_ab.png%3Flock%3D720x540&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC",SVBC
