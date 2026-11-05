@@ -909,6 +909,8 @@ https://5ed325193d4e1.streamlock.net:444/LiveTV/KTVHD/playlist.m3u8
 http://media4.tripsmarter.com:1935/LiveTV/MTVHD/playlist.m3u8
 #EXTINF:-1 tvg-id="BeachTVPanamaCity.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHCQDvEe.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Travel" tvg-name="Beach TV Panama City",Beach TV Panama City
 http://media4.tripsmarter.com:1935/LiveTV/BTVHD/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSportsUSA.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd6%2FBeIN_Sports_logo_%2528vertical_version%2529.svg%2F500px-BeIN_Sports_logo_%2528vertical_version%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="beIN Sports USA",beIN Sports USA
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co%2FHT49GPmB%2FXTRA-2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="beIN SPORTS XTRA",beIN SPORTS XTRA
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FV562tpO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="beIN SPORTS XTRA en Espanol",beIN SPORTS XTRA en Espanol
