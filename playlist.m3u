@@ -41,6 +41,8 @@ https://jmp2.uk/plu-696e647b07ea70192d49f6a5.m3u8
 https://jmp2.uk/plu-66166989635c7500084105a2.m3u8
 #EXTINF:-1 tvg-id="BritishComedy.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F638e11951177840007fdd6b2%2FcolorLogoPNG_1745597179027.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="British Comedy",British Comedy
 https://jmp2.uk/plu-638e11951177840007fdd6b2.m3u8
+#EXTINF:-1 tvg-id="BTLTV.nl@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fyt3.googleusercontent.com%2Fytc%2FAPkrFKZYgQTsDhkbaqmPRCPZIf0UgZqF1wa6aG2eo8ti%3Ds176-c-k-c0x00ffffff-no-rj-mo&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="BTL TV (Netherlands)",BTL TV (Netherlands)
+https://cdn.liveplustv.com/v1/live/btl-tv/master.m3u8
 #EXTINF:-1 tvg-id="CMalayalamTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Frpg0bQA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Culture" tvg-name="C Malayalam TV",C Malayalam TV
 https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
 #EXTINF:-1 tvg-id="CanadaOne.ca@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/fe97e3ab2d71.png" group-title="Undefined" tvg-name="Canada One",Canada One
@@ -140,6 +142,8 @@ https://jmp2.uk/plu-62f4f90e39183b000769f12b.m3u8
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="GaundaPunjabTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FArRZRM3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Gaunda Punjab TV",Gaunda Punjab TV
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GolfChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FLgux6Ik.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Golf Channel (United States)",Golf Channel (United States)
+https://tvsen6.aynaott.com/golfchannel/index.m3u8
 #EXTINF:-1 tvg-id="GTNCanada.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7bQPJOd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="GTN Canada",GTN Canada
 https://streamer12.vdn.dstreamone.net/carishowtime/showtime/chunks.m3u8
 #EXTINF:-1 tvg-id="GurSikhSabhaTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2EKCtQm.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="GurSikh Sabha TV",GurSikh Sabha TV
@@ -513,7 +517,7 @@ https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5
 #EXTINF:-1 tvg-id="TVA.ca@CFTMDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F0%2F00%2FTVA_logo_2020.svg%2F960px-TVA_logo_2020.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TVA (Canada) CFTM-DT",TVA (Canada) CFTM-DT
 https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co%2FRpKLCMvp%2Ftve.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TVE Internacional America",TVE Internacional America
-http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a
+https://barinaslive1.boldmss.com/TVE/TVE.isml/index.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co%2FRpKLCMvp%2Ftve.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TVE Internacional America",TVE Internacional America
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8
 #EXTINF:-1 tvg-id="TVOKids.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FTvokids-logo.svg%2F960px-Tvokids-logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="TVOKids",TVOKids
@@ -593,6 +597,8 @@ https://jmp2.uk/plu-6452c814939a590008567a3b.m3u8
 https://jmp2.uk/plu-6452c77ed3fdde00080eb3a8.m3u8
 #EXTINF:-1 tvg-id="90sThrowback.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKoGko6M.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="90s Throwback",90s Throwback
 https://jmp2.uk/plu-5f4d86f519358a00072b978e.m3u8
+#EXTINF:-1 tvg-id="AasthaInternational.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F8%2F86%2FAastha_international.png%2F960px-Aastha_international.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Aastha International",Aastha International
+https://aasthaott.akamaized.net/110923/smil:aasthausa.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KAAL" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpvXZ8DX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="ABC KAAL",ABC KAAL
 https://amg01942-amg01942c6-stirr-us-10178.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABC.us@KEROTV" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpvXZ8DX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="ABC KERO-TV",ABC KERO-TV
@@ -1447,6 +1453,8 @@ https://docurama-plex-ingest.cinedigm.com/playlist.m3u8
 https://aegis-cloudfront-1.tubi.video/ff0ad399-75ed-42ba-8c60-75bb6cb8c929/playlist.m3u8
 #EXTINF:-1 tvg-id="DontTellTheBride.uk@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fh0bc3Fa.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Don't Tell The Bride",Don't Tell The Bride
 https://amg00426-lds-amg00426c15-samsung-au-3684.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Doraemon.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F0%2F01%2FDoraemon_Merch_EN_Logo.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Doraemon",Doraemon
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="DoveChannel.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/96e8e8f67ca1.png" group-title="Family" tvg-name="Dove Channel",Dove Channel
 https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="DrGeneScott.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FDb3EI19.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Dr. Gene Scott",Dr. Gene Scott
@@ -2078,6 +2086,8 @@ http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8
 https://livetv.305streamhd.com:3667/live/majestadtvlive.m3u8
 #EXTINF:-1 tvg-id="MariaVisionUSA.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FeaVt8R1.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Maria Vision USA",Maria Vision USA
 https://1601580044.rsc.cdn77.org/live/_jcn_/amls:PALMIAMI/playlist.m3u8
+#EXTINF:-1 tvg-id="MarqueeSportsNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F56%2FMarquee_Sports_Network_Logo.svg%2F960px-Marquee_Sports_Network_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Marquee Sports Network",Marquee Sports Network
+https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
 #EXTINF:-1 tvg-id="MartinCountyTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7VzlbLp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Martin County TV",Martin County TV
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/martin/G0074_002/playlist.m3u8
 #EXTINF:-1 tvg-id="Masadrenalina.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F687fea9a4fa995eff284a1c8%2FcolorLogoPNG_1755151031497.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Mas adrenalina",Mas adrenalina
@@ -2129,6 +2139,8 @@ https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8
 https://d9069ugodwkju.cloudfront.net/Merit_Street.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fnew.opencaster.com%2Fuploads%2Flogos%2Flogo_14_1752798826.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Metaleitor TV",Metaleitor TV
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
+#EXTINF:-1 tvg-id="MeTVToons.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F2%2F2b%2FMeTV_Toons.png%2F250px-MeTV_Toons.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="MeTV Toons",MeTV Toons
+https://sr-live-weigel1.akamaized.net/out/v1/0d1dbf29e64e47bc991796cc24fbeb97/index_2.m3u8
 #EXTINF:-1 tvg-id="MidnightPulp.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fa%2Fepg%2Fchannels%2Flogos%2Fgracenote%2Fa1a2cdc3d6f0714c586e9959732580c7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Midnight Pulp",Midnight Pulp
 https://linear-897.frequency.stream/dist/cineverse/897/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="MidpenMediaCenterChannel26.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaX1GkCD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Midpen Media Center Channel 26",Midpen Media Center Channel 26
@@ -2387,8 +2399,6 @@ https://d265y4sk8257lt.cloudfront.net/nh.m3u8
 http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62bdb75c3afd1200079146a6%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nick Jr. Pluto TV",Nick Jr. Pluto TV
 https://jmp2.uk/plu-5ca6748a37b88b269472dad9.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FE84jnP8.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nickelodeon (United States)",Nickelodeon (United States)
-http://198.58.104.90:8989/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeonenespanol.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5d8d08395f39465da6fb3ec4%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Nickelodeon en espanol",Nickelodeon en espanol
 https://jmp2.uk/plu-5d8d08395f39465da6fb3ec4.m3u8
 #EXTINF:-1 tvg-id="NickelodeonPlutoTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5ca673e0d0bd6c2689c94ce3%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Nickelodeon Pluto TV",Nickelodeon Pluto TV
@@ -2825,6 +2835,8 @@ https://sh7hls.wns.live/hls/stream.m3u8
 https://livestreamcdn.net:444/ShalomTV/ShalomTV/playlist.m3u8
 #EXTINF:-1 tvg-id="ShemarooBollywood.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FTFxLj80.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Shemaroo Bollywood",Shemaroo Bollywood
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Shinchan.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FfIYWvHIeqc1A9D4PyayFkgjRxCh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Shin-chan",Shin-chan
+https://live20.bozztv.com/giatvplayout7/giatv-210780/index.m3u8
 #EXTINF:-1 tvg-id="ShopLC.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F69%2FShopHQ_2019_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Shop" tvg-name="Shop LC",Shop LC
 https://cdn-shop-lc-01.akamaized.net/Content/DASH_DASH/Live/channel(ott)/master.mpd
 #EXTINF:-1 tvg-id="ShoutFactoryTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FAgoGr6y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Shout! Factory TV",Shout! Factory TV
@@ -4114,9 +4126,8 @@ https://247preview.foxbusiness.com/hls/live/2020026/fbnv3preview/primary.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F3b%2FFOX_Deportes_logo.png%2F960px-FOX_Deportes_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Deportes",Fox Deportes
 https://live-manifest.production-public.tubi.io/live/d906efca-1302-4e29-b0d9-9a1d7a305d69/playlist.m3u8
 #EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
-http://138.121.15.230:9002/FOX-NEWS/index.m3u8
-#EXTINF:-1 tvg-id="FoxNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F6%2F67%2FFox_News_Channel_logo.svg%2F960px-Fox_News_Channel_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Fox News Channel",Fox News Channel
-http://247preview.foxnews.com/hls/live/2020027/fncv3preview/primary.m3u8
+#EXTVLCOPT:http-referrer=https://usnewson.com
+https://p14.usnlive.com/stream/foxnews.m3u8
 #EXTINF:-1 tvg-id="FoxSoul.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FYIamDGn.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Culture" tvg-name="Fox Soul",Fox Soul
 https://aegis-cloudfront-1.tubi.video/0c4bd880-76cc-4000-b9cb-8edabeb88daa/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FO9BapV9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 1",Fox Sports 1
@@ -4513,6 +4524,8 @@ https://a-cdn.klowdtv.com/live2/newsmax_720p/playlist.m3u8
 https://linear-460.frequency.stream/dist/vix/460/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="NFLChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FmPGtwAP.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="NFL Channel",NFL Channel
 https://pb-we3ltka9xobj6.akamaized.net/master.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2Fthumb%2F8%2F8f%2FNFL_Network_logo.svg%2F960px-NFL_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="NFL Network",NFL Network
+https://tvsen6.aynaott.com/nfl/index.m3u8
 #EXTINF:-1 tvg-id="NHLNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUNZ8bef.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="NHL Network",NHL Network
 https://aegis-cloudfront-1.tubi.video/1f4cbb33-cb23-40ab-b54b-2965cc551b32/playlist.m3u8
 #EXTINF:-1 tvg-id="NHRATV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjZgcm4k.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="NHRA TV",NHRA TV
@@ -5022,6 +5035,8 @@ https://turnerlive.warnermediacdn.com/hls/live/2023176/trueast/slate/VIDEO_0_356
 https://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
 #EXTINF:-1 tvg-id="TUDN.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FoT5CAvd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TUDN (United States)",TUDN (United States)
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
+#EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co%2FRpKLCMvp%2Ftve.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TVE Internacional America",TVE Internacional America
+http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.ibb.co%2FRpKLCMvp%2Ftve.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TVE Internacional America",TVE Internacional America
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_576.m3u8
 #EXTINF:-1 tvg-id="TVOKids.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FTvokids-logo.svg%2F960px-Tvokids-logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="TVOKids",TVOKids
