@@ -2086,7 +2086,7 @@ https://connection3-ent-nz.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MagellanTVNow.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FgEraSp5.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Documentary" tvg-name="MagellanTV Now",MagellanTV Now
 https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="MagnificentMoviesNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FCXjo8kn.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Shop" tvg-name="Magnificent Movies Network",Magnificent Movies Network
-https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8
+https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8
 #EXTINF:-1 tvg-id="MagnoliaNetwork.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F4%2F40%2FMagnolia_Network.svg%2F960px-Magnolia_Network.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="Magnolia Network",Magnolia Network
 http://190.197.41.183/MAGNOLIA_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="MajestadTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FBJhrvtL.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Majestad TV",Majestad TV
@@ -2457,7 +2457,7 @@ https://jmp2.uk/plu-69affcad8940750a23a7231a.m3u8
 #EXTINF:-1 tvg-id="OntarioPublicAccessChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fjg0cFDd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Ontario Public Access Channel",Ontario Public Access Channel
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/ontarioca/G2446_002/playlist.m3u8
 #EXTINF:-1 tvg-id="OnTV4U.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FyaCK1Mh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Shop" tvg-name="OnTV4U",OnTV4U
-https://stirr.b-cdn.net/stirr/playlist.m3u8
+https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8
 #EXTINF:-1 tvg-id="OrangeGovernmentAccessTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FhyPTfxA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Orange Government Access TV",Orange Government Access TV
 https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="OutdoorAmerica.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUKfimFD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Outdoor America",Outdoor America
@@ -3117,7 +3117,7 @@ https://reflect-thornton.cablecast.tv/live-4/live/live.m3u8
 #EXTINF:-1 tvg-id="ThreesCompany.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F64ca723a2bc49300081a8966%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Three's Company",Three's Company
 https://jmp2.uk/plu-5ef3977e5d773400077de284.m3u8
 #EXTINF:-1 tvg-id="TimelessTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FbjcpeVH.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic;Shop" tvg-name="Timeless TV",Timeless TV
-https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8
+https://timelesstv1.b-cdn.net/hls/TimelessTV.m3u8
 #EXTINF:-1 tvg-id="TinTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FhMqGs94.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Tin TV",Tin TV
 https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="TinyHouseNation.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fai1P06C.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Tiny House Nation",Tiny House Nation
@@ -3346,6 +3346,8 @@ https://d1hf773q57zx9s.cloudfront.net/Vevo_R_B.m3u8
 https://d2lyea6if8kkz9.cloudfront.net/playlist/amg00056-vevotv-vevoretrorockau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="VevoTrueSchoolHipHop.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FowUXUih.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Vevo True School Hip-Hop",Vevo True School Hip-Hop
 https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
+#EXTINF:-1 tvg-id="VH1.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F94%2FVH1_logonew.svg%2F960px-VH1_logonew.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="VH1",VH1
+http://23.237.104.106:8080/USA_VH1/index.m3u8
 #EXTINF:-1 tvg-id="VH1QueensofReality.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F66abefe5d2d50d00082c7d12%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="VH1 Queens of Reality",VH1 Queens of Reality
 https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
 #EXTINF:-1 tvg-id="VICETV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdc%2FVice_TV_logo.svg%2F960px-Vice_TV_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="VICE TV",VICE TV
@@ -3444,6 +3446,8 @@ https://wgtvdt3.lls.pbs.org/wgtvdt3-cmaf-hls.m3u8
 https://597865f6e4114.streamlock.net/live/leseaorigin.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F98kLMjj.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="World Poker Tour",World Poker Tour
 https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8
+#EXTINF:-1 tvg-id="WOXTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2F7e6a7c4835ec344de629865f7a36feb4058001e7a3d9bc8dd0d1f3dc8e754cd7.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="WOX TV",WOX TV
+https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 #EXTINF:-1 tvg-id="WPLG101.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fdd%2FWPLG_Local_10_%25282014%252C_without_ABC_logo%2529.svg%2F500px-WPLG_Local_10_%25282014%252C_without_ABC_logo%2529.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="WPLG 10.1",WPLG 10.1
 https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8
 #EXTINF:-1 tvg-id="WPSTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fzwzmwse.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="WPS-TV",WPS-TV
@@ -4592,6 +4596,8 @@ https://a-cdn.klowdtv.com/live1/oan_720p/playlist.m3u8
 https://jmp2.uk/plu-5f7790b3ed0c88000720b241.m3u8
 #EXTINF:-1 tvg-id="OntarioParliamentaryNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FxKXs6ER.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="Ontario Parliamentary Network",Ontario Parliamentary Network
 https://origin-http-delivery.isilive.ca/live/_definst_/ontla/house-fr/playlist.m3u8
+#EXTINF:-1 tvg-id="OnTV4U.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FyaCK1Mh.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Shop" tvg-name="OnTV4U",OnTV4U
+https://stirr.b-cdn.net/stirr/playlist.m3u8
 #EXTINF:-1 tvg-id="OutdoorAmerica.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUKfimFD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Outdoor America",Outdoor America
 https://linear-600.frequency.stream/dist/xumo/600/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="OutdoorChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKh4MWaY.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Outdoor Channel",Outdoor Channel
@@ -4770,6 +4776,8 @@ https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 https://jmp2.uk/plu-62c5d32e2c48f9000715b6e9.m3u8
 #EXTINF:-1 tvg-id="Runtime.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2USCMvP.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Runtime",Runtime
 https://jmp2.uk/plu-62c5d80dc6de440007e033eb.m3u8
+#EXTINF:-1 tvg-id="RVTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpBBb0wx.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="RVTV",RVTV
+https://rvtv-orka.b-cdn.net/RVTV-ORKA/index.m3u8
 #EXTINF:-1 tvg-id="RVTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FpBBb0wx.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="RVTV",RVTV
 https://rvtv-stirr.b-cdn.net/rvtv-on-stirr/playlist.m3u8
 #EXTINF:-1 tvg-id="RyanandFriends.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjcIprmt.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Ryan and Friends",Ryan and Friends
@@ -5164,6 +5172,8 @@ https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8
 https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8
 #EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Facf3d1d8-c53e-49ca-86e9-0d9410b106b4%2FWillow_Sports_dark_Background_1500_1000_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Willow Sports",Willow Sports
 https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8
+#EXTINF:-1 tvg-id="WineWatchesWhiskey.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMN89dfS.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Wine Watches & Whiskey",Wine Watches & Whiskey
+https://w3-orka.b-cdn.net/W3-ORKA/index.m3u8
 #EXTINF:-1 tvg-id="WineWatchesWhiskey.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FMN89dfS.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Wine Watches & Whiskey",Wine Watches & Whiskey
 https://www-on-stirr.b-cdn.net/Wine-Watches-and-Whiskey/playlist.m3u8
 #EXTINF:-1 tvg-id="WipeoutXtra.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FUDeCRW1.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Wipeout Xtra",Wipeout Xtra
