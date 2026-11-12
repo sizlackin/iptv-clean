@@ -46,7 +46,7 @@ https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
 #EXTINF:-1 tvg-id="CanadaOne.ca@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/fe97e3ab2d71.png" group-title="Undefined" tvg-name="Canada One",Canada One
 http://cdn8.live247stream.com/canadaone/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FSjTdhvJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CBC News Network",CBC News Network
-https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
+https://aka-live1050.delivery.roku.com/0c24a9ef-e9c3-485c-bf68-3f1ae5ef3e85/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="CBCTelevision.ca@CBATDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FxflShTG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="CBC Television CBAT-DT",CBC Television CBAT-DT
 https://cbcrclinear-tor.akamaized.net/hls/live/2042757/CBCRCLINEAR_TOR_3/master5.m3u8
 #EXTINF:-1 tvg-id="CBCTelevision.ca@CBCTDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F81%2FCBCT-DT_2017.svg%2F960px-CBCT-DT_2017.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="CBC Television CBCT-DT",CBC Television CBCT-DT
@@ -1055,7 +1055,9 @@ https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
 https://jmp2.uk/plu-65244c403fd33c0008ffff31.m3u8
 #EXTINF:-1 tvg-id="CarsTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJLSHiTp.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Auto" tvg-name="Cars.TV",Cars.TV
 https://a-cdn.klowdtv.com/live2/carstv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F80%2FCartoon_Network_2010_logo.svg%2F960px-Cartoon_Network_2010_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Cartoon Network (United States)",Cartoon Network (United States)
+#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F80%2FCartoon_Network_2010_logo.svg%2F960px-Cartoon_Network_2010_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Cartoon Network (United States) [Not 24/7;Geo-blocked]",Cartoon Network (United States) [Not 24/7;Geo-blocked]
+https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
+#EXTINF:-1 tvg-id="CartoonNetwork.us@West" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F80%2FCartoon_Network_2010_logo.svg%2F960px-Cartoon_Network_2010_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Cartoon Network (United States) West",Cartoon Network (United States) West
 http://212.5.144.156:8080/cartoon/index.m3u8
 #EXTINF:-1 tvg-id="CatholicFaithNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F0%2F07%2FCatholic_Faith_Network_2018.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Catholic Faith Network",Catholic Faith Network
 https://uni8rtmp.tulix.tv/cfntv/cfntv/playlist.m3u8
@@ -1620,7 +1622,7 @@ http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports2.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimgx.fubo.tv%2Fstation_logos%2Ffs2_c.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 2",Fox Sports 2
 https://tvsen7.aynascope.net/foxsports2/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
-https://247wlive.foxweather.com/stream/index.m3u8
+https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="FreeSpeechTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FQq6heRq.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Free Speech TV",Free Speech TV
 https://na.linear.zype.com/f2f02a72-71d0-45f3-829f-4ae51f721102/86ef0177-697d-41c4-be57-c4d1a2b83cad-hls4/live.m3u8
 #EXTINF:-1 tvg-id="FreebieTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKbmXdjm.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Freebie TV",Freebie TV
@@ -2009,7 +2011,7 @@ https://ch8.littletongov.org/live-2/live/live.m3u8
 #EXTINF:-1 tvg-id="LiveMusic.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5873fc21cad696fb37aa9054%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Live Music",Live Music
 https://jmp2.uk/plu-5873fc21cad696fb37aa9054.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
-https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="LIVExLIVE.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKFzEoed.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="LIVExLIVE",LIVExLIVE
 https://livestream.liveone.com/lc1/p1.m3u8
 #EXTINF:-1 tvg-id="LivingFaithTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FFuNpesJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Living Faith TV",Living Faith TV
@@ -2784,6 +2786,8 @@ https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/in
 https://watch.sardius.media/channels/Ea867F3e1F56B06/site_c5402f016A/live.m3u8
 #EXTINF:-1 tvg-id="SCCurrents.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F8FZsNyK.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="SC Currents",SC Currents
 https://reflect-communitytv.cablecast.tv/live-5/live/stream-3/live.m3u8
+#EXTINF:-1 tvg-id="ScaresbyShudder.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.bgr.com%2Fbgr%2Fentertainment%2Ffreevee-added-5-spooky-new-live-channels-just-in-time-for-halloween%2FScares-by-Shudder.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Scares by Shudder",Scares by Shudder
+https://wurlrainbowmedia.global.transmit.live/hls/68c49e4709574e8405506cb3/v1/amc_scaresbyshudder_1/lg_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="SchwabNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FzmQnKV6.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Business" tvg-name="Schwab Network",Schwab Network
 https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
 #EXTINF:-1 tvg-id="ScientologyNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FHOYF8NA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Scientology Network",Scientology Network
@@ -2797,7 +2801,7 @@ https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/scottsdale/G0040_007/chunklist.m3u8
 #EXTINF:-1 tvg-id="ScreenDreams.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FAHIo9oz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Relax" tvg-name="Screen Dreams",Screen Dreams
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2240
 #EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FW0Jvi5o.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Scripps News",Scripps News
-https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
+https://aka-live1050.delivery.roku.com/a48b72c9-5755-4ede-9dac-9e51e4ca5cc8/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="SCVTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FqEsZbZz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="SCVTV",SCVTV
 https://reflect-scvtv.cablecast.tv/live-2/live/live.m3u8
 #EXTINF:-1 tvg-id="SECNetwork.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FSEC_Network_logo.svg%2F960px-SEC_Network_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="SEC Network",SEC Network
@@ -3720,10 +3724,10 @@ https://cmc-ono.amagi.tv/playlist.m3u8
 https://cmc-kowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanelaTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F8Hllkpk.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Canela TV",Canela TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=119
-#EXTINF:-1 tvg-id="CartoonNetwork.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F8%2F80%2FCartoon_Network_2010_logo.svg%2F960px-Cartoon_Network_2010_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Kids" tvg-name="Cartoon Network (United States)",Cartoon Network (United States)
-https://turnerlive.warnermediacdn.com/hls/live/2023160/tooneast/noslate/VIDEO_3_1928000.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FSjTdhvJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CBC News Network",CBC News Network
 https://cbcrclinear-tor.akamaized.net/hls/live/2042769/geo_allow_ca/CBCRCLINEAR_TOR_15/master5.m3u8
+#EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FSjTdhvJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CBC News Network",CBC News Network
+https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FSjTdhvJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CBC News Network",CBC News Network
 https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
 #EXTINF:-1 tvg-id="CBCNewsNetwork.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FSjTdhvJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="CBC News Network",CBC News Network
@@ -4104,6 +4108,8 @@ https://aegis-cloudfront-1.tubi.video/0c4bd880-76cc-4000-b9cb-8edabeb88daa/index
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FO9BapV9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Fox Sports 1",Fox Sports 1
 https://tvsen7.aynascope.net/foxsports1/index.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
+https://247wlive.foxweather.com/stream/index.m3u8
+#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
 https://jmp2.uk/plu-640a68880e884c0009979cc2.m3u8
 #EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fb9%2FFox_Weather_logo.svg%2F960px-Fox_Weather_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="Fox Weather",Fox Weather
 https://pb-hum8cczphcrpf.akamaized.net/FOX_Weather.m3u8
@@ -4324,11 +4330,13 @@ https://dh18i7whff86v.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="LindellTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fml.globenewswire.com%2FResource%2FDownload%2F93a3878f-0cee-4b51-b851-bd519049af8d&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Lindell TV",Lindell TV
 https://stream.vocl.com/hls/lindelltv/index.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
 https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
-https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/cb563d1e7f6c629098ce3c78d8f662ffa65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5cab6852db80148b6f4adafb8c2360625f5c98435ee3b24aa2f6e70c43d864f4ac481a922f58e68314c8c915ed808546cd45d574a3459ac1f789d414e03ba059816f639f943a581facb33bfefc53bfce9f6d79af6529521b4694dbf99c601df68ac7c19a85a6916aed07c6c9048c6525b2039935ea5879eb506bd58664a1aeb0cc4d4f7bd0aca3c6dbc297c2bed54f5a8963f5acecce60799cbc7312229a358b727e6ad895a16532f599d96d94a49410292c8466dacfab12c370d4c725bd28cfd5fd9b3c0d6d6b0d01875aada0a0ba43d255a7d41a2d504c0bf8d40584ceee573e664091931efa275be88bc5d3844e0cc36e4d0eb320c10d51258c157c6ce928ce9f3e47803245d0666ab50b63c00ad79018d88b97a50a32bedb8765fa6ce4ba4392d50abb62315c4de2a77a1115022d9ebe263e317fc257ed9c9fb2204753ba85b894aa6431093d18451fcbb3b702fca0f4694c468f035c231e7630990bd165da7a392326db11dea94939c5312823e2a8284e180bb2cda28a93d9da4ed727842f9c98999aee054f0c23d8a2a287e0fc99445f9f0ee59c/87/1280x720_2886400/index.m3u8
+https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/playlist/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
 https://jmp2.uk/plu-63d025db4e83e700086eaa96.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F1JnyzHv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="LiveNOW from FOX",LiveNOW from FOX
@@ -4660,6 +4668,8 @@ https://amg01258-raycomsports-powernationnz-samsungnz-q92ks.amagi.tv/playlist.m3
 https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8
 #EXTINF:-1 tvg-id="PowerNationTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FjguTO8E.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Auto" tvg-name="PowerNation TV",PowerNation TV
 https://d1g3ue0w0jg45k.cloudfront.net/POWERNATION.m3u8
+#EXTINF:-1 tvg-id="PrimeAsiaTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FPrime_Asia_HD.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Prime Asia TV",Prime Asia TV
+https://stream.ottlive.co.in/primeasia/index.m3u8
 #EXTINF:-1 tvg-id="PursuitUP.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5Vzwqts.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="PursuitUP",PursuitUP
 https://linear-205.frequency.stream/dist/glewedtv/205/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="PursuitUP.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F5Vzwqts.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="PursuitUP",PursuitUP
@@ -4757,10 +4767,18 @@ https://pb-v4mil672yaqlk.akamaized.net/Salem_News_Channel.m3u8
 https://amg00732-amg00732c2-stirr-us-8938.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FaDbc64y.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Salem News Channel",Salem News Channel
 https://amg00732-salemnewsfast-amg00732c2-xumo-us-1316.playouts.now.amagi.tv/snc-xm/playlist.m3u8
+#EXTINF:-1 tvg-id="ScaresbyShudder.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.bgr.com%2Fbgr%2Fentertainment%2Ffreevee-added-5-spooky-new-live-channels-just-in-time-for-halloween%2FScares-by-Shudder.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Scares by Shudder",Scares by Shudder
+https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951349/hls/playlist.m3u8?ads.xumo_channelId=99951349
+#EXTINF:-1 tvg-id="ScaresbyShudder.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.bgr.com%2Fbgr%2Fentertainment%2Ffreevee-added-5-spooky-new-live-channels-just-in-time-for-halloween%2FScares-by-Shudder.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Scares by Shudder",Scares by Shudder
+https://e9ee87fcc9f2409f998e7aa106f64672.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Vizio_ScaresbyShudder/playlist.m3u8
+#EXTINF:-1 tvg-id="ScaresbyShudder.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.bgr.com%2Fbgr%2Fentertainment%2Ffreevee-added-5-spooky-new-live-channels-just-in-time-for-halloween%2FScares-by-Shudder.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Scares by Shudder",Scares by Shudder
+https://aka-live1050.delivery.roku.com/bf4fff9b-e81f-4dcb-baaf-71b75e091599/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FW0Jvi5o.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Scripps News",Scripps News
 https://jmp2.uk/plu-5459795fc9f133a519bc0bef.m3u8
 #EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FW0Jvi5o.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Scripps News",Scripps News
 https://pb-syzbb4sicfx4g.akamaized.net/ScrippsNews_US.m3u8
+#EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FW0Jvi5o.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Scripps News",Scripps News
+https://aegis-cloudfront-1.tubi.video/7e1c26b7-7975-4240-9a4f-480eaa8f3ea4/playlist.m3u8
 #EXTINF:-1 tvg-id="ScrippsNews.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FW0Jvi5o.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Scripps News",Scripps News
 https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
 #EXTINF:-1 tvg-id="SemillitasTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fu3yujUd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="Semillitas TV",Semillitas TV
@@ -4819,6 +4837,8 @@ https://jmp2.uk/plu-5f21e7b24744c60007c1f6fc.m3u8
 https://mumt03.tangotv.in/Dsly5z3HSVBC2TAMIL/index.m3u8
 #EXTINF:-1 tvg-id="SVBC3.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FSVBC3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC 3",SVBC 3
 https://mumt01.tangotv.in/O5aw8Zn3SVBC3KANNADA/index.m3u8
+#EXTINF:-1 tvg-id="SVBC3.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FSVBC3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC 3",SVBC 3
+https://cdn.pishow.tv/ott/live/1517/master.m3u8
 #EXTINF:-1 tvg-id="SVBC4.in@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fjiotvimages.cdn.jio.com%2Fdare_images%2Fimages%2FSVBC4.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="SVBC 4",SVBC 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/621/master.m3u8
@@ -5107,6 +5127,8 @@ https://djb4ma5fajjay.cloudfront.net/Waypoint_TV.m3u8
 https://aegis-cloudfront-1.tubi.video/5f3c2b46-3b02-48e8-8e7b-3ce1d89395ce/playlist.m3u8
 #EXTINF:-1 tvg-id="WaypointTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F9vvlJN9.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Outdoor" tvg-name="Waypoint TV",Waypoint TV
 https://amg00381-waypointcommuni-waypointtv-xumo-syiru.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fde%2FWeatherNation_Logo.svg%2F960px-WeatherNation_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="WeatherNation",WeatherNation
+https://aka-live1050.delivery.roku.com/90ba101a-eef0-4c48-b464-b5ef935b5dcb/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fde%2FWeatherNation_Logo.svg%2F960px-WeatherNation_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="WeatherNation",WeatherNation
 https://a-cdn.klowdtv.com/live3/weathernation_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fde%2FWeatherNation_Logo.svg%2F960px-WeatherNation_Logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Weather" tvg-name="WeatherNation",WeatherNation
