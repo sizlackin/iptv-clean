@@ -989,7 +989,7 @@ https://livestream.telvue.com/belmontmedia4/f7b44cfafd5c52223d5498196c8a2e7b.sdp
 https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Bonanza.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F696e647b07ea70192d49f6a5%2FcolorLogoPNG_1768842647658.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies;Series" tvg-name="Bonanza",Bonanza
 https://jmp2.uk/plu-68e9913c4a666b9054849832.m3u8
-#EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F35%2FBoomerang_2014_logo.svg%2F960px-Boomerang_2014_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Boomerang",Boomerang
+#EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F35%2FBoomerang_2014_logo.svg%2F960px-Boomerang_2014_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Boomerang (United States)",Boomerang (United States)
 http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8
 #EXTINF:-1 tvg-id="BotflixRadioo.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fbotflix.tv%2Fassets%2Fimg%2Fbotflix-mark.90c6a6f9a4.webp&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Botflix Radioo",Botflix Radioo
 https://hls.botflix.tv/radioo/index.m3u8
@@ -1959,7 +1959,7 @@ https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8
 #EXTINF:-1 tvg-id="LaQueBuenaAtlanta.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fiili.io%2FJysD2a4.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="La Que Buena Atlanta",La Que Buena Atlanta
 https://streamyes.alsolnet.com/quebuenaatlanta/live/index.m3u8
 #EXTINF:-1 tvg-id="LaVozdeJesusHD.do@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fgia.tv%2Fstreams%2Fpstream%2F208429.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="La Voz de Jesus",La Voz de Jesus
-https://live20.bozztv.com/giatvplayout7/giatv-208429/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208429/playlist.m3u8
 #EXTINF:-1 tvg-id="LacrosseTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fyt3.googleusercontent.com%2Fytc%2FAIdro_m_xSJFydxZ9QBU-85OuchjmzS0Bo0_Tukmk7to8hBfyl8%3Ds512-c-k-c0x00ffffff-no-rj&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Lacrosse TV",Lacrosse TV
 https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="Laff.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F1%2F1e%2FLAFF_logo.png%2F960px-LAFF_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Comedy" tvg-name="Laff",Laff
@@ -3122,7 +3122,7 @@ http://37.49.224.5/stream/4/index.m3u8
 #EXTINF:-1 tvg-id="TODAYAllDay.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FLhbQ8Mr.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="TODAY All Day",TODAY All Day
 https://d37kx062o4ii0p.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="TomAndJerry.do@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fgia.tv%2Fstreams%2Fpptv%2F208314.jpg%3F1750373428&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Tom And Jerry",Tom And Jerry
-https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="TomSingsTV.us@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fvideocdn.bamboo-cloud.com%2Fp%2F11389%2Fsp%2F1138900%2Fthumbnail%2Fentry_id%2F0_osv1x0bp%2Fversion%2F100002%2Fwidth%2F1920&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://tomsings.bamboo-cloud.com/channel/6af043956f49ecefd30d7fd4" group-title="Kids" tvg-name="Tom Sings TV",Tom Sings TV
 #EXTVLCOPT:http-referrer=https://tomsings.bamboo-cloud.com/channel/6af043956f49ecefd30d7fd4
 https://vodcdn.bamboo-cloud.com/livehls/6af043956f49ecefd30d7fd4/master.m3u8
@@ -3161,7 +3161,7 @@ https://reflector.watchtstv.com/hls/livestream.m3u8
 #EXTINF:-1 tvg-id="TUDN.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FoT5CAvd.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Undefined" tvg-name="TUDN (United States)",TUDN (United States)
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
 #EXTINF:-1 tvg-id="TurismoHD.do@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fgia.tv%2Fstreams%2Fpptv%2F208343.jpg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Turismo",Turismo
-https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8
 #EXTINF:-1 tvg-id="TUTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FAt0BPeA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Education" tvg-name="TUTV",TUTV
 https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FCRvQ6sF.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="TV4 (United States)",TV4 (United States)
@@ -3692,7 +3692,7 @@ https://mumbai-edge.smartplaytv.in/Bloomberg/index.m3u8
 https://tvsen6.aynaott.com/bloombergtv/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FOuogLHx.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Business" tvg-name="Bloomberg TV",Bloomberg TV
 https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F35%2FBoomerang_2014_logo.svg%2F960px-Boomerang_2014_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Boomerang",Boomerang
+#EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F35%2FBoomerang_2014_logo.svg%2F960px-Boomerang_2014_logo.svg.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="Boomerang (United States)",Boomerang (United States)
 http://212.5.144.156:8080/boomerang/index.m3u8
 #EXTINF:-1 tvg-id="BounceXL.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FGzxgSkc.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Bounce XL",Bounce XL
 https://jmp2.uk/plu-6176fd25e83a5f0007a464c9.m3u8
