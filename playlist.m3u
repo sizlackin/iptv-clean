@@ -23,8 +23,6 @@ https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8
 https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
 #EXTINF:-1 tvg-id="AutenticTravel.de@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fd3b6luslimvglo.cloudfront.net%2Fimages%2F79%2Frlaxximages%2Fchannels-rescaled%2Ficon-white%2Fautentictravel_white.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="Autentic Travel",Autentic Travel
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
-#EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.ayaztv.com%2Fstorage%2Fassets%2Fsite_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Ayaz TV",Ayaz TV
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fdi3XX5L.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Az Star TV",Az Star TV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AzanTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJlqS6I4.jpeg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Azan TV",Azan TV
@@ -1803,8 +1801,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tabl
 https://amogonetworx-grjngo-3-dk.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="GuangdongTVAmerica.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F7J4qGjA.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Guangdong TV America",Guangdong TV America
 https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
-#EXTINF:-1 tvg-id="GunAzTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2ZnQazl.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="GunAz TV",GunAz TV
-https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 tvg-id="Gunsmoke.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62e916affb29c60007211c8a%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Gunsmoke",Gunsmoke
 https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F29af70d1-d3ba-4a16-bc4d-bd99e7e7def4%2Fhallmark-movies-and-more_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="Hallmark Movies & More",Hallmark Movies & More
@@ -2132,12 +2128,8 @@ https://streamer1.streamhost.org/salive/logosH/master.m3u8
 https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LogosTVEnglish.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FLDfEK81.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Logos TV English",Logos TV English
 https://5aafcc5de91f1.streamlock.net/logoschannel.com/logoseng/playlist.m3u8
-#EXTINF:-1 tvg-id="LogosTVEstudio.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FqkHrttj.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Logos TV Estudio",Logos TV Estudio
-https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8
 #EXTINF:-1 tvg-id="LogosTVKids.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FKr3U3Ub.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids;Religious" tvg-name="Logos TV Kids",Logos TV Kids
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
-#EXTINF:-1 tvg-id="LogosTVSalud.es@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FqkHrttj.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="Logos TV Salud",Logos TV Salud
-https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
 #EXTINF:-1 tvg-id="LoneStar.us@SD" tvg-logo="https://raw.githubusercontent.com/sizlackin/iptv-clean/main/posters/061d7c7edf70.png" group-title="Entertainment" tvg-name="Lone Star",Lone Star
 https://lonestar-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveHipHop.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FrhGyebf.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Series" tvg-name="Love & Hip Hop",Love & Hip Hop
@@ -3305,8 +3297,6 @@ https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8
 https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FCRvQ6sF.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Legislative" tvg-name="TV4 (United States)",TV4 (United States)
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/bullheadcity/G0860_002/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDaja.do@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fdajatv.com%2Fwp-content%2Fuploads%2F2021%2F09%2Flogo_daja_2.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="TV Daja",TV Daja
-https://edge.essastream.com/dajatv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHispanic.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FeThe0io.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="TV Hispanic",TV Hispanic
 https://livetv.305streamhd.com:3504/live/tvhispaniclive.m3u8
 #EXTINF:-1 tvg-id="TVLandDrama.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fy1rXIAS.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="TV Land Drama",TV Land Drama
