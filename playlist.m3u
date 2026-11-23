@@ -23,6 +23,8 @@ https://pb-ioe9d0fpkd6pp.akamaized.net/playlist.m3u8
 https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
 #EXTINF:-1 tvg-id="AutenticTravel.de@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fd3b6luslimvglo.cloudfront.net%2Fimages%2F79%2Frlaxximages%2Fchannels-rescaled%2Ficon-white%2Fautentictravel_white.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Lifestyle" tvg-name="Autentic Travel",Autentic Travel
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+#EXTINF:-1 tvg-id="AyazTV.az@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.ayaztv.com%2Fstorage%2Fassets%2Fsite_logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Ayaz TV",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
 #EXTINF:-1 tvg-id="AzStarTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2Fdi3XX5L.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Az Star TV",Az Star TV
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AzanTV.ca@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FJlqS6I4.jpeg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Religious" tvg-name="Azan TV",Azan TV
@@ -1601,6 +1603,8 @@ https://jmp2.uk/plu-58e55b14ad8e9c364d55f717.m3u8
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/flowers_nim_https/050522/flowers/playlist.m3u8
 #EXTINF:-1 tvg-id="FMHKids.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimg-evg3.tv360.bitel.com.pe%2Fperu-image%2F2024%2F12%2F31%2F22%2F1735657792230%2Fb870c45f862d_480_270.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Kids" tvg-name="FMH Kids",FMH Kids
 http://38.87.224.19:2220/play/a03u/index.m3u8
+#EXTINF:-1 tvg-id="FMHMovies.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimg-evg3.tv360.bitel.com.pe%2Fperu-image%2F2024%2F12%2F24%2F23%2F1735058961578%2Feaf883fb926d_480_270.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Movies" tvg-name="FMH Movies",FMH Movies
+http://45.186.254.75:8000/play/a07j/index.m3u8
 #EXTINF:-1 tvg-id="FNX.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fe8%2FFNX_Web_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Culture" tvg-name="FNX",FNX
 https://fnx.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="FNX.us@KVCRDT" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fe%2Fe8%2FFNX_Web_Logo.png&w=600&h=900&fit=contain&cbg=181818&output=png" http-referrer="https://fnx.org/" group-title="Culture" tvg-name="FNX KVCR-DT",FNX KVCR-DT
@@ -2306,8 +2310,6 @@ https://jmp2.uk/plu-5d14fd1a252d35decbc4080c.m3u8
 https://jmp2.uk/plu-5cf96d351652631e36d4331f.m3u8
 #EXTINF:-1 tvg-id="MTVFlowLatino.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F62b218fc511d4b00070ddc0c%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="MTV Flow Latino",MTV Flow Latino
 https://jmp2.uk/plu-5d3609cd6a6c78d7672f2a81.m3u8
-#EXTINF:-1 tvg-id="MTVLive.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F3UByLqb.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="MTV Live",MTV Live
-http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="MTVPlutoTV.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F5f1212fb81e85c00077ae9ef%2FcolorLogoPNG_1759263027326.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="MTV Pluto TV",MTV Pluto TV
 https://jmp2.uk/plu-5ca672f515a62078d2ec0ad2.m3u8
 #EXTINF:-1 tvg-id="MTVSpankinNew.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F6541010f770cf1000866be98%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="MTV Spankin' New",MTV Spankin' New
@@ -2824,6 +2826,8 @@ http://23.237.104.106:8080/USA_REELZ/index.m3u8
 https://aegis-cloudfront-1.tubi.video/dfd312a3-99b3-45fe-89b2-d20579fee2e9/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroTV.us@East" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FofairB5.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Classic" tvg-name="Retro TV",Retro TV
 https://freecast-lukentvlive.vgcdn.net/out/v1/665e9f91614b43b0a0654e9317f1d9f3/index.m3u8
+#EXTINF:-1 tvg-id="RetrovisionTV.do@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fretrovisionmia.com%2Fassets%2Fretrovision-logo-BHToA3lv.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="General" tvg-name="Retro vision TV",Retro vision TV
+https://5790d294af2dc.streamlock.net/retrovision/retrovision/playlist.m3u8
 #EXTINF:-1 tvg-id="RetroCrush.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FM40b4YI.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Animation;Classic" tvg-name="RetroCrush",RetroCrush
 https://linear-899.frequency.stream/dist/cineverse/899/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="ReutersTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F6eQ2nCJ.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="News" tvg-name="Reuters TV",Reuters TV
