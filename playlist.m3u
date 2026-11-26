@@ -525,12 +525,6 @@ https://hls.uvagut.tv/hls/uvagut/playlist.m3u8
 https://dfhsahpa45kk2.cloudfront.net/scheduler/scheduleMaster/476.m3u8
 #EXTINF:-1 tvg-id="WillowSports.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Facf3d1d8-c53e-49ca-86e9-0d9410b106b4%2FWillow_Sports_dark_Background_1500_1000_color.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="Willow Sports",Willow Sports
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
-#EXTINF:-1 tvg-id="XITE90sThrowback.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FvwpOzuz.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE 90's Throwback",XITE 90's Throwback
-https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
-#EXTINF:-1 tvg-id="XITENuevoLatino.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2qyl2y3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Nuevo Latino",XITE Nuevo Latino
-https://d3bsgqzbpkrvbb.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-w288eaw03izg1/XITE_Nuevo_Latino.m3u8
-#EXTINF:-1 tvg-id="XITESiempreLatino.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FbwmIEgG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Siempre Latino",XITE Siempre Latino
-https://d1xc25jm9e0l4b.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xplkt8i7m24dc/XITE_Siempre_Latino.m3u8
 #EXTINF:-1 tvg-id="YoMTV.us@CA" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fimages.pluto.tv%2Fchannels%2F654102ed770cf1000866c307%2FcolorLogoPNG.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="Yo! MTV CA",Yo! MTV CA
 https://jmp2.uk/plu-654102ed770cf1000866c307.m3u8
 #EXTINF:-1 tvg-id="ZenLIFEbyStingray.ca@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fwww.stingray.com%2Fwp-content%2Fuploads%2F2023%2F12%2Fstingray_zenlifebystingray_white.svg&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Relax" tvg-name="ZenLIFE by Stingray",ZenLIFE by Stingray
@@ -3536,14 +3530,6 @@ https://2-fss-2.streamhoster.com/pl_138/amlst:207282-6094500/playlist.m3u8
 https://tv2.fastcast4u.com:3943/stream/play.m3u8
 #EXTINF:-1 tvg-id="XFCTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FLcfzmG0.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="XFC TV",XFC TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
-#EXTINF:-1 tvg-id="XITEClassicCountry.nl@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FXQrMCkT.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Classic Country",XITE Classic Country
-https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
-#EXTINF:-1 tvg-id="XITEJustChill.nl@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F927dd614-017d-49dd-9eb9-0ed79d09084e%2Fxitejustchill_logo_light_-_Arlette_FiranRDX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Just Chill",XITE Just Chill
-https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
-#EXTINF:-1 tvg-id="XITEReggaeVibes.nl@HD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2Fc7506335-967f-46a9-917a-2a35475cd96c%2Fxitereggaevibes_logo_light_-_Arlette_FiranRDX.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Reggae Vibes",XITE Reggae Vibes
-https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-id="XITERockxMetal.nl@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuIIUIuN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Rock x Metal",XITE Rock x Metal
-https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
 #EXTINF:-1 tvg-id="XploreTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FWaGRlFO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Xplore TV",Xplore TV
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00111-hearstmediaprod-xploreintlnl-samsungnl/playlist.m3u8
 #EXTINF:-1 tvg-id="YahooFinance.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F43oHsHL.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Business" tvg-name="Yahoo! Finance",Yahoo! Finance
@@ -5546,14 +5532,6 @@ https://pb-41uwb26l8gvwx.akamaized.net/World_Poker_Tour.m3u8
 https://amg00218-wptenterprisesi-worldpokertour-vizious-higoh.amagi.tv/playlist/amg00218-wptenterprisesi-worldpokertour-vizious/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldPokerTour.us@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F98kLMjj.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Sports" tvg-name="World Poker Tour",World Poker Tour
 https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEClassicCountry.nl@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FXQrMCkT.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Classic Country",XITE Classic Country
-https://pb-wgi5ljoabjgdm.akamaized.net/XITE_Countrys_Finest.m3u8
-#EXTINF:-1 tvg-id="XITENuevoLatino.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2F2qyl2y3.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Nuevo Latino",XITE Nuevo Latino
-https://amg01243-amg01243c41-amgplt0022.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg01243-amg01243c41-amgplt0022/playlist.m3u8
-#EXTINF:-1 tvg-id="XITERockxMetal.nl@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuIIUIuN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Rock x Metal",XITE Rock x Metal
-https://amg01243-xite-amg01243c21-tcl-us-6483.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITERockxMetal.nl@US" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FuIIUIuN.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Music" tvg-name="XITE Rock x Metal",XITE Rock x Metal
-https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8
 #EXTINF:-1 tvg-id="XploreTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FWaGRlFO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Xplore TV",Xplore TV
 https://amg00111-hearstmediaprod-xploreintlse-samsungse-lvo6s.amagi.tv/playlist/amg00111-hearstmediaprod-xploreintlse-samsungse/playlist.m3u8
 #EXTINF:-1 tvg-id="XploreTV.us@SD" tvg-logo="https://wsrv.nl/?url=https%3A%2F%2Fi.imgur.com%2FWaGRlFO.png&w=600&h=900&fit=contain&cbg=181818&output=png" group-title="Entertainment" tvg-name="Xplore TV",Xplore TV
